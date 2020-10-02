@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 17</title>
+            <author ref="#Anselm">Anselm</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#nivaca">Nicolas Vaughan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 17</title>
+               <date when="2020-10-01">October 01, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-10-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Sm" n="162"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="aQaa4a-d1X845"><!-- aQaa4a-c17 -->
+            <head xml:id="aQaa4a-d1X845-Hd1e118">Caput 17</head>
+            <p xml:id="aQaa4a-d1X845-d1e121">
+               <lb ed="#Sm" n="15"/>[XVII.] 
+      <lb ed="#Sm" n="16"/>D. An aliud habet ille tractatus quam: omne quod est, aut est
+      sub<lb ed="#Sm" n="17" break="no"/>stantia aut quantitas aut qualitas et cetera? Si igitur solus homo est 
+      <lb ed="#Sm" n="18"/>grammaticus, sola substantia est grammaticus. Quomodo ergo secundum 
+      <lb ed="#Sm" n="19"/>illum tractatum magis est grammaticus qualitas quam substantia? 
+    </p>
+            <p xml:id="aQaa4a-d1X845-d1e134">
+               <lb ed="#Sm" n="20"/>M. Etsi hoc ibi intelligatur quod tu dicis, quia omne quod est
+      ali<lb ed="#Sm" n="21" break="no"/>quid horum est: non tamen fuit principalis intentio ARISTOTELIS hoc in 
+      <lb ed="#Sm" n="22"/>illo libro ostendere, sed quoniam omne nomen vel verbum aliquid horum 
+      <lb ed="#Sm" n="23"/>significat. Non enim intendebat ostendere quid sint singulae res, nec 
+      <lb ed="#Sm" n="24"/>quarum rerum sint appellativae singulae voces: sed quarum significativae 
+      <lb ed="#Sm" n="25"/>sint. Sed quoniam voces non significant nisi res: dicendo quid sit quod 
+      <lb ed="#Sm" n="26"/>voces significant, necesse fuit dicere quid sint res. Nam ut alia taceam, 
+      <lb ed="#Sm" n="27"/>sufficienter hoc quod dico divisio quam facit in principio tractatus
+      Cate<lb ed="#Sm" n="28" break="no"/>goriarum ostendit. Non enim ait: eorum quae sunt, singulum est aut
+      sub<lb ed="#Sm" n="29" break="no"/>stantia aut quantitas et cetera; nec ait: eorum quae secundum nullam 
+      <lb ed="#Sm" n="30"/>complexionem dicuntur, singulum aut substantia appellatur aut quantitas; 
+      <lb ed="#Sm" n="31"/>sed ait: ,eorum quae secundum nullam complexionem dicuntur, singulum 
+      <lb ed="#Sm" n="32"/>aut substantiam significat aut quantitatem'. 
+      <!--189.xml-->
+      <pb ed="#Sm" n="163"/>
+      
+            </p>
+            <p xml:id="aQaa4a-d1X845-d1e169">
+               <lb ed="#Sm" n="1"/>D. Persuadet ratio quod dicis. 
+      
+    </p>
+            <p xml:id="aQaa4a-d1X845-d1e174">
+               <lb ed="#Sm" n="2"/>M. Cum ergo ARISTOTELES ita dicat: ,eorum quae secundum nullam 
+      
+      <lb ed="#Sm" n="3"/>complexionem dicuntur, singulum aut substantiam significat aut quantitatem' 
+      <lb ed="#Sm" n="4"/>et cetera: de qua significatione videtur tibi dicere, de illa qua per se 
+      <lb ed="#Sm" n="5"/>significant ipsae voces et quae illis est substantialis, an de altera quae per 
+      
+      <lb ed="#Sm" n="6"/>aliud est et accidentalis? 
+      
+    </p>
+            <p xml:id="aQaa4a-d1X845-d1e188">
+               <lb ed="#Sm" n="7"/>D. Non nisi de illa quam idem ipse eisdem vocibus inesse definiendo 
+      <lb ed="#Sm" n="8"/>nomen et verbum assignavit, qua per se significant. 
+    </p>
+            <p xml:id="aQaa4a-d1X845-d1e195">
+               <lb ed="#Sm" n="9"/>M. An putas illum aliter prosecutum in tractatu, quam proposuit in 
+      <lb ed="#Sm" n="10"/>divisione, aut aliquem eorum qui eum sequentes de dialectica scripserunt, 
+      <lb ed="#Sm" n="11"/>aliter sentire voluisse de hac re, quam ipse sensit? 
+    </p>
+            <p xml:id="aQaa4a-d1X845-d1e204">
+               <lb ed="#Sm" n="12"/>D. Nullo modo eorum scripta hoc aliquem opinari permittunt, quia 
+      <lb ed="#Sm" n="13"/>nusquam invenitur aliquis eorum posuisse aliquam vocem ad ostendendum 
+      <lb ed="#Sm" n="14"/>aliquid quod significet per aliud, sed semper ad hoc quod per se signi- 
+    </p>
+            <p xml:id="aQaa4a-d1X845-d1e213">
+               <lb ed="#Sm" n="15"/>ficat. Nullus enim volens monstrare substantiam ponit album aut
+      gramma<lb ed="#Sm" n="16" break="no"/>ticum, sed de qualitate docens album et grammaticum profert et similia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

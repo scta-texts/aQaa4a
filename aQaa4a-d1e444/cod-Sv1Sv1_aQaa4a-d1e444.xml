@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 5</title>
+            <author ref="#Anselm">Anselm</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#nivaca">Nicolas Vaughan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 5</title>
+               <date when="2020-10-01">October 01, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-10-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Sm" n="NaN"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="aQaa4a-d1e444"><!-- aQaa4a-c5 -->
+            <head xml:id="aQaa4a-d1e444-Hd1e118">Caput 5</head>
+            <p xml:id="aQaa4a-d1e444-d1e121">
+               <lb ed="#Sm" n="15"/>[V]
+      <lb ed="#Sm" n="16"/>D. Exspecto ut reddas effectum propositionibus meis. 
+      
+    </p>
+            <p xml:id="aQaa4a-d1e444-d1e128">
+               <lb ed="#Sm" n="17"/>M. Efficiunt vere aliquid, sed non quod exspectas, 
+      <lb ed="#Sm" n="18"/>is D. Quidquid illud sit, non ingratus accipio. 
+      
+    </p>
+            <p xml:id="aQaa4a-d1e444-d1e135">
+               <lb ed="#Sm" n="19"/>M. Qui dicit: omnis homo potest intelligi homo sine grammatica, et 
+      <lb ed="#Sm" n="20"/>nullus grammaticus potest intelligi grammaticus sine grammatica: nonne 
+      <lb ed="#Sm" n="21"/>si hoc significat quia esse hominis non indiget grammatica, et esse
+      gramma<lb ed="#Sm" n="22" break="no"/>tici indiget grammatica? 
+      
+    </p>
+            <p xml:id="aQaa4a-d1e444-d1e146">
+               <lb ed="#Sm" n="23"/>D. Nihil verius. 
+    </p>
+            <p xml:id="aQaa4a-d1e444-d1e152">
+               <lb ed="#Sm" n="24"/>M. An habent communem terminum hee duae propositiones, quas modo 
+      <lb ed="#Sm" n="25"/>dixi significari in illis aliis duabus? 
+      
+    </p>
+            <p xml:id="aQaa4a-d1e444-d1e159">
+               <lb ed="#Sm" n="26"/>D. Habent. 
+    </p>
+            <p xml:id="aQaa4a-d1e444-d1e164">
+               <lb ed="#Sm" n="27"/>M. Conficitur ergo quia esse grammatici non est esse hominis, id est 
+      <lb ed="#Sm" n="28"/>non esse eandem definitionem utriusque. 
+      
+    </p>
+            <p xml:id="aQaa4a-d1e444-d1e171">
+               <lb ed="#Sm" n="29"/>D. Procul dubio sic video consequi et esse. 
+    </p>
+            <p xml:id="aQaa4a-d1e444-d1e176">
+               <lb ed="#Sm" n="30"/>M. Non tamen ideo consequitur grammaticum non esse hominem, 
+      <lb ed="#Sm" n="31"/>sicut tu inteiligebas. Sed si ita intelligas: grammaticus non est homo, ac 
+      <lb ed="#Sm" n="32"/>si dicatur: grammaticus non est idem quod homo, id est non habent 
+      <lb ed="#Sm" n="33"/>eandem definitionem: vera est conclusio.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

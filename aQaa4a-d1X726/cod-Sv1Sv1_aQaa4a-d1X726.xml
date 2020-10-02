@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 15</title>
+            <author ref="#Anselm">Anselm</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#nivaca">Nicolas Vaughan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 15</title>
+               <date when="2020-10-01">October 01, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-10-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Sm" n="NaN"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="aQaa4a-d1X726"><!-- aQaa4a-c15 -->
+            <head xml:id="aQaa4a-d1X726-Hd1e118">Caput 15</head>
+            <p xml:id="aQaa4a-d1X726-d1e121">
+               <lb ed="#Sm" n="5"/>[XV.] 
+      <lb ed="#Sm" n="6"/>M. Vides ergo quomodo ,albus' non sit significativum eius quod
+      ali<lb ed="#Sm" n="7" break="no"/>quo modo significat, et quomodo sit appellativum eius cuius non est 
+      <lb ed="#Sm" n="8"/>significativum?
+    </p>
+            <p xml:id="aQaa4a-d1X726-d1e132">
+               <lb ed="#Sm" n="9"/>D. Hoc quoque video. Significat enim equum et non significat, quia 
+      <lb ed="#Sm" n="10"/>non eum significat per se, sed per aliud, et tamen equus appellatur albus. 
+      <lb ed="#Sm" n="11"/>Et quod video in albo, hoc intelligo in grammatico et in similibus
+      deno<lb ed="#Sm" n="12" break="no"/>minativis. Quapropter videtur mihi significatio nominum et verborum sic 
+      <lb ed="#Sm" n="13"/>dividi posse, quod alia sit per se, alia per aliud. 
+    </p>
+            <p xml:id="aQaa4a-d1X726-d1e145">
+               <lb ed="#Sm" n="14"/>M. Considera etiam, quoniam harum duarum significationum illa quas 
+      <lb ed="#Sm" n="15"/>is per se est, ipsis vocibus significativis est substantialis, altera vero
+      acci<lb ed="#Sm" n="16" break="no"/>dentalis. Cum enim in definitione nominis vel verbi dicitur quia est ,vox 
+      <lb ed="#Sm" n="17"/>significativa', intelligendum est non alia significatione quam ea quae per se 
+      <lb ed="#Sm" n="18"/>is est. Nam si illa significatio quae est per aliud, in definitione nominis vel 
+      <lb ed="#Sm" n="19"/>verbi intelligenda est, iam non erit ,hodiernus' nomen sed verbum.
+      Signi<lb ed="#Sm" n="20" break="no"/>ficat enim aliquando ea significatione aliquid cum tempore, sicut supra 
+      <lb ed="#Sm" n="21"/>dixi, quod non est.nominis sed verbi.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

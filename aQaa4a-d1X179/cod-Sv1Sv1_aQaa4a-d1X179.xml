@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 12</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#nivaca">Nicolas Vaughan</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 12</title>
+          <date when="2020-10-01">October 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Sm" n="156"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1X179"><!-- aQaa4a-c12 -->
+        <head xml:id="aQaa4a-d1X179-Hd1e118">Caput 12</head>
+        <p xml:id="aQaa4a-d1X179-d1e121">
+          <lb ed="#Sm" n="21"/>[XII.] 
+          <lb ed="#Sm" n="22"/>M. Quod illam rationem quam dixi, cur grammaticus scilicet sit
+          sub<lb ed="#Sm" n="23" break="no"/>stantia et qualitas, idcirco repudias quia non valet in nomine hominis: 
+          <lb ed="#Sm" n="24"/>ideo facis ut puto quia non consideras, quam dissimiliter significent scilicet 
+          <lb ed="#Sm" n="25"/>nomen hominis ea ex quibus constat homo, et grammaticus hominem et 
+          <lb ed="#Sm" n="26"/>grammaticam. Nempe nomen hominis per se et ut unum significat ea ex 
+          <lb ed="#Sm" n="27"/>quibus constat totus homo. In quibus substantia principalem locum tenet, 
+          <lb ed="#Sm" n="28"/>quoniam est causa aliorum et habens ea, non ut indigens illis sed ut se 
+          <lb ed="#Sm" n="29"/>indigentia. Nulla enim est differentia substantiae sine qua substantia inveniri 
+          <lb ed="#Sm" n="30"/>non possit, et nulla differentiarum eius sine illa potest existere. Quapropter 
+          <lb ed="#Sm" n="31"/>quamvis omnia simul velut unum totum sub una significatione uno nomine 
+          <lb ed="#Sm" n="32"/>appellentur ,homo‘, sic tamen principaliter hoc nomen est significativum et 
+          <lb ed="#Sm" n="33"/>appellativum substantiae, ut cum recte dicatur: substantia est homo et 
+          <lb ed="#Sm" n="34"/>homo substantia: nullus tamen dicat: rationalitas est homo aut homo ratio- 
+          <!--183.xml-->
+          <pb ed="#Sm" n="157"/>
+          <lb ed="#Sm" n="1"/>nalitas, sed habens rationalitatem. Grammaticus vero non significat hominem 
+          <lb ed="#Sm" n="2"/>et grammaticam ut unum, sed grammaticam per se et hominem per aliud 
+          <lb ed="#Sm" n="3"/>significat. Et hoc nomen quamvis sit appellativum hominis, non tamen 
+          <lb ed="#Sm" n="4"/>proprie dicitur eius significativum; et licet sit significativum grammaticae, 
+          <lb ed="#Sm" n="5"/>non tamen est eius appellativum. Appellativum autem nomen cuiuslibet 
+          <lb ed="#Sm" n="6"/>rei nunc dico, quo res ipsa usu loquendi appellatur. Nullo enim usu 
+          <lb ed="#Sm" n="7"/>loquendi dicitur: grammatica est grammaticus, aut: grammaticus est
+          gram<lb ed="#Sm" n="8" break="no"/>matica; sed: homo est grammaticus, et grammaticus homo. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

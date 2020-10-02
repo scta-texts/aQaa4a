@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 11</title>
+            <author ref="#Anselm">Anselm</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#nivaca">Nicolas Vaughan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 11</title>
+               <date when="2020-10-01">October 01, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-10-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Sm" n="155"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="aQaa4a-d1X088"><!-- aQaa4a-c11 -->
+            <head xml:id="aQaa4a-d1X088-Hd1e118">Caput 11</head>
+            <p xml:id="aQaa4a-d1X088-d1e121">
+               <lb ed="#Sm" n="14"/>[XI.] 
+      <lb ed="#Sm" n="15"/>M. Si alia non habes unde possis probare grammaticum non esse 
+      <lb ed="#Sm" n="16"/>hominem: nunc proba eum non esse grammaticam. 
+    </p>
+            <p xml:id="aQaa4a-d1X088-d1e130">
+               <lb ed="#Sm" n="17"/>D. Facilius hoc possum digito quam argumento. Ibi namque fregisti 
+      <lb ed="#Sm" n="18"/>is omnia mea argumenta, ubi aperuisti a grammatico significari diversa, et 
+      <lb ed="#Sm" n="19"/>secundum ea loquendum intelligendumque de grammatico. Quod quamvis 
+      <lb ed="#Sm" n="20"/>abnuere non possim, tamen non sic satisfacit animo meo ut velut quod 
+      <lb ed="#Sm" n="21"/>2i quaerebat invento quiescat. Videris enim mihi quasi non curare ut me 
+      <lb ed="#Sm" n="22"/>doceas, sed tantum ut rationes meas obstruas. Sed sicut meum fuit
+      ex<lb ed="#Sm" n="23" break="no"/>ponere quae me ex utraque parte in ambiguitatem cogunt: ita tuum erat 
+      <lb ed="#Sm" n="24"/>2« aut unam partem destruere, aut ostendere quomodo non sibi invicem 
+      <lb ed="#Sm" n="25"/>repugnent.
+    </p>
+            <p xml:id="aQaa4a-d1X088-d1e152">
+      <!--182.xml-->
+               <pb ed="#Sm" n="156"/>
+               <lb ed="#Sm" n="1"/>M. Cur non salis tibi videtur ostensum, quod grammaticum esse
+      sub<lb ed="#Sm" n="2" break="no"/>stantiam et grammaticum esse qualitatem nequaquam sibi repugnent
+      in<lb ed="#Sm" n="3" break="no"/>vicem, in eo quod de grammatico modo secundum hominem, modo 
+      <lb ed="#Sm" n="4"/>secundum grammaticam loqui et intelligere oportet? 
+    </p>
+            <p xml:id="aQaa4a-d1X088-d1e168">
+               <lb ed="#Sm" n="5"/>D. Quoniam nemo qui intelligit nomen grammatici, ignorat
+      gramma<lb ed="#Sm" n="6" break="no"/>ticum significare hominem et grammaticam, et tamen si hac fiducia loquens 
+      <lb ed="#Sm" n="7"/>in populo dicam: utilis scientia est grammaticus, aut: bene scit homo iste 
+      <lb ed="#Sm" n="8"/>grammaticum: non solum stomachabuntur grammatici, sed et ridebunt 
+      <lb ed="#Sm" n="9"/>rustici. Nullatenus itaque credam sine aliqua alia ratione tractatores
+      dia<lb ed="#Sm" n="10" break="no"/>lecticae tam saepe et tam studiose in suis libris scripsisse, quod idem ipsi 
+      <lb ed="#Sm" n="11"/>colloquentes dicere erubescerent. Saepissime namque cum volunt ostendere 
+      <lb ed="#Sm" n="12"/>qualitatem aut accidens, subiungunt: ut grammaticus et similia, cum 
+      <lb ed="#Sm" n="13"/>grammaticum magis esse substantiam quam qualitatem aut accidens usus 
+      <lb ed="#Sm" n="14"/>omnium loquendum attestetur. Et cum volunt aliquid docere de substantia, 
+      <lb ed="#Sm" n="15"/>nusquam proferunt: ut grammaticus aut aliquid huiusmodi. Huc accedit, 
+      <lb ed="#Sm" n="16"/>quia si ideo grammaticus quia significat hominem et grammaticam dicendus 
+      <lb ed="#Sm" n="17"/>est substantia et qualitas: cur homo non est similiter qualitas et substantia? 
+      <lb ed="#Sm" n="18"/>Homo namque significat substantiam cum omnibus illis differentiis quae 
+      <lb ed="#Sm" n="19"/>sunt in homine, ut est sensibilitas et mortalitas. Sed nusquam ubi scriptum 
+      <lb ed="#Sm" n="20"/>sit aliquid de qualitate aliqua, prolatum est ad exemplum: vehit homo. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

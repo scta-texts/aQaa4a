@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 6</title>
+            <author ref="#Anselm">Anselm</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#nivaca">Nicolas Vaughan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 6</title>
+               <date when="2020-10-01">October 01, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-10-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Sm" n="150"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="aQaa4a-d1e517"><!-- aQaa4a-c6 -->
+            <head xml:id="aQaa4a-d1e517-Hd1e118">Caput 6</head>
+            <p xml:id="aQaa4a-d1e517-d1e121">
+      <!--176.xml-->
+               <pb ed="#Sm" n="150"/>
+               <lb ed="#Sm" n="1"/>[VI.] 
+      <lb ed="#Sm" n="2"/>D. Intelligo quod dicis. 
+      
+    </p>
+            <p xml:id="aQaa4a-d1e517-d1e132">
+               <lb ed="#Sm" n="3"/>M. Si ergo bene intelligis quae dixi: dic quomodo tu dissolveres hunc 
+      <lb ed="#Sm" n="4"/>syllogismum, si quis ita contexeret: Omnis grammaticus dicitur in eo quod 
+      <lb ed="#Sm" n="5"/>quale. Nullus homo dicitur in eo quod quale. Nullus igitur homo
+      gram<lb ed="#Sm" n="6" break="no"/>maticus. 
+      
+    </p>
+            <p xml:id="aQaa4a-d1e517-d1e143">
+               <lb ed="#Sm" n="7"/>D. Tale mihi hoc videtur esse, ac si diceretur: Omne rationale dicitur 
+      <lb ed="#Sm" n="8"/>in eo quod quale. At nullus homo dicitur in eo quod quale. Nullus igitur 
+      <lb ed="#Sm" n="9"/>homo rationalis. Hoc autem nulla probatio verum efficere valet, ut
+      ratio<lb ed="#Sm" n="10" break="no"/>nale praedicetur de nullo homine. Similiter ille syllogismus quem modo 
+      <lb ed="#Sm" n="11"/>protulisti, non necessario concludit grammaticum non praedicari de homine. 
+      <lb ed="#Sm" n="12"/>Hoc enim significant eius propositiones, si secundum veritatem eas
+      intel<lb ed="#Sm" n="13" break="no"/>ligimus, tamquam si diceretur ita: Omnis grammaticus dicitur grammaticus 
+      <lb ed="#Sm" n="14"/>in eo quod quale. Nullus homo dicitur homo in eo quod quale. Ex his 
+      <lb ed="#Sm" n="15"/>autem duabus propositionibus nequaquam consequitur: nullus grammaticus 
+      <lb ed="#Sm" n="16"/>praedicatur de homine, quoniam non est idem terminus, qui affirmatur de 
+      <lb ed="#Sm" n="17"/>grammatico et negatur de homine. Esset vero in illis communis terminus 
+      <lb ed="#Sm" n="18"/>et necessariam conclusionem ingererent, si aut manente propositione sicut 
+      <lb ed="#Sm" n="19"/>posita est, sic vera fieret assumptio: nullus homo dicitur grammaticus in 
+      <lb ed="#Sm" n="20"/>eo quod quale; aut manente assumptione sic vere proponeretur: omnis 
+      <lb ed="#Sm" n="21"/>grammaticus dicitur homo in eo quod quale. Nam ex utraque hac
+      com<lb ed="#Sm" n="22" break="no"/>plexione nasceretur quia de nullo homine grammaticus praedicaretur. Si 
+      <lb ed="#Sm" n="23"/>quis vero id quod dicitur: homo non est grammaticus, ita velit intelligere, 
+      <lb ed="#Sm" n="24"/>ac si diceretur: homo non est idem quod grammaticus, ut si dicam:
+      ful<lb ed="#Sm" n="25" break="no"/>gor est splendor, aut: fulgor non est splendor, id est fulgor est idipsum 
+      <lb ed="#Sm" n="26"/>aut non est idipsum quod splendor; si quis inquam sic intelligat hoc quod 
+      <lb ed="#Sm" n="27"/>dicitur: homo non est grammaticus: secundum hunc sensum consequitur 
+      <lb ed="#Sm" n="28"/>ex illis propositionibus, si earum vis bene consideretur, quia nullus homo 
+      <lb ed="#Sm" n="29"/>est grammaticus. Nam ad hoc probandum quia essentia hominis non est 
+      <lb ed="#Sm" n="30"/>essentia grammatici, habet earum significatio communem terminum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

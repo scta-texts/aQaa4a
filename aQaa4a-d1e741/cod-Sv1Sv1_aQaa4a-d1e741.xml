@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Caput 8</title>
+            <author ref="#Anselm">Anselm</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+            <respStmt>
+               <name ref="#nivaca">Nicolas Vaughan</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Caput 8</title>
+               <date when="2020-10-01">October 01, 2020</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2020-10-01" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#Sm" n="152"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="aQaa4a-d1e741"><!-- aQaa4a-c8 -->
+            <head xml:id="aQaa4a-d1e741-Hd1e118">Caput 8</head>
+            <p xml:id="aQaa4a-d1e741-d1e121">
+               <lb ed="#Sm" n="8"/>[VIII.] 
+      <lb ed="#Sm" n="9"/>D. Non habeo quid contra hanc tuam sententiam dicam. Sed
+      quo<lb ed="#Sm" n="10" break="no"/>niam latenter monuisti me ut non sim contentus intelligere quid dicas, 
+      <lb ed="#Sm" n="11"/>sed idipsum quod dicis considerem: videtur mihi consideranda illa
+      con<lb ed="#Sm" n="12" break="no"/>clusio quam ex meo syllogismo confici ostendisti, quia esse grammatici 
+      <lb ed="#Sm" n="13"/>non est esse hominis. Si enim hoc est: qui habet essentiam grammatici, 
+      <lb ed="#Sm" n="14"/>non ideo necessario habet essentiam hominis. Sed si homo sequitur
+      gram<lb ed="#Sm" n="15" break="no"/>maticum, essentia hominis sequitur essentiam grammatici. Sed haec non 
+      <lb ed="#Sm" n="16"/>sequitur hanc. Quare nec ille illum, Non est igitur omnis grammaticus 
+      <lb ed="#Sm" n="17"/>homo. At cum omnibus grammaticis una sit ratio cur sint homines:
+      pro<lb ed="#Sm" n="18" break="no"/>fecto aut omnis grammaticus est homo, aut nullus. Sed constat quia non 
+      <lb ed="#Sm" n="19"/>omnis. Nullus igitur. Videtur itaque quia syllogismo meo conclusionem 
+      <lb ed="#Sm" n="20"/>quam acute abstulisti, auferendo acutius dedisti. 
+      
+    </p>
+            <p xml:id="aQaa4a-d1e741-d1e152">
+               <lb ed="#Sm" n="21"/>M. Etsi latenter te monui considerare quod audis, non tamen ut 
+      <lb ed="#Sm" n="22"/>apparet inutiliter. Nam etsi sophistice probes nullum grammaticum hominem 
+      <lb ed="#Sm" n="23"/>per hoc quod esse grammatici non est esse hominis: utile tamen tibi erit, 
+      <lb ed="#Sm" n="24"/>cum ipsum sophisma quod te sub pallio ver® rationis fallit, in sua fallacia 
+      <lb ed="#Sm" n="25"/>nudum conspicies. 
+      
+    </p>
+            <p xml:id="aQaa4a-d1e741-d1e165">
+               <lb ed="#Sm" n="26"/>D. Ostende ergo quod me fallat et ubi me fallat hsec quam modo 
+      <lb ed="#Sm" n="27"/>feci de grammatico probatio. 
+      
+    </p>
+            <p xml:id="aQaa4a-d1e741-d1e172">
+               <lb ed="#Sm" n="28"/>M. Redeamus iterum ad animal et hominem, in quibus ita quasi
+      pal<lb ed="#Sm" n="29" break="no"/>pamus veritatem, ut nullum sophisma nobis persuadeat licet cogat credere 
+      <lb ed="#Sm" n="30"/>salsitatem. Dic ergo utrum esse uniuscuiusque rei in definitione consistat. 
+      
+    </p>
+            <p xml:id="aQaa4a-d1e741-d1e182">
+               <lb ed="#Sm" n="31"/>D. Ita est. 
+      
+    </p>
+            <p xml:id="aQaa4a-d1e741-d1e187">
+               <lb ed="#Sm" n="32"/>M. Definitio hominis est definitio animalis? 
+      
+    </p>
+            <p xml:id="aQaa4a-d1e741-d1e192">
+               <lb ed="#Sm" n="33"/>D. Minime. Si enim ,animal rationale mortale*, quae est definitio, ho- 
+      <!--179.xml-->
+      <pb ed="#Sm" n="153"/>
+      
+               <lb ed="#Sm" n="1"/>minis, esset definitio animalis: cuicumque conveniret ,anima?, conveniret 
+      <lb ed="#Sm" n="2"/>.rationale mortale', quod falsum est. 
+    </p>
+            <p xml:id="aQaa4a-d1e741-d1e205">
+               <lb ed="#Sm" n="3"/>M. Non est igitur esse hominis esse animalis. 
+      
+    </p>
+            <p xml:id="aQaa4a-d1e741-d1e210">
+               <lb ed="#Sm" n="4"/>D. Ita consequitur. 
+      
+    </p>
+            <p xml:id="aQaa4a-d1e741-d1e215">
+               <lb ed="#Sm" n="5"/>M. Potes igitur ex hoc probare quia nullus homo animal est, eadem 
+      <lb ed="#Sm" n="6"/>ratione qua probasti modo nullum grammaticum hominem. Quapropter si 
+      <lb ed="#Sm" n="7"/>vides apertam esse falsitatem, quod haec tua ratiocinatio hic concludit: 
+      <lb ed="#Sm" n="8"/>ne credas certam esse veritatem quod ibi ludit. 
+    </p>
+            <p xml:id="aQaa4a-d1e741-d1e227">
+               <lb ed="#Sm" n="9"/>D. lam ostendisti quia me fallit; ostende etiam ubi. 
+      
+    </p>
+            <p xml:id="aQaa4a-d1e741-d1e232">
+               <lb ed="#Sm" n="10"/>M. Non tenes quod paulo ante dixi te concedente quia esse
+      gramma<lb ed="#Sm" n="11" break="no"/>tici non est esse hominis, idem valet ac si diceretur: definitio grammatici 
+      <lb ed="#Sm" n="12"/>non est definitio hominis, id est: non est idem omnino grammaticus et 
+      <lb ed="#Sm" n="13"/>homo? Sicut enim homo definiri non debet cum grammatica, ita
+      gramma<lb ed="#Sm" n="14" break="no"/>ticus non valet sine grammatica. Quare debet intelligi illa tua
+      argumen<lb ed="#Sm" n="15" break="no"/>is tatio hoc modo: Si esse grammatici non est simpliciter esse hominis: qui 
+      <lb ed="#Sm" n="16"/>habet essentiam grammatici, non ideo consequitur ut habeat simpliciter 
+      <lb ed="#Sm" n="17"/>essentiam hominis. Similiter intelligendum est quia simpliciter homo non 
+      <lb ed="#Sm" n="18"/>is sequitur grammaticum, id est: si grammaticus est, non consequitur ut sit 
+      <lb ed="#Sm" n="19"/>simpliciter homo. Ita vero nihil aliud consequitur nisi: nullus grammaticus 
+      <lb ed="#Sm" n="20"/>est simpliciter homo. 
+    </p>
+            <p xml:id="aQaa4a-d1e741-d1e258">
+               <lb ed="#Sm" n="21"/>D. Nihil clarius. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>
