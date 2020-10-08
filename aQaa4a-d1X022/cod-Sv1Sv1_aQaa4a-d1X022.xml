@@ -1,96 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Caput 10</title>
-            <author ref="#Anselm">Anselm</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-            <respStmt>
-               <name ref="#nivaca">Nicolas Vaughan</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Caput 10</title>
-               <date when="2020-10-01">October 01, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-10-01" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#Sm" n="154"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="aQaa4a-d1X022"><!-- aQaa4a-c10 -->
-            <head xml:id="aQaa4a-d1X022-Hd1e118">Caput 10</head>
-            <p xml:id="aQaa4a-d1X022-d1e121">
-               <lb ed="#Sm" n="22"/>[X.] 
-      <lb ed="#Sm" n="23"/>D. Diffiteri non possum. Sed unum adhuc dicam cur grammaticus non 
-      <lb ed="#Sm" n="24"/>sit substantia: quia omnis substantia est prima aut secunda, grammaticus 
-      <lb ed="#Sm" n="25"/>autem nec prima nec secunda. 
-    </p>
-            <p xml:id="aQaa4a-d1X022-d1e132">
-               <lb ed="#Sm" n="26"/>M. Memento dictorum ARISTOTELIS quae paulo ante dixi, quibus dicit 
-      <lb ed="#Sm" n="27"/>grammaticum et primam et secundam substantiam, quia et quendam ho- 
-      <!--181.xml-->
-      <pb ed="#Sm" n="155"/>
-               <lb ed="#Sm" n="1"/>minem, et hominem et animal grammaticum dici testatur. Sed tamen unde 
-      <lb ed="#Sm" n="2"/>probas grammaticum non esse primam nec secundam substantiam? 
-    </p>
-            <p xml:id="aQaa4a-d1X022-d1e148">
-               <lb ed="#Sm" n="3"/>D. Quia est in subiecto, quod nulla substantia est; et dicitur de
-      plu<lb ed="#Sm" n="4" break="no"/>ribus, quod primae non est; nec est genus aut species nec dicitur in eo 
-      <lb ed="#Sm" n="5"/>quod quid, quod est secundae.
-    </p>
-            <p xml:id="aQaa4a-d1X022-d1e157">
-               <lb ed="#Sm" n="6"/>M. Nihil horum si bene meministi quae iam diximus, aufert
-      gramma<lb ed="#Sm" n="7" break="no"/>tico substantiam, quia secundum aliquid grammaticus non est in subiecto, 
-      <lb ed="#Sm" n="8"/>et est genus et species, et dicitur in eo quod quid; quia est et homo qui 
-      <lb ed="#Sm" n="9"/>species est, et animal quod est genus, et haec dicuntur in eo quod quid. 
-      <lb ed="#Sm" n="10"/>Est etiam individuus sicut homo et animal, quia quemadmodum quidam 
-      <lb ed="#Sm" n="11"/>homo et quoddam animal, ita quidam grammaticus est individuus. Socrates 
-      <lb ed="#Sm" n="12"/>enim et animal et homo est et grammaticus. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X022-d1e176">
-               <lb ed="#Sm" n="13"/>D. Non possum negare quod dicis. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#nivaca">Nicolas Vaughan</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2020-10-01">October 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Sm" n="154"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1X022"><!-- aQaa4a-c10 -->
+        <head xml:id="aQaa4a-d1X022-Hd1e118">Caput 10</head>
+        <p xml:id="aQaa4a-d1X022-d1e121">
+          <lb ed="#Sm" n="22"/>[X.]
+          <lb ed="#Sm" n="23"/>D. Diffiteri non possum. Sed unum adhuc dicam cur grammaticus non
+          <lb ed="#Sm" n="24"/>sit substantia: quia omnis substantia est prima aut secunda, grammaticus
+          <lb ed="#Sm" n="25"/>autem nec prima nec secunda.
+        </p>
+        <p xml:id="aQaa4a-d1X022-d1e132">
+          <lb ed="#Sm" n="26"/>M. Memento dictorum <name ref="#Aristotle">Aristotelis</name> quae paulo ante dixi, quibus dicit
+          <lb ed="#Sm" n="27"/>grammaticum et primam et secundam substantiam, quia et quendam ho-
+          <!--181.xml-->
+          <pb ed="#Sm" n="155"/>
+          <lb ed="#Sm" n="1"/>minem, et hominem et animal grammaticum dici testatur. Sed tamen unde
+          <lb ed="#Sm" n="2"/>probas grammaticum non esse primam nec secundam substantiam?
+        </p>
+        <p xml:id="aQaa4a-d1X022-d1e148">
+          <lb ed="#Sm" n="3"/>D. Quia est in subiecto, quod nulla substantia est; et dicitur de
+          plu<lb ed="#Sm" n="4" break="no"/>ribus, quod primae non est; nec est genus aut species nec dicitur in eo
+          <lb ed="#Sm" n="5"/>quod quid, quod est secundae.
+        </p>
+        <p xml:id="aQaa4a-d1X022-d1e157">
+          <lb ed="#Sm" n="6"/>M. Nihil horum si bene meministi quae iam diximus, aufert
+          gramma<lb ed="#Sm" n="7" break="no"/>tico substantiam, quia secundum aliquid grammaticus non est in subiecto,
+          <lb ed="#Sm" n="8"/>et est genus et species, et dicitur in eo quod quid; quia est et homo qui
+          <lb ed="#Sm" n="9"/>species est, et animal quod est genus, et haec dicuntur in eo quod quid.
+          <lb ed="#Sm" n="10"/>Est etiam individuus sicut homo et animal, quia quemadmodum quidam
+          <lb ed="#Sm" n="11"/>homo et quoddam animal, ita quidam grammaticus est individuus. <name ref="#Socrates">Socrates</name>
+          <lb ed="#Sm" n="12"/>enim et animal et homo est et grammaticus.
+        </p>
+        <p xml:id="aQaa4a-d1X022-d1e176">
+          <lb ed="#Sm" n="13"/>D. Non possum negare quod dicis.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

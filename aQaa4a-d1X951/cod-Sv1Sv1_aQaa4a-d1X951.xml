@@ -1,108 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Caput 18</title>
-            <author ref="#Anselm">Anselm</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-            <respStmt>
-               <name ref="#nivaca">Nicolas Vaughan</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Caput 18</title>
-               <date when="2020-10-01">October 01, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-10-01" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#Sm" n="163"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="aQaa4a-d1X951"><!-- aQaa4a-c18 -->
-            <head xml:id="aQaa4a-d1X951-Hd1e118">Caput 18</head>
-            <p xml:id="aQaa4a-d1X951-d1e121">
-               <lb ed="#Sm" n="17"/>[XVIII.] 
-      <lb ed="#Sm" n="18"/>M. Si ergo proposita divisione praefata quaero a te, quid sit
-      gramma<lb ed="#Sm" n="19" break="no"/>ticus secundum hanc divisionem et secundum eos qui illam scribendo de 
-      <lb ed="#Sm" n="20"/>dialectica sequuntur: quid quaero, aut quid mihi respondebis? 
-    </p>
-            <p xml:id="aQaa4a-d1X951-d1e132">
-               <lb ed="#Sm" n="21"/>D. Procul dubio non hic potest quaeri nisi aut de voce aut de re 
-      <lb ed="#Sm" n="22"/>quam significat. Quare quia constat grammaticum non significare secundum 
-      <lb ed="#Sm" n="23"/>hanc divisionem hominem sed grammaticam, incunctanter respondebo: si 
-      <lb ed="#Sm" n="24"/>quaeris de voce: quia est vox significans qualitatem; si vero quaeris de 
-      <lb ed="#Sm" n="25"/>re: quia est qualitas. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X951-d1e145">
-               <lb ed="#Sm" n="26"/>M. An ignoras quia idem ARISTOTELES appellat voces nomine rerum 
-      
-      <lb ed="#Sm" n="27"/>quarum sunt significativae, et non quarum tantum sunt appellativae, in 
-      <lb ed="#Sm" n="28"/>eodem libro; ut cum dicit quia ,omnis substantia videtur significare hoc 
-      <lb ed="#Sm" n="29"/>aliquid', id est omnis vox significans substantiam; sicut nominat vel potius 
-      <!--190.xml-->
-      <pb ed="#Sm" n="164"/>
-      
-               <lb ed="#Sm" n="1"/>ostendit res — quod tu paulo ante meministi — solis vocibus earum 
-      <lb ed="#Sm" n="2"/>significativis et saepe non appellativis? 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X951-d1e165">
-               <lb ed="#Sm" n="3"/>D. Non hoc ignorare possum. Quare sive quaeratur de voce sive de 
-      <lb ed="#Sm" n="4"/>re: cum quaeritur quid sit grammaticus secundum tractatum ARISTOTELIS 
-      <lb ed="#Sm" n="5"/>et secundum sequaces eius, recte respondetur: qualitas; et tamen
-      secun<lb ed="#Sm" n="6" break="no"/>dum appellationem vere est substantia. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X951-d1e177">
-               <lb ed="#Sm" n="7"/>M. Ita est. Non enim movere nos debet quod dialectici aliter scribunt 
-      <lb ed="#Sm" n="8"/>de vocibus secundum quod sunt significativae, aliter eis utuntur loquendo 
-      <lb ed="#Sm" n="9"/>secundum quod sunt appellativae, si et grammatici aliud dicunt secundum 
-      <lb ed="#Sm" n="10"/>formam vocum, aliud secundum rerum naturam. Dicunt quippe lapidem 
-      <lb ed="#Sm" n="11"/>esse masculini generis, petram feminini, mancipium autem neutri, et timere 
-      <lb ed="#Sm" n="12"/>activum, timeri vero passivum, cum nemo dicat esse lapidem masculum 
-      <lb ed="#Sm" n="13"/>aut petram feminam aut mancipium nec masculum nec feminam, aut timere 
-      <lb ed="#Sm" n="14"/>facere, timeri autem pati. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 18</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#nivaca">Nicolas Vaughan</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 18</title>
+          <date when="2020-10-01">October 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Sm" n="163"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1X951"><!-- aQaa4a-c18 -->
+        <head xml:id="aQaa4a-d1X951-Hd1e118">Caput 18</head>
+        <p xml:id="aQaa4a-d1X951-d1e121">
+          <lb ed="#Sm" n="17"/>[XVIII.]
+          <lb ed="#Sm" n="18"/>M. Si ergo proposita divisione praefata quaero a te, quid sit
+          gramma<lb ed="#Sm" n="19" break="no"/>ticus secundum hanc divisionem et secundum eos qui illam scribendo de
+          <lb ed="#Sm" n="20"/>dialectica sequuntur: quid quaero, aut quid mihi respondebis?
+        </p>
+        <p xml:id="aQaa4a-d1X951-d1e132">
+          <lb ed="#Sm" n="21"/>D. Procul dubio non hic potest quaeri nisi aut de voce aut de re
+          <lb ed="#Sm" n="22"/>quam significat. Quare quia constat grammaticum non significare secundum
+          <lb ed="#Sm" n="23"/>hanc divisionem hominem sed grammaticam, incunctanter respondebo: si
+          <lb ed="#Sm" n="24"/>quaeris de voce: quia est vox significans qualitatem; si vero quaeris de
+          <lb ed="#Sm" n="25"/>re: quia est qualitas.
+</p>
+        <p xml:id="aQaa4a-d1X951-d1e145">
+          <lb ed="#Sm" n="26"/>M. An ignoras quia idem <name ref="#Aristotle">Aristoteles</name> appellat voces nomine rerum
+         
+          <lb ed="#Sm" n="27"/>quarum sunt significativae, et non quarum tantum sunt appellativae, in
+          <lb ed="#Sm" n="28"/>eodem libro; ut cum dicit quia ,omnis substantia videtur significare hoc
+          <lb ed="#Sm" n="29"/>aliquid', id est omnis vox significans substantiam; sicut nominat vel potius
+          <!--190.xml-->
+          <pb ed="#Sm" n="164"/>
+         
+          <lb ed="#Sm" n="1"/>ostendit res ---quod tu paulo ante meministi--- solis vocibus earum
+          <lb ed="#Sm" n="2"/>significativis et saepe non appellativis?
+</p>
+        <p xml:id="aQaa4a-d1X951-d1e165">
+          <lb ed="#Sm" n="3"/>D. Non hoc ignorare possum. Quare sive quaeratur de voce sive de
+          <lb ed="#Sm" n="4"/>re: cum quaeritur quid sit grammaticus secundum tractatum <name ref="#Aristotle">Aristotelis</name>
+          <lb ed="#Sm" n="5"/>et secundum sequaces eius, recte respondetur: qualitas; et tamen
+          secun<lb ed="#Sm" n="6" break="no"/>dum appellationem vere est substantia.
+</p>
+        <p xml:id="aQaa4a-d1X951-d1e177">
+          <lb ed="#Sm" n="7"/>M. Ita est. Non enim movere nos debet quod dialectici aliter scribunt
+          <lb ed="#Sm" n="8"/>de vocibus secundum quod sunt significativae, aliter eis utuntur loquendo
+          <lb ed="#Sm" n="9"/>secundum quod sunt appellativae, si et grammatici aliud dicunt secundum
+          <lb ed="#Sm" n="10"/>formam vocum, aliud secundum rerum naturam. Dicunt quippe lapidem
+          <lb ed="#Sm" n="11"/>esse masculini generis, petram feminini, mancipium autem neutri, et timere
+          <lb ed="#Sm" n="12"/>activum, timeri vero passivum, cum nemo dicat esse lapidem masculum
+          <lb ed="#Sm" n="13"/>aut petram feminam aut mancipium nec masculum nec feminam, aut timere
+          <lb ed="#Sm" n="14"/>facere, timeri autem pati.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

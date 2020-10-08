@@ -1,188 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Caput 14</title>
-            <author ref="#Anselm">Anselm</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-            <respStmt>
-               <name ref="#nivaca">Nicolas Vaughan</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Caput 14</title>
-               <date when="2020-10-01">October 01, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-10-01" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#Sm" n="159"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="aQaa4a-d1X528"><!-- aQaa4a-c14 -->
-            <head xml:id="aQaa4a-d1X528-Hd1e118">Caput 14</head>
-            <p xml:id="aQaa4a-d1X528-d1e121">
-               <lb ed="#Sm" n="12"/>[XIV.] 
-      <lb ed="#Sm" n="13"/>D. Satis mihi probasti grammaticum non significare hominem. 
-    </p>
-            <p xml:id="aQaa4a-d1X528-d1e128">
-               <lb ed="#Sm" n="14"/>M. Vides igitur quid dixerim quia grammaticus non est hominis 
-      <lb ed="#Sm" n="15"/>significativum? 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X528-d1e135">
-               <lb ed="#Sm" n="16"/>D. Video, et exspecto ut grammaticum ostendas esse significativum 
-      <lb ed="#Sm" n="17"/>grammaticae. 
-    </p>
-            <p xml:id="aQaa4a-d1X528-d1e142">
-               <lb ed="#Sm" n="18"/>is M. Nonne paulo ante dicebas grammaticum significare ,hominem
-      scien<lb ed="#Sm" n="19" break="no"/>tem grammaticam'? 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X528-d1e150">
-               <lb ed="#Sm" n="20"/>D. Et credebam. 
-    </p>
-            <p xml:id="aQaa4a-d1X528-d1e155">
-               <lb ed="#Sm" n="21"/>M. Sed iam satis probatum est quia non significat hominem. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X528-d1e160">
-               <lb ed="#Sm" n="22"/>D. Satis. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X528-d1e165">
-               <lb ed="#Sm" n="23"/>M. Quid ergo restat? 
-    </p>
-            <p xml:id="aQaa4a-d1X528-d1e170">
-               <lb ed="#Sm" n="24"/>D. Ut non significet aliud quam .scientem grammaticam'. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X528-d1e175">
-               <lb ed="#Sm" n="25"/>M. Est igitur significativum grammaticae. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X528-d1e181">
-               <lb ed="#Sm" n="26"/>D. Sufficienter probatum est grammaticum non esse appellativum 
-      <lb ed="#Sm" n="27"/>grammaticae sed hominis, nec esse significativum hominis sed grammaticae. 
-      <lb ed="#Sm" n="28"/>Sed quoniam dixisti grammaticum significare grammaticam per se et 
-      <lb ed="#Sm" n="29"/>hominem per aliud: peto ut aperte mihi duas has significationes distinguas, 
-      <!--186.xml-->
-      <pb ed="#Sm" n="160"/>
-      
-               <lb ed="#Sm" n="1"/>ut intelligam quomodo grammaticus non sit significativum eius quod aliquo 
-      <lb ed="#Sm" n="2"/>modo significat, aut quomodo sit appellativum eius cuius significativum 
-      <lb ed="#Sm" n="3"/>non est. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X528-d1e203">
-               <lb ed="#Sm" n="4"/>M. Si est in domo aliqua albus equus te nesciente inclusus, et aliquis 
-      <lb ed="#Sm" n="5"/>tibi dicit: in hac domo est album sive albus: an scis per hoc ibi esse 
-      <lb ed="#Sm" n="6"/>equum? 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X528-d1e212">
-               <lb ed="#Sm" n="7"/>D. Non. Sive enim dicat album albedinem, sive in quo est albedo: 
-      <lb ed="#Sm" n="8"/>nullius certae rei mente concipio essentiam nisi huius coloris. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X528-d1e219">
-               <lb ed="#Sm" n="9"/>M. Etiamsi aliquid aliud intelligis quam colorem istum: illud tamen 
-      <lb ed="#Sm" n="10"/>certum est, quia eius in quo est ipse color essentiam per hoc nomen non 
-      <lb ed="#Sm" n="11"/>intelligis. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X528-d1e228">
-               <lb ed="#Sm" n="12"/>D. Certum. Nam etsi occurrat animo corpus aut superficies, quod non 
-      <lb ed="#Sm" n="13"/>ob aliud fit nisi quia expertus sum in his solere esse albedinem: ipsum 
-      <lb ed="#Sm" n="14"/>tamen nomen ,albi' nihil horam significat, sicut probatum est de
-      gramma<lb ed="#Sm" n="15" break="no"/>tico. Sed adhuc expecto ut ostendas quia significat. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X528-d1e239">
-               <lb ed="#Sm" n="16"/>M. Quid si vides stantes iuxta se invicem album equum et nigrum 
-      <lb ed="#Sm" n="17"/>bovem, et dicit tibi aliquis de equo: percute illum, non monstrans aliquo 
-      <lb ed="#Sm" n="18"/>signo de quo dicat: an scis quod de equo dicat? 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X528-d1e249">
-               <lb ed="#Sm" n="19"/>D. Non. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X528-d1e254">
-               <lb ed="#Sm" n="20"/>M. Si vero nescienti tibi et interroganti: quem? respondet: album: 
-      <lb ed="#Sm" n="21"/>intelligis de quo dicit? 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X528-d1e261">
-               <lb ed="#Sm" n="22"/>D. Equum intelligo per nomen albi. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X528-d1e266">
-               <lb ed="#Sm" n="23"/>M. Nomen igitur albi significat tibi equum. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X528-d1e271">
-               <lb ed="#Sm" n="24"/>D. Significat utique. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X528-d1e276">
-               <lb ed="#Sm" n="25"/>M. Nonne vides quia alio modo quam nomen equi? 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X528-d1e282">
-               <lb ed="#Sm" n="26"/>D. Video. Nempe nomen equi etiam priusquam sciam ipsum equum 
-      <lb ed="#Sm" n="27"/>album esse, significat mihi equi substantiam per se, et non per aliud. 
-      <lb ed="#Sm" n="28"/>Nomen vero albi equi substantiam significat non per se, sed per aliud, 
-      <lb ed="#Sm" n="29"/>id est per hoc quia scio equum esse album. Cum enim nihil aliud
-      signi<lb ed="#Sm" n="30" break="no"/>ficet hoc nomen, quod est ,albus', quam haec oratio, quae est ,habens 
-      <lb ed="#Sm" n="31"/>albedinem': sicut haec oratio per se constituit mihi intellectum albedinis, 
-      <lb ed="#Sm" n="32"/>et non eius rei quae habet albedinem; ita et nomen. Sed quoniam scio 
-      <!--187.xml-->
-      <pb ed="#Sm" n="161"/>
-      
-               <lb ed="#Sm" n="1"/>albedinem esse in equo, et hoc per aliud quam per nomen albi, velut 
-      <lb ed="#Sm" n="2"/>per visum: intellecta albedine per hoc nomen, intelligo equum per hoc 
-      <lb ed="#Sm" n="3"/>quod albedinem scio esse in equo, id est per aliud quam per nomen 
-      <lb ed="#Sm" n="4"/>albi, quo tamen equus appellatur. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 14</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#nivaca">Nicolas Vaughan</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 14</title>
+          <date when="2020-10-01">October 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Sm" n="159"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1X528"><!-- aQaa4a-c14 -->
+        <head xml:id="aQaa4a-d1X528-Hd1e118">Caput 14</head>
+        <p xml:id="aQaa4a-d1X528-d1e121">
+          <lb ed="#Sm" n="12"/>[XIV.]
+          <lb ed="#Sm" n="13"/>D. Satis mihi probasti grammaticum non significare hominem.
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e128">
+          <lb ed="#Sm" n="14"/>M. Vides igitur quid dixerim quia grammaticus non est hominis
+          <lb ed="#Sm" n="15"/>significativum?
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e135">
+          <lb ed="#Sm" n="16"/>D. Video, et exspecto ut grammaticum ostendas esse significativum
+          <lb ed="#Sm" n="17"/>grammaticae.
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e142">
+          <lb ed="#Sm" n="18"/>M. Nonne paulo ante dicebas grammaticum significare 
+          <mentioned>hominem
+            scien<lb ed="#Sm" n="19" break="no"/>tem grammaticam</mentioned>?
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e150">
+          <lb ed="#Sm" n="20"/>D. Et credebam.
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e155">
+          <lb ed="#Sm" n="21"/>M. Sed iam satis probatum est quia non significat hominem.
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e160">
+          <lb ed="#Sm" n="22"/>D. Satis.
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e165">
+          <lb ed="#Sm" n="23"/>M. Quid ergo restat?
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e170">
+          <lb ed="#Sm" n="24"/>D. Ut non significet aliud quam .scientem grammaticam'.
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e175">
+          <lb ed="#Sm" n="25"/>M. Est igitur significativum grammaticae.
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e181">
+          <lb ed="#Sm" n="26"/>D. Sufficienter probatum est grammaticum non esse appellativum
+          <lb ed="#Sm" n="27"/>grammaticae sed hominis, nec esse significativum hominis sed grammaticae.
+          <lb ed="#Sm" n="28"/>Sed quoniam dixisti grammaticum significare grammaticam per se et
+          <lb ed="#Sm" n="29"/>hominem per aliud: peto ut aperte mihi duas has significationes distinguas,
+          <!--186.xml-->
+          <pb ed="#Sm" n="160"/>
+          <lb ed="#Sm" n="1"/>ut intelligam quomodo grammaticus non sit significativum eius quod aliquo
+          <lb ed="#Sm" n="2"/>modo significat, aut quomodo sit appellativum eius cuius significativum
+          <lb ed="#Sm" n="3"/>non est.
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e203">
+          <lb ed="#Sm" n="4"/>M. Si est in domo aliqua albus equus te nesciente inclusus, et aliquis
+          <lb ed="#Sm" n="5"/>tibi dicit: in hac domo est album sive albus: an scis per hoc ibi esse
+          <lb ed="#Sm" n="6"/>equum?
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e212">
+          <lb ed="#Sm" n="7"/>D. Non. Sive enim dicat album albedinem, sive in quo est albedo:
+          <lb ed="#Sm" n="8"/>nullius certae rei mente concipio essentiam nisi huius coloris.
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e219">
+          <lb ed="#Sm" n="9"/>M. Etiamsi aliquid aliud intelligis quam colorem istum: illud tamen
+          <lb ed="#Sm" n="10"/>certum est, quia eius in quo est ipse color essentiam per hoc nomen non
+          <lb ed="#Sm" n="11"/>intelligis.
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e228">
+          <lb ed="#Sm" n="12"/>D. Certum. Nam etsi occurrat animo corpus aut superficies, quod non
+          <lb ed="#Sm" n="13"/>ob aliud fit nisi quia expertus sum in his solere esse albedinem: ipsum
+          <lb ed="#Sm" n="14"/>tamen nomen <mentioned>albi</mentioned> nihil horam significat, sicut probatum est de
+          gramma<lb ed="#Sm" n="15" break="no"/>tico. Sed adhuc expecto ut ostendas quia significat.
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e239">
+          <lb ed="#Sm" n="16"/>M. Quid si vides stantes iuxta se invicem album equum et nigrum
+          <lb ed="#Sm" n="17"/>bovem, et dicit tibi aliquis de equo: percute illum, non monstrans aliquo
+          <lb ed="#Sm" n="18"/>signo de quo dicat: an scis quod de equo dicat?
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e249">
+          <lb ed="#Sm" n="19"/>D. Non.
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e254">
+          <lb ed="#Sm" n="20"/>M. Si vero nescienti tibi et interroganti: quem? respondet: album:
+          <lb ed="#Sm" n="21"/>intelligis de quo dicit?
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e261">
+          <lb ed="#Sm" n="22"/>D. Equum intelligo per nomen albi.
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e266">
+          <lb ed="#Sm" n="23"/>M. Nomen igitur albi significat tibi equum.
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e271">
+          <lb ed="#Sm" n="24"/>D. Significat utique.
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e276">
+          <lb ed="#Sm" n="25"/>M. Nonne vides quia alio modo quam nomen equi?
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e282">
+          <lb ed="#Sm" n="26"/>D. Video. Nempe nomen equi etiam priusquam sciam ipsum equum
+          <lb ed="#Sm" n="27"/>album esse, significat mihi equi substantiam per se, et non per aliud.
+          <lb ed="#Sm" n="28"/>Nomen vero albi equi substantiam significat non per se, sed per aliud,
+          <lb ed="#Sm" n="29"/>id est per hoc quia scio equum esse album. Cum enim nihil aliud
+          signi<lb ed="#Sm" n="30" break="no"/>ficet hoc nomen, quod est ,albus', quam haec oratio, quae est <mentioned>habens
+            <lb ed="#Sm" n="31"/>albedinem</mentioned>: sicut haec oratio per se constituit mihi intellectum albedinis,
+          <lb ed="#Sm" n="32"/>et non eius rei quae habet albedinem; ita et nomen. Sed quoniam scio
+          <!--187.xml-->
+          <pb ed="#Sm" n="161"/>
+          <lb ed="#Sm" n="1"/>albedinem esse in equo, et hoc per aliud quam per nomen albi, velut
+          <lb ed="#Sm" n="2"/>per visum: intellecta albedine per hoc nomen, intelligo equum per hoc
+          <lb ed="#Sm" n="3"/>quod albedinem scio esse in equo, id est per aliud quam per nomen
+          <lb ed="#Sm" n="4"/>albi, quo tamen equus appellatur.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

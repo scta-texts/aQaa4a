@@ -1,146 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Caput 9</title>
-            <author ref="#Anselm">Anselm</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-            <respStmt>
-               <name ref="#nivaca">Nicolas Vaughan</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Caput 9</title>
-               <date when="2020-10-01">October 01, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-10-01" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#Sm" n="153"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="aQaa4a-d1e889"><!-- aQaa4a-c9 -->
-            <head xml:id="aQaa4a-d1e889-Hd1e118">Caput 9</head>
-            <p xml:id="aQaa4a-d1e889-d1e121">
-               <lb ed="#Sm" n="22"/>[IX.] 
-      <lb ed="#Sm" n="23"/>M. Verum si probaretur, quod ut puto facile fieri potest, quia esse 
-      <lb ed="#Sm" n="24"/>grammatici ita non est esse hominis, sicut esse albi non est esse hominis 
-      <lb ed="#Sm" n="25"/>— potest enim homo esse sine albo et album sine homine —: tunc vere 
-      <lb ed="#Sm" n="26"/>consequeretur aliquem grammaticum posse esse non hominem. 
-    </p>
-            <p xml:id="aQaa4a-d1e889-d1e134">
-               <lb ed="#Sm" n="27"/>D. Quid ergo laboramus, si hoc probari potest? Proba, et finiatur 
-      <lb ed="#Sm" n="28"/>hsec quaestio. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e889-d1e141">
-               <lb ed="#Sm" n="29"/>M. Non hoc a me debes hic exigere. Non enim in hac quaestione 
-      <lb ed="#Sm" n="30"/>ventilamus utrum possit esse, sed utram sit aliquis grammaticus non homo, 
-      <lb ed="#Sm" n="31"/>quod vides monstrari non posse. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e889-d1e150">
-               <lb ed="#Sm" n="32"/>D. Nondum video, quia adhuc habeo dicere contra. 
-    </p>
-            <p xml:id="aQaa4a-d1e889-d1e156">
-               <lb ed="#Sm" n="33"/>M. Dic. 
-      <!--180.xml-->
-      <pb ed="#Sm" n="154"/>
-               <lb ed="#Sm" n="1"/>D. ARISTOTELES ostendit grammaticum eorum esse quae sunt in
-      sub<lb ed="#Sm" n="2" break="no"/>jecto. Et nullus homo est in subiecto. Quare nullus grammaticus homo. 
-    </p>
-            <p xml:id="aQaa4a-d1e889-d1e169">
-               <lb ed="#Sm" n="3"/>M. Noluit ARISTOTELES hoc consequi ex suis dictis. Nam idem 
-      <lb ed="#Sm" n="4"/>ARISTOTELES dicit et quendam hominem, et hominem et animal
-      gram<lb ed="#Sm" n="5" break="no"/>maticum. 
-    </p>
-            <p xml:id="aQaa4a-d1e889-d1e178">
-               <lb ed="#Sm" n="6"/>D. Quomodo ergo dissolvitur iste syllogismus? 
-    </p>
-            <p xml:id="aQaa4a-d1e889-d1e183">
-               <lb ed="#Sm" n="7"/>M. Responde mihi: cum loqueris mihi de grammatico, unde intelligam 
-      <lb ed="#Sm" n="8"/>te loqui: de hoc nomine, an de rebus quas significat? 
-    </p>
-            <p xml:id="aQaa4a-d1e889-d1e190">
-               <lb ed="#Sm" n="9"/>D. De rebus. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e889-d1e195">
-               <lb ed="#Sm" n="10"/>M. Quas ergo res significat? 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e889-d1e201">
-               <lb ed="#Sm" n="11"/>D. Hominem et grammaticam. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e889-d1e206">
-               <lb ed="#Sm" n="12"/>M. Audito ergo hoc nomine, intelligam hominem aut grammaticam; 
-      <lb ed="#Sm" n="13"/>et loquens de grammatico, loquar de homine aut de grammatica. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e889-d1e213">
-               <lb ed="#Sm" n="14"/>D. Ita oportet. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e889-d1e218">
-               <lb ed="#Sm" n="15"/>M. Dic ergo: homo est substantia, an in subiecto? 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e889-d1e223">
-               <lb ed="#Sm" n="16"/>D. Non est in subiecto, sed est substantia. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e889-d1e228">
-               <lb ed="#Sm" n="17"/>M. Grammatica est qualitas, et in subiecto? 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e889-d1e234">
-               <lb ed="#Sm" n="18"/>D. Utrumque est. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e889-d1e239">
-               <lb ed="#Sm" n="19"/>M. Quid ergo mirum si quis dicit quia grammaticus est substantia et 
-      <lb ed="#Sm" n="20"/>non est in subiecto secundum hominem; et grammaticus est qualitas et 
-      <lb ed="#Sm" n="21"/>in subiecto secundum grammaticam? 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#nivaca">Nicolas Vaughan</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2020-10-01">October 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Sm" n="153"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1e889"><!-- aQaa4a-c9 -->
+        <head xml:id="aQaa4a-d1e889-Hd1e118">Caput 9</head>
+        <p xml:id="aQaa4a-d1e889-d1e121">
+          <lb ed="#Sm" n="22"/>[IX.]
+          <lb ed="#Sm" n="23"/>M. Verum si probaretur, quod ut puto facile fieri potest, quia esse
+          <lb ed="#Sm" n="24"/>grammatici ita non est esse hominis, sicut esse albi non est esse hominis
+          <lb ed="#Sm" n="25"/>---potest enim homo esse sine albo et album sine homine---: tunc vere
+          <lb ed="#Sm" n="26"/>consequeretur aliquem grammaticum posse esse non hominem.
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e134">
+          <lb ed="#Sm" n="27"/>D. Quid ergo laboramus, si hoc probari potest? Proba, et finiatur
+          <lb ed="#Sm" n="28"/>haec quaestio.
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e141">
+          <lb ed="#Sm" n="29"/>M. Non hoc a me debes hic exigere. Non enim in hac quaestione
+          <lb ed="#Sm" n="30"/>ventilamus utrum possit esse, sed utram sit aliquis grammaticus non homo,
+          <lb ed="#Sm" n="31"/>quod vides monstrari non posse.
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e150">
+          <lb ed="#Sm" n="32"/>D. Nondum video, quia adhuc habeo dicere contra.
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e156">
+          <lb ed="#Sm" n="33"/>M. Dic.
+          <!--180.xml-->
+          <pb ed="#Sm" n="154"/>
+          <lb ed="#Sm" n="1"/>D. ARISTOTELES ostendit grammaticum eorum esse quae sunt in
+          sub<lb ed="#Sm" n="2" break="no"/>jecto. Et nullus homo est in subiecto. Quare nullus grammaticus homo.
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e169">
+          <lb ed="#Sm" n="3"/>M. Noluit <name ref="#Aristotle">Aristoteles</name> hoc consequi ex suis dictis. Nam idem
+          <lb ed="#Sm" n="4"/><name ref="#Aristotle">Aristoteles</name> dicit et quendam hominem, et hominem et animal
+          gram<lb ed="#Sm" n="5" break="no"/>maticum.
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e178">
+          <lb ed="#Sm" n="6"/>D. Quomodo ergo dissolvitur iste syllogismus?
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e183">
+          <lb ed="#Sm" n="7"/>M. Responde mihi: cum loqueris mihi de grammatico, unde intelligam
+          <lb ed="#Sm" n="8"/>te loqui: de hoc nomine, an de rebus quas significat?
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e190">
+          <lb ed="#Sm" n="9"/>D. De rebus.
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e195">
+          <lb ed="#Sm" n="10"/>M. Quas ergo res significat?
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e201">
+          <lb ed="#Sm" n="11"/>D. Hominem et grammaticam.
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e206">
+          <lb ed="#Sm" n="12"/>M. Audito ergo hoc nomine, intelligam hominem aut grammaticam;
+          <lb ed="#Sm" n="13"/>et loquens de grammatico, loquar de homine aut de grammatica.
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e213">
+          <lb ed="#Sm" n="14"/>D. Ita oportet.
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e218">
+          <lb ed="#Sm" n="15"/>M. Dic ergo: homo est substantia, an in subiecto?
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e223">
+          <lb ed="#Sm" n="16"/>D. Non est in subiecto, sed est substantia.
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e228">
+          <lb ed="#Sm" n="17"/>M. Grammatica est qualitas, et in subiecto?
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e234">
+          <lb ed="#Sm" n="18"/>D. Utrumque est.
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e239">
+          <lb ed="#Sm" n="19"/>M. Quid ergo mirum si quis dicit quia grammaticus est substantia et
+          <lb ed="#Sm" n="20"/>non est in subiecto secundum hominem; et grammaticus est qualitas et
+          <lb ed="#Sm" n="21"/>in subiecto secundum grammaticam?
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
