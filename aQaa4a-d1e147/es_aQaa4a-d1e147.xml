@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capítulo 3</title>
+        <author ref="#Anselm">Anselmo de Canterbury</author>
+        <respStmt>
+          <name ref="#nivaca">Nicolás Vaughan</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#anlozan">Andrea Lozano-Vásquez</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Felipe Castañeda</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Grupo de Traducción de Latín de Medieval de la Universidad de los Andes</name>
+          <resp>Translator</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capítulo 3</title>
+          <date when="2020-10-07">October 07, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Sm" n="146"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1e147"><!-- aQaa4a-c3 -->
+        <head xml:id="aQaa4a-d1e147-Hd1e118">Capítulo 3</head>
+        <p xml:id="aQaa4a-d1e147-d1e121">
+          [III.]
+          No se sigue.
+          <!--M. Non consequitur.--> 
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e128">
+          D. ¿Por qué?
+          <!--D. Quare?-->
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e133">
+          M. ¿Te parece que el nombre <mentioned>animal</mentioned> significa 
+          algo distinto de <mentioned>substancia animada sensible</mentioned>?
+          <!--M. An tibi videtur "animalis" nomen aliquid aliud significare quam 
+            "substantiam animatam sensibilem"? -->
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e144">
+          D. Un animal no es en absoluto nada distinto que 
+          una substancia animada sensible, ni una substancia animada sensible 
+          es nada distinto que un animal. 
+          <!--D. Prorsus nihil aliud est animal quam .substantia animata sensibilis*, 
+            nec .substantia animata sensibilis* aliud est quam animal. -->
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e152">
+          M. Así es. Pero di también si todo lo que no es distinto 
+          de una substancia animada sensible puede entenderse sin la racionalidad 
+          y si por necesidad no es racional.
+          <!--M. Ita est. Sed dic quoque, utrum omne quod non est aliud quam 
+            substantia animata sensibilis, possit intelligi praeter rationalitatem, nec sit 
+            rationale ex necessitate. -->
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e161">
+          D. No puedo negarlo.
+          <!--D. Negare non possum.--> 
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e166">
+          M. Por lo tanto, todo animal puede entenderse sin la racionalidad y 
+          ningún animal es por necesidad racional.
+          <!--M. Omne igitur animal potest intelligi praeter rationalitatem, et nullum 
+            animal est ex necessitate rationale.--> 
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e173">
+          D. No puedo decir que no se sigue de lo concedido, 
+          aunque mucho temo que sospecho lo que pretendes.
+          <!--D. Nequeo dicere quin ex concessis consequatur, quamquam valde 
+            metuam quod te suspicor intendere. -->
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e180">
+          M. Pero ningún hombre puede entenderse sin la racionalidad 
+          y es necesario que todo hombre sea racional
+          <!--M. At nullus homo potest intelligi praeter rationalitatem, et omnem 
+          hominem necesse est rationalem esse. -->
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e185">
+          Las angustias me aquejan por doquier. [Dan. 13.22] 
+          Pues si lo concedo, concluyes que ningún hombre es animal; 
+          si lo rehúso, dirás que yo tan solo puedo ser entendido 
+          sin la racionalidad, sino que verdaderamente soy sin ella.
+          <!--D. Angustia mihi sunt utrimque. Nam si concedo, concludis nullum 
+          hominem esse animal; si renuo, dices me non tantum posse intelligi sed 
+          vere esse sine rationalitate,-->
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e190">
+          M. No temas. Pues no se sigue lo que piensas.
+          <!--M. Ne timeas. Non enim sequitur quod putas.--> 
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e196">
+          Si es así como lo planteas, concedo voluntariamente cualquier cosa 
+          que has propuesto; pero si no, contra mi voluntad. 
+          <!--D. Si sic est ut promittis, spontaneus concedo quidquid proposuisti; 
+          sin autem, invitus.--> 
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e200">
+          M. Por lo tanto, une tú mismo en dos silogismos 
+          las cuatro últimas proposiciones que formé.
+          <!--M. Contexe ergo tu ipse quattuor ultimas propositiones quas feci in 
+          duos syllogismos.--> 
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e208">
+          D. En todo caso, pueden arreglarse en este orden: 
+          <mentioned>Todo animal puede entenderse sin la racionalidad</mentioned>; 
+          pero <mentioned>ningún hombre puede entenderse sin la racionalidad</mentioned>. 
+          Además: <mentioned>ningún animal es racional por necesidad</mentioned>; 
+          pero <mentioned>todo hombre es racional por necesidad</mentioned>. 
+          Parece que de uno u otro de estos órdenes de parejas de proposiciones se da: 
+          por lo tanto, <mentioned>ningún hombre es animal</mentioned>, 
+          que lo cual nada es más falso, aunque veo que las proposiciones 
+          anteriores en nada vacilan. Pues las dos que tienen a 
+          <mentioned>hombre</mentioned> como término sujeto son tan evidentes 
+          de por sí que sería una imprudencia probarlas; pero las dos en las 
+          que <mentioned>animal</mentioned> es sujeto parecen tan bien probadas 
+          que sería una imprudencia negarlas. 
+          Pero veo que la unión de estos dos silogismos es en todo similar 
+          a aquellos dos que poco antes presenté. 
+          Por lo cual sospecho que no los trajiste para nada distinto 
+          salvo para que, al discernir la conclusión de estos como 
+          abiertamente falsa, yo juzgara lo mismo sobre los <supplied>silogismos</supplied> 
+          similares que yo había formado.
+          <!--D. Hoc utique ordine digeri possunt: Omne animal potest intelligi 
+          praeter rationalitatem. Nullus vero homo potest intelligi praeter
+          rationalitatem. Item: Nullum animal rationale est ex necessitate. Omnis autem 
+          homo rationalis est ex necessitate. Ex utroque hoc ordine binarum
+          propositionum videtur nasci: Nullus igitur homo animal est, quo nihil falsius, 
+          licet praecedentes propositiones in nullo titubare videam. Duae namque 
+          quae subiectum terminum habent hominem, sic sunt per se notae, ut 
+          imprudentia sit eas probare; duae vero quae subiciunt animal, sic videntur 
+          probatae, ut impudentia sit eas negare. Sed video horum duorum
+          syllogismorum conexionem per omnia similem illis duobus quos paulo ante 
+          protuli. Quapropter ad nihil aliud suspicor te hos attulisse, nisi ut cum 
+          horum conclusionem aperte falsam cernerem, idem de similibus quos ego 
+          feceram decernerem. -->
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e243">
+          M. Así es.
+          <!--M. Sic est.-->
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e248">
+          D. Por lo tanto, muéstrame en qué hay tan gran engaño aquí y allá 
+          para que, aunque parezcan proposiciones tanto verdaderas como unidas 
+          según la naturaleza de los silogismos, 
+          sin embargo ninguna verdad sostenga sus conclusiones.
+          <!--D. Ostende ergo in quo et hic et ibi tanta sit deceptio, ut cum et 
+          verae propositiones et secundum naturam syllogismorum conexae
+          videantur, nulla tamen eorum conclusiones veritas tueatur. -->
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

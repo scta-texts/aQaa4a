@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capítulo 8</title>
+        <author ref="#Anselm">Anselmo de Canterbury</author>
+        <respStmt>
+          <name ref="#nivaca">Nicolás Vaughan</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#anlozan">Andrea Lozano-Vásquez</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Felipe Castañeda</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Grupo de Traducción de Latín de Medieval de la Universidad de los Andes</name>
+          <resp>Translator</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capítulo 8</title>
+          <date when="2020-10-07">October 07, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1e741"><!-- aQaa4a-c8 -->
+        <head xml:id="aQaa4a-d1e741-Hd1e118">Capítulo 8</head>
+        <p xml:id="aQaa4a-d1e741-d1e121">
+          [VIII.]
+          D. No tengo qué decir contra esta opinión tuya. 
+          Pero puesto que subrepticiamente me advertiste que no me contentara 
+          con entender qué dices sino que considere eso mismo que dices, 
+          me parece que ha de considerarse aquella conclusión que mostraste 
+          que se concluye de mi silogismo: el ser del gramático 
+          no es el ser del hombre. Pues si esto es así, entonces 
+          lo que tiene la esencia de gramático no por eso necesariamente 
+          tiene la esencia de hombre. Pero si el hombre se sigue del gramático, 
+          la esencia del hombre se sigue de la esencia del gramático.
+          Pero esta <supplied>la del hombre</supplied> no se sigue de esta 
+          <supplied>la del gramático</supplied>. Por lo cual, aquel <supplied>el hombre</supplied> tampoco de aquel <supplied>el gramático</supplied>. 
+          Por lo tanto, no todo gramático es hombre. 
+          Pero puesto que en todos los gramáticos hay un único rasgo de 
+          por qué son hombres, entonces con seguridad o 
+          todo gramático es hombre o ninguno. 
+          Pero consta que no todo. Por lo tanto, ninguno. 
+          Así parece que la conclusión que agudamente eliminaste 
+          de mi silogismo la concediste más agudamente eliminándola.
+          <!--D. Non habeo quid contra hanc tuam sententiam dicam. Sed
+            quoniam latenter monuisti me ut non sim contentus intelligere quid dicas,
+            sed idipsum quod dicis considerem: videtur mihi consideranda illa
+            conclusio quam ex meo syllogismo confici ostendisti, quia esse grammatici
+            non est esse hominis. Si enim hoc est: qui habet essentiam grammatici,
+            non ideo necessario habet essentiam hominis. Sed si homo sequitur
+            grammaticum, essentia hominis sequitur essentiam grammatici. Sed haec non
+            sequitur hanc. Quare nec ille illum, Non est igitur omnis grammaticus
+            homo. At cum omnibus grammaticis una sit ratio cur sint homines:
+            profecto aut omnis grammaticus est homo, aut nullus. Sed constat quia non
+            omnis. Nullus igitur. Videtur itaque quia syllogismo meo conclusionem
+            quam acute abstulisti, auferendo acutius dedisti.-->
+        </p>
+        <p xml:id="aQaa4a-d1e741-d1e152">
+          M. Aunque subrepticiamente te advertí que consideraras lo que oyes, 
+          sin embargo no inútilmente según parece. 
+          Pues aunque pruebes sofísticamente 
+          que ningún gramático es hombre por esto, 
+          porque el ser del gramático no es el ser del hombre, 
+          sin embargo te será útil cuando descubras desnudo 
+          en su falacia el sofisma mismo que te engaña 
+          bajo el manto del razonamiento verdadero.
+          <!--M. Etsi latenter te monui considerare quod audis, non tamen ut
+            apparet inutiliter. Nam etsi sophistice probes nullum grammaticum hominem
+            per hoc quod esse grammatici non est esse hominis: utile tamen tibi erit,
+            cum ipsum sophisma quod te sub pallio ver® rationis fallit, in sua fallacia
+            nudum conspicies.-->
+        </p>
+        <p xml:id="aQaa4a-d1e741-d1e165">
+          D. Por lo tanto, muéstrame en qué me engaña 
+          y dónde me engaña esta prueba que hace poco hice sobre el gramático.
+          <!-- D. Ostende ergo quod me fallat et ubi me fallat hsec quam modo
+            feci de grammatico probatio.-->
+        </p>
+        <p xml:id="aQaa4a-d1e741-d1e172">
+          M. Regresemos otra vez al animal y al hombre, 
+          en los que casi palpamos de tal modo la verdad 
+          que ningún sofisma nos persuada aunque nos fuerce a creer su falsedad. 
+          Por lo tanto, di si el ser de cada cosa se da en su definición.
+          <!--M. Redeamus iterum ad animal et hominem, in quibus ita quasi
+            palpamus veritatem, ut nullum sophisma nobis persuadeat licet cogat credere
+            salsitatem. Dic ergo utrum esse uniuscuiusque rei in definitione consistat.-->
+        </p>
+        <p xml:id="aQaa4a-d1e741-d1e182">
+          D. Así es.
+          <!--D. Ita est.-->
+        </p>
+        <p xml:id="aQaa4a-d1e741-d1e187">
+          M. ¿La definición del hombre es la definición del animal?
+          <!--M. Definitio hominis est definitio animalis?-->
+        </p>
+        <p xml:id="aQaa4a-d1e741-d1e192">
+          D. De ninguna manera. 
+          Pues si <mentioned>animal racional mortal</mentioned>, 
+          que es la definición del hombre, fuera la definición del animal, 
+          a cualquier cosa que conviniera <mentioned>animal</mentioned> 
+          le convendría <mentioned>racional mortal</mentioned>, lo que es falso.
+          <!--D. Minime. Si enim ,animal rationale mortale*, quae est definitio,
+            hominis, esset definitio animalis: cuicumque conveniret 
+            <mentioned>animal</mentioned>, conveniret
+            <mentioned>rationale mortale</mentioned>, quod falsum est.-->
+        </p>
+        <p xml:id="aQaa4a-d1e741-d1e205">
+          M. Por lo tanto, el ser del hombre no es el ser del animal.
+          <!--M. Non est igitur esse hominis esse animalis.-->
+        </p>
+        <p xml:id="aQaa4a-d1e741-d1e210">
+          D. Así se sigue.
+          <!--D. Ita consequitur.-->
+        </p>
+        <p xml:id="aQaa4a-d1e741-d1e215">
+          M. Por lo tanto, puedes probar a partir de esto que 
+          ningún hombre es animal, por la misma razón por la que probaste 
+          hace poco que ningún gramático es hombre. 
+          Por lo cual, si ves que es una clara falsedad 
+          lo que este razonamiento tuyo aquí concluye, 
+          no creas que es una verdad cierta lo que allí confunde.
+          <!--M. Potes igitur ex hoc probare quia nullus homo animal est, eadem
+            ratione qua probasti modo nullum grammaticum hominem. Quapropter si
+            vides apertam esse falsitatem, quod haec tua ratiocinatio hic concludit:
+            ne credas certam esse veritatem quod ibi ludit.-->
+        </p>
+        <p xml:id="aQaa4a-d1e741-d1e227">
+          D. Ya me mostraste que me engaña; también muéstrame dónde.
+          <!--D. Iam ostendisti quia me fallit; ostende etiam ubi.-->
+        </p>
+        <p xml:id="aQaa4a-d1e741-d1e232">
+          M. ¿No retienes lo que hace poco dije, que tú concediste, 
+          que <mentioned>El ser del gramático no es el ser del hombre</mentioned> 
+          equivale a decir: 
+          <mentioned>
+            La definición del gramático no es la definición del hombre
+          </mentioned>, 
+          esto es: 
+          <mentioned>
+            No es totalmente lo mismo el gramático y el hombre
+          </mentioned>? 
+          Pues así como el hombre no debe definirse con la gramática, 
+          así el gramático no puede sin la gramática. 
+          Por lo cual aquella argumentación tuya debe entenderse de este modo: 
+          si el ser del gramático no es absolutamente el ser del hombre, 
+          no por esto se sigue que quien tiene la esencia del gramático 
+          tenga absolutamente la esencia del hombre. 
+          Similarmente ha de entenderse que absolutamente 
+          el hombre no se sigue del gramático, esto es, si el gramático es, 
+          no se sigue que sea absolutamente un hombre. 
+          Pero así no se sigue nada distinto salvo 
+          que ningún gramático es absolutamente un hombre.
+          <!--M. Non tenes quod paulo ante dixi te concedente quia esse
+            grammatici non est esse hominis, idem valet ac si diceretur: definitio grammatici
+            non est definitio hominis, id est: non est idem omnino grammaticus et
+            homo? Sicut enim homo definiri non debet cum grammatica, ita
+            grammaticus non valet sine grammatica. Quare debet intelligi illa tua
+            argumenis tatio hoc modo: Si esse grammatici non est simpliciter 
+            esse hominis: qui
+            habet essentiam grammatici, non ideo consequitur ut habeat simpliciter
+            essentiam hominis. Similiter intelligendum est quia simpliciter homo non
+            is sequitur grammaticum, id est: si grammaticus est, non consequitur ut sit
+            simpliciter homo. Ita vero nihil aliud consequitur nisi: nullus grammaticus
+            est simpliciter homo.-->
+        </p>
+        <p xml:id="aQaa4a-d1e741-d1e258">
+          D. Nada más claro.
+          <!--D. Nihil clarius.-->
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capítulo 20</title>
+        <author ref="#Anselm">Anselmo de Canterbury</author>
+        <respStmt>
+          <name ref="#nivaca">Nicolás Vaughan</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#anlozan">Andrea Lozano-Vásquez</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Felipe Castañeda</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Grupo de Traducción de Latín de Medieval de la Universidad de los Andes</name>
+          <resp>Translator</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capítulo 20</title>
+          <date when="2020-10-07">October 07, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1e2146"><!-- aQaa4a-c20 -->
+        <head xml:id="aQaa4a-d1e2146-Hd1e118">Capítulo 20</head>
+        <p xml:id="aQaa4a-d1e2146-d1e121">
+          [XX.]
+          D. Quisiera que se me explicara más claramente 
+          cómo no se da algún uno a partir de estas cosas que 
+          <mentioned>blanco</mentioned> significa.
+          <!--D. Planius mihi vellem explicari quomodo non fiat unum aliquid ex
+            iis quae significat albus.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2146-d1e130">
+          M. Si algo se constituye a partir de ellas, 
+          o es substancia o es alguna de las otras categorías.
+          <!--M. Si aliquid constat ex eis, aut est substantia aut aliquid aliorum
+            praedicamentorum.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2146-d1e137">
+          D. No puede ser otra cosa.
+          <!--D. Aliud esse non potest.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2146-d1e142">
+          M. Pero ninguna de estas cosas se da a partir del tener y la blancura.
+          <!--M. Sed nihil horum fit ex habere et albedine.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2146-d1e152">
+          D. No lo puedo contradecir.
+          <!--D. Non possum contradicere.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2146-d1e157">
+          M. Además, lo uno no se da a partir de muchas cosas 
+          sino o bien a partir de la composición de las partes 
+          que son de la misma categoría, 
+          como el animal se constituye a partir del cuerpo y el alma; 
+          o bien a partir de la conformidad del género 
+          y la diferencia de lo uno o de muchas cosas, como el cuerpo y el hombre; 
+          o bien a partir de la especie y la reunión de los propios, 
+          como <name ref="#Plato">Platón</name>. 
+          Pero aquellas cosas que <mentioned>blanco</mentioned> 
+          significa no son de una sola categoría, 
+          ni son la una para la otra género o diferencia o especie 
+          o reunión de propios, ni son diferencias de un solo género, 
+          sino que son accidentes del mismo sujeto 
+          al que sin embargo <mentioned>blanco</mentioned> no significa, 
+          porque no significa en absoluto otra cosa que tener y cualidad. 
+          Por lo cual lo uno no se da a partir de esas cosas 
+          que <mentioned>blanco</mentioned> significa.
+          <!--M. Item: Unum non fit ex pluribus nisi aut compositione partium quae
+            sunt eiusdem praedicamenti, ut animal constat corpore et anima; aut 
+            convenientia generis et differentiae unius vel plurium, ut corpus et homo; aut
+            specie et proprietatum collectione, ut Plato. Illa vero quae albus significat,
+            non sunt unius praedicamenti, nec est alterum alteri genus aut differentia
+            aut species aut collectio proprietatum, nec sunt differentiae unius generis,
+            sed sunt accidentia eiusdem subiecti, quod tamen sublectum albus non
+            significat, quia omnino nihil significat aliud quam habere et qualitatem.
+            Quare non fit unum ex iis quae albus significat.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2146-d1e179">
+          D. Aunque me parece que la razón afirma lo que expones, 
+          quisiera sin embargo escuchar qué contestarías 
+          si alguien objetara de esta manera a esto que dices 
+          que <mentioned>blanco</mentioned> no significa en absoluto 
+          otra cosa que tener y cualidad: blanco, 
+          aunque sea lo mismo que lo que teniente 
+          <supplied><foreign xml:lang="la">habens</foreign></supplied> 
+          de la blancura, no significa de manera determinada 
+          esto o aquello que la tiene ---así como el cuerpo---, 
+          sino de manera indeterminada algo que tiene la blancura. 
+          Pues lo blanco es o bien el que tiene la blancura o bien el que no la tiene. 
+          Pero el que no tiene la blancura no es blanco. 
+          Por lo tanto, blanco es el que tiene la blancura. 
+          Por lo cual, dado que todo el que tiene la blancura no es sino algo, 
+          es necesario que lo blanco sea algo que tiene la blancura, 
+          o algo teniente de la blancura. 
+          Finalmente, blanco significa algo que tiene la blancura o nada. 
+          Pero nada no puede entenderse como lo que tiene la blancura. 
+          Por lo tanto es necesario que blanco signifique algo que tiene la blancura.
+          <!--D. Quamquam ratio mihi asserere videatur quae disseris, vellem tamen
+            audire quid responderes, si quis ad hoc quod dicis quia nihil omnino
+            significat albus aliud quam habere et qualitatem, sic obiceret: Albus cum
+            sit idem quod habens albedinem, non significat determinate hoc vel illud
+            habens, velut corpus, sed indeterminate aliquid habens albedinem. Albus
+            enim aut est qui habet albedinem, aut qui non habet. Sed qui non habet
+            albedinem, non est albus. Albus igitur est qui habet albedinem. Quare
+            quoniam omnis qui albedinem habet non nisi aliquid est, necesse est ut
+            albus sit aliquid quod habet albedinem, aut aliquid habens albedinem.
+            Denique albus aut aliquid significat habens albedinem aut nihil. Sed nihil
+            non potest intelligi habens albedinem. Necesse est ergo ut albus significet
+            aliquid habens albedinem.-->
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,124 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Caput 19</title>
-            <author ref="#Anselm">Anselm</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-            <respStmt>
-               <name ref="#nivaca">Nicolas Vaughan</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Caput 19</title>
-               <date when="2020-10-01">October 01, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-10-01" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#Sm" n="164"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="aQaa4a-d1e2033"><!-- aQaa4a-c19 -->
-            <head xml:id="aQaa4a-d1e2033-Hd1e118">Caput 19</head>
-            <p xml:id="aQaa4a-d1e2033-d1e121">
-               <lb ed="#Sm" n="15"/>[XIX.] 
-      <lb ed="#Sm" n="16"/>D. Aperta ratio nihil me in iis quae dixisti dubitare permittit. Sed 
-      <lb ed="#Sm" n="17"/>adhuc est de hac quaestione quod velim discere. Nam si grammaticus est 
-      <lb ed="#Sm" n="18"/>qualitas quia significat qualitatem: non video cur ,armatus' non sit
-      sub<lb ed="#Sm" n="19" break="no"/>stantia cum significet substantiam. Et si armatus ideo est ,habere' quia 
-      <lb ed="#Sm" n="20"/>significat habere: ignoro cur grammaticus non sit habere quia significat 
-      <lb ed="#Sm" n="21"/>habere. Omnino enim quemadmodum grammaticus probatur significare 
-      <lb ed="#Sm" n="22"/>qualitatem, quia significat habentem qualitatem: ita armatus significat
-      sub<lb ed="#Sm" n="23" break="no"/>stantiam, quia significat habentem substantiam, id est arma. Et sicut 
-      <lb ed="#Sm" n="24"/>armatus convincitur significare habere, quia significat habentem arma: sic 
-      <lb ed="#Sm" n="25"/>grammaticus significat habere, quia significat habentem disciplinam. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e2033-d1e147">
-               <lb ed="#Sm" n="26"/>M. Nullatenus hac ratione considerata negare possum aut armatum 
-      <lb ed="#Sm" n="27"/>esse substantiam aut grammaticum habere. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e2033-d1e154">
-               <lb ed="#Sm" n="28"/>D. Vellem ergo a te doceri utrum unum aliquid possit esse
-      diver<lb ed="#Sm" n="29" break="no"/>sorum praedicamentorum. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e2033-d1e161">
-               <lb ed="#Sm" n="30"/>M. Rem quidem unam eandemque non puto sub diversis aptari posse 
-      <!--191.xml-->
-      <pb ed="#Sm" n="165"/>
-      
-               <lb ed="#Sm" n="1"/>praedicamentis, licet in quibusdam dubitari possit; quod maiori et altiori 
-      <lb ed="#Sm" n="2"/>indigere disputatione existimo, quam hac nostra brevi sermocinatione 
-      <lb ed="#Sm" n="3"/>assumpsimus. Unam autem vocem plura significantem non ut unum, non 
-      <lb ed="#Sm" n="4"/>video quid prohibeat pluribus aliquando supponi praedicamentis, ut si 
-      <lb ed="#Sm" n="5"/>,albus' dicitur qualitas et habere. Albus enim non ita significat qualitatem 
-      <lb ed="#Sm" n="6"/>et habere ut unum, quemadmodum homo significat ut unum substantiam 
-      <lb ed="#Sm" n="7"/>et qualitates quibus constat homo. Res enim quae appellatur ,homo‘, est 
-      <lb ed="#Sm" n="8"/>unum quiddam constans ex iis quae dixi; res vero quae appellatur ,albus', 
-      <lb ed="#Sm" n="9"/>non est unum aliquid ex habere et qualitate constans, quia nihil appellatur 
-      <lb ed="#Sm" n="10"/>albus nisi res quae habet albedinem, quae nequaquam constat ex habere 
-      <lb ed="#Sm" n="11"/>et qualitate. Quare si dicitur: homo est substantia et homo est qualitas: 
-      <lb ed="#Sm" n="12"/>una eademque res quae significatur et appellatur hoc nomine, dicitur
-      sub<lb ed="#Sm" n="13" break="no"/>stantia esse et qualitas, quod videtur inconveniens. Cum autem dicimus 
-      <lb ed="#Sm" n="14"/>quia albus est qualitas et habere, non dicimus quia quod appellatur hoc 
-      <lb ed="#Sm" n="15"/>is nomine est qualitas et habere, sed quia haec duo significantur hoc nomine, 
-      <lb ed="#Sm" n="16"/>et nihil inconveniens sequitur. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e2033-d1e206">
-               <lb ed="#Sm" n="17"/>D. Cur autem non est homo secundum divisionem ARISTOTELIS
-      sub<lb ed="#Sm" n="18" break="no"/>is stantia et qualitas, quia utrumque significat, quemadmodum est albus 
-      <lb ed="#Sm" n="19"/>qualitas et habere propter utriusque significationem? 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e2033-d1e215">
-               <lb ed="#Sm" n="20"/>M. Aestimo huic interrogationi illud posse sufficere quod supra dixi, 
-      <lb ed="#Sm" n="21"/>quia principaliter est significativum substantiae, et quia unum illud quod 
-      <lb ed="#Sm" n="22"/>significat substantia est, et non qualitas sed quale; albus vero nihil
-      prin<lb ed="#Sm" n="23" break="no"/>cipalius sed pariter significat qualitatem et habere, nec fit unum ex his 
-      <lb ed="#Sm" n="24"/>quod magis sit hoc vel illud, cuius sit albus significativum. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 19</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#nivaca">Nicolas Vaughan</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 19</title>
+          <date when="2020-10-01">October 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Sm" n="164"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1e2033"><!-- aQaa4a-c19 -->
+        <head xml:id="aQaa4a-d1e2033-Hd1e118">Caput 19</head>
+        <p xml:id="aQaa4a-d1e2033-d1e121">
+          <lb ed="#Sm" n="15"/>[XIX.]
+          <lb ed="#Sm" n="16"/>D. Aperta ratio nihil me in iis quae dixisti dubitare permittit. Sed
+          <lb ed="#Sm" n="17"/>adhuc est de hac quaestione quod velim discere. Nam si grammaticus est
+          <lb ed="#Sm" n="18"/>qualitas quia significat qualitatem: non video cur ,armatus' non sit
+          sub<lb ed="#Sm" n="19" break="no"/>stantia cum significet substantiam. Et si armatus ideo est ,habere' quia
+          <lb ed="#Sm" n="20"/>significat habere: ignoro cur grammaticus non sit habere quia significat
+          <lb ed="#Sm" n="21"/>habere. Omnino enim quemadmodum grammaticus probatur significare
+          <lb ed="#Sm" n="22"/>qualitatem, quia significat habentem qualitatem: ita armatus significat
+          sub<lb ed="#Sm" n="23" break="no"/>stantiam, quia significat habentem substantiam, id est arma. Et sicut
+          <lb ed="#Sm" n="24"/>armatus convincitur significare habere, quia significat habentem arma: sic
+          <lb ed="#Sm" n="25"/>grammaticus significat habere, quia significat habentem disciplinam.
+        </p>
+        <p xml:id="aQaa4a-d1e2033-d1e147">
+          <lb ed="#Sm" n="26"/>M. Nullatenus hac ratione considerata negare possum aut armatum
+          <lb ed="#Sm" n="27"/>esse substantiam aut grammaticum habere.
+        </p>
+        <p xml:id="aQaa4a-d1e2033-d1e154">
+          <lb ed="#Sm" n="28"/>D. Vellem ergo a te doceri utrum unum aliquid possit esse
+          diver<lb ed="#Sm" n="29" break="no"/>sorum praedicamentorum.
+        </p>
+        <p xml:id="aQaa4a-d1e2033-d1e161">
+          <lb ed="#Sm" n="30"/>M. Rem quidem unam eandemque non puto sub diversis aptari posse
+          <!--191.xml-->
+          <pb ed="#Sm" n="165"/>
+          <lb ed="#Sm" n="1"/>praedicamentis, licet in quibusdam dubitari possit; quod maiori et altiori
+          <lb ed="#Sm" n="2"/>indigere disputatione existimo, quam hac nostra brevi sermocinatione
+          <lb ed="#Sm" n="3"/>assumpsimus. Unam autem vocem plura significantem non ut unum, non
+          <lb ed="#Sm" n="4"/>video quid prohibeat pluribus aliquando supponi praedicamentis, ut si
+          <lb ed="#Sm" n="5"/><mentioned>albus</mentioned> dicitur qualitas et habere. Albus enim non ita significat qualitatem
+          <lb ed="#Sm" n="6"/>et habere ut unum, quemadmodum homo significat ut unum substantiam
+          <lb ed="#Sm" n="7"/>et qualitates quibus constat homo. Res enim quae appellatur <mentioned>homo</mentioned>, est
+          <lb ed="#Sm" n="8"/>unum quiddam constans ex iis quae dixi; res vero quae appellatur <mentioned>albus</mentioned>,
+          <lb ed="#Sm" n="9"/>non est unum aliquid ex habere et qualitate constans, quia nihil appellatur
+          <lb ed="#Sm" n="10"/>albus nisi res quae habet albedinem, quae nequaquam constat ex habere
+          <lb ed="#Sm" n="11"/>et qualitate. Quare si dicitur: homo est substantia et homo est qualitas:
+          <lb ed="#Sm" n="12"/>una eademque res quae significatur et appellatur hoc nomine, dicitur
+          sub<lb ed="#Sm" n="13" break="no"/>stantia esse et qualitas, quod videtur inconveniens. Cum autem dicimus
+          <lb ed="#Sm" n="14"/>quia albus est qualitas et habere, non dicimus quia quod appellatur hoc
+          <lb ed="#Sm" n="15"/>is nomine est qualitas et habere, sed quia haec duo significantur hoc nomine,
+          <lb ed="#Sm" n="16"/>et nihil inconveniens sequitur.
+        </p>
+        <p xml:id="aQaa4a-d1e2033-d1e206">
+          <lb ed="#Sm" n="17"/>D. Cur autem non est homo secundum divisionem <name ref="#Aristotle">Aristotelis</name>
+          sub<lb ed="#Sm" n="18" break="no"/>is stantia et qualitas, quia utrumque significat, quemadmodum est albus
+          <lb ed="#Sm" n="19"/>qualitas et habere propter utriusque significationem?
+        </p>
+        <p xml:id="aQaa4a-d1e2033-d1e215">
+          <lb ed="#Sm" n="20"/>M. Aestimo huic interrogationi illud posse sufficere quod supra dixi,
+          <lb ed="#Sm" n="21"/>quia principaliter est significativum substantiae, et quia unum illud quod
+          <lb ed="#Sm" n="22"/>significat substantia est, et non qualitas sed quale; albus vero nihil
+          prin<lb ed="#Sm" n="23" break="no"/>cipalius sed pariter significat qualitatem et habere, nec fit unum ex his
+          <lb ed="#Sm" n="24"/>quod magis sit hoc vel illud, cuius sit albus significativum.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

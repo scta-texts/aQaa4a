@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capítulo 16</title>
+        <author ref="#Anselm">Anselmo de Canterbury</author>
+        <respStmt>
+          <name ref="#nivaca">Nicolás Vaughan</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#anlozan">Andrea Lozano-Vásquez</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Felipe Castañeda</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Grupo de Traducción de Latín de Medieval de la Universidad de los Andes</name>
+          <resp>Translator</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capítulo 16</title>
+          <date when="2020-10-07">October 07, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1X776"><!-- aQaa4a-c16 -->
+        <head xml:id="aQaa4a-d1X776-Hd1e118">Capítulo 16</head>
+        <p xml:id="aQaa4a-d1X776-d1e121">
+          [XVI.]
+          D. Es evidente lo que dices. Pero no sin preocupación 
+          el espíritu acepta que el gramático es cualidad 
+          aunque signifique la gramática o que el solo hombre esto es sin gramática, 
+          sea gramático, por más que está probado que el hombre 
+          y la gramática simultáneamente no son el gramático. 
+          De donde se sigue que el solo hombre es gramático, 
+          puesto que no puede ser gramático sino o bien solo o bien con la gramática. 
+          Aunque, puesto que el nombre <mentioned>gramático</mentioned> 
+          es significativo de la gramática, 
+          sin embargo no se responde adecuadamente 
+          al que pregunta qué es <mentioned>gramático</mentioned>: 
+          gramática o cualidad.
+          Y si ninguno es gramático sino al participar de la gramática, 
+          se sigue que el hombre no es gramático sino con la gramática.
+          <!--D. Patet quod dicis. Sed non sine scrupulo accipit animus
+          grammaticum esse qualitatem, quamvis significet grammaticam, aut hominem
+          solum, id est sine grammatica, esse grammaticum, licet probatum sit
+          hominem simul et grammaticam non esse grammaticum; unde consequitur
+          solum hominem esse grammaticum, quoniam non potest esse grammaticus
+          nisi aut solus aut cum grammatica. Quamvis namque grammatici nomen
+          significativum sit grammaticae: non tamen convenienter respondetur
+          quaerenti quid grammaticus sit: grammatica, aut qualitas. Et si nullus est
+          grammaticus nisi participando grammaticam, consequitur ut homo non sit
+          grammaticus nisi cum grammatica.-->
+        </p>
+        <p xml:id="aQaa4a-d1X776-d1e155">
+          M. Ciertamente lo que se dice 
+          ---que el solo hombre, esto es, sin la gramática, es gramático--- 
+          puede ser entendido de dos modos, uno verdadero, otro falso, 
+          lo que es suficiente para resolver tu pregunta. 
+          Sin duda, el solo hombre sin gramática es gramático, 
+          porque él solo es el-que-tiene la gramática. 
+          Puesto que la gramática ni sola ni junto con el hombre tiene la gramática.  
+          Pero el hombre solo, esto es, sin la gramática, 
+          no es gramático porque, en ausencia de la gramática, 
+          ninguno puede ser gramático. Así como, quien al ir delante conduce a otro, 
+          por una parte, él únicamente es el guía 
+          ---porque quien sigue no es el guía, ni separadamente 
+          ni de tal manera que de ellos dos resulte un único guía---; 
+          y, por otra parte, él solo no es guía porque, a menos que haya quien lo siga, 
+          no puede ser guía.  Pero cuando se dice que el gramático es cualidad, 
+          no se dice rectamente excepto según el tratado de 
+          <name ref="#Aristotle">Aristóteles</name>, 
+          <title>De las categorías</title>.
+          <!--M. Quod quidem dicitur quia homo solus, id est sine grammatica,
+          est grammaticus, quantum ad tuam quaestionem solvendam sufficit,
+          duobus modis intelligi potest, uno vero, altero falso. Homo quippe solus sine
+          grammatica est grammaticus, quia solus est habens grammaticam.
+          Grammatica namque nec sola nec cum homine habet grammaticam. Sed homo
+          solus, id est absque grammatica, non est grammaticus, quia absente
+          grammatica nullus esse grammaticus potest. Sicut qui praecedendo ducit
+          alium, et solus est praevius, quia qui sequitur non est praevius, nec
+          separatim nec sic ut ex illis duobus unus fiat praevius; et solus non est
+          praevius, quia nisi sit qui sequatur, praevius esse non potest. Cum vero
+          dicitur quia grammaticus est qualitas: non recte nisi secundum tractatum
+          1<name ref="#Aristotle">Aristotelis</name> <title>De categoriis</title> dicitur.-->
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

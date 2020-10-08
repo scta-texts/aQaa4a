@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capítulo 12</title>
+        <author ref="#Anselm">Anselmo de Canterbury</author>
+        <respStmt>
+          <name ref="#nivaca">Nicolás Vaughan</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#anlozan">Andrea Lozano-Vásquez</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Felipe Castañeda</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Grupo de Traducción de Latín de Medieval de la Universidad de los Andes</name>
+          <resp>Translator</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capítulo 12</title>
+          <date when="2020-10-07">October 07, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1X179"><!-- aQaa4a-c12 -->
+        <head xml:id="aQaa4a-d1X179-Hd1e118">Capítulo 12</head>
+        <p xml:id="aQaa4a-d1X179-d1e121">
+          [XII.]
+          M. Puesto que repudias aquella razón que dije ---a saber, 
+          de por qué gramático es substancia y cualidad---, 
+          porque no vale en el nombre <mentioned>hombre</mentioned>, lo haces 
+          ---como pienso--- por esto, porque no consideras 
+          cuán disímilmente significan, a saber, el nombre <mentioned>hombre</mentioned>, 
+          las cosas de las cuales consta el hombre y <mentioned>gramático</mentioned>, 
+          el hombre y la gramática. De modo que el nombre <mentioned>hombre</mentioned> 
+          de por sí y como unidad significa las cosas 
+          de las que consta el hombre todo, entre las cuales 
+          la substancia tiene el lugar principal, puesto que es la causa de las otras 
+          y las tiene no como careciendo de aquellas, 
+          sino como aquellas careciendo de ella. Pues no hay ninguna diferencia 
+          en la substancia sin la que la substancia no pueda encontrarse 
+          y sin ella ninguna de sus diferencias puede existir. 
+          Por lo cual, aunque todas las cosas simultáneamente, como un único todo, 
+          bajo una única significación, con un único nombre 
+          sean apeladas <mentioned>hombre</mentioned>, así no obstante 
+          este nombre principalmente es significativo y apelativo de la substancia, 
+          de modo que aunque rectamente se diga: 
+          <mentioned>La substancia es hombre y el hombre substancia</mentioned>, 
+          sin embargo que nadie diga: 
+          <mentioned>La racionalidad es hombre o el hombre es racionalidad</mentioned>, 
+          sino <mentioned>que tiene racionalidad</mentioned>. 
+          Pero <mentioned>gramático</mentioned> no significa el hombre y la gramática 
+          como una unidad, sino significa la gramática de por sí y el hombre por otro. 
+          Y este nombre aunque sea apelativo del hombre, 
+          sin embargo no se dice propiamente que sea significativo de él; 
+          y aunque sea significativo de la gramática, sin embargo no es apelativo de ella. 
+          Sin embargo, ahora llamo <mentioned>nombre apelativo</mentioned> 
+          al nombre de cualquier cosa por el que la cosa misma es apelada 
+          según el uso corriente de hablar. Pues según ningún uso corriente de hablar 
+          se dice: <mentioned>La gramática es gramático</mentioned> 
+          o: <mentioned>El gramático es gramática</mentioned> sino: 
+          <mentioned>El hombre es gramático</mentioned> y 
+          <mentioned>El gramático, hombre</mentioned>.
+          <!--M. Quod illam rationem quam dixi, cur grammaticus scilicet sit
+          substantia et qualitas, idcirco repudias quia non valet in nomine hominis:
+          ideo facis ut puto quia non consideras, quam dissimiliter significent scilicet
+          nomen hominis ea ex quibus constat homo, et grammaticus hominem et
+          grammaticam. Nempe nomen hominis per se et ut unum significat ea ex
+          quibus constat totus homo. In quibus substantia principalem locum tenet,
+          quoniam est causa aliorum et habens ea, non ut indigens illis sed ut se
+          indigentia. Nulla enim est differentia substantiae sine qua substantia inveniri
+          non possit, et nulla differentiarum eius sine illa potest existere. Quapropter
+          quamvis omnia simul velut unum totum sub una significatione uno nomine
+          appellentur ,homo‘, sic tamen principaliter hoc nomen est significativum et
+          appellativum substantiae, ut cum recte dicatur: substantia est homo et
+          homo substantia: nullus tamen dicat: rationalitas est homo aut homo ratio-
+          nalitas, sed habens rationalitatem. Grammaticus vero non significat hominem
+          et grammaticam ut unum, sed grammaticam per se et hominem per aliud
+          significat. Et hoc nomen quamvis sit appellativum hominis, non tamen
+          proprie dicitur eius significativum; et licet sit significativum grammaticae,
+          non tamen est eius appellativum. Appellativum autem nomen cuiuslibet
+          rei nunc dico, quo res ipsa usu loquendi appellatur. Nullo enim usu
+          loquendi dicitur: grammatica est grammaticus, aut: grammaticus est
+          grammatica; sed: homo est grammaticus, et grammaticus homo.-->
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

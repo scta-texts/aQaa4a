@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capítulo 1</title>
+        <author ref="#Anselm">Anselmo de Canterbury</author>
+        <respStmt>
+          <name ref="#nivaca">Nicolás Vaughan</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#anlozan">Andrea Lozano-Vásquez</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Felipe Castañeda</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Grupo de Traducción de Latín de Medieval de la Universidad de los Andes</name>
+          <resp>Translator</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capítulo 1</title>
+          <date when="2020-10-07">October 07, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Sm" n="145"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1e3aa"><!-- aQaa4a-c1 -->
+        <head xml:id="aQaa4a-d1e3aa-Hd1e118">Capítulo 1</head>
+        <p xml:id="aQaa4a-d1e3aa-d1e121"><!--171.xml-->
+          [I] Cómo el gramático es substancia y cualidad.
+          <!--Cómo el gramático es substancia y cualidad-->
+        </p>
+        <p xml:id="aQaa4a-d1e3aa-d1e125">
+          DISCÍPULO. Sobre el gramático te pido que me aclares 
+          si es una substancia o una cualidad, para que, una vez conozca esto, 
+          sepa qué debo opinar de otras cosas que se dicen denominativamente 
+          de manera similar.
+          <!--DISCIPULUS. De ,grammatico' peto ut me certum facias utrum sit 
+          substantia an qualitas, ut hoc cognito, quid de aliis quse similiter
+          denominative dicuntur sentire debeam, agnoscam. -->
+        </p>
+        <p xml:id="aQaa4a-d1e3aa-d1e140">
+          MAESTRO: Di primero por qué dudas.
+          <!--MAGISTER. Dic primum cur dubites.-->
+        </p>
+        <p xml:id="aQaa4a-d1e3aa-d1e145">
+          DISCÍPULO. Por el hecho de que parece que una y otra, a saber, 
+          que es y que no es, pueden ser probadas con argumentos necesarios.
+          <!--D. Ideo quia videtur utrumque posse probari necessariis rationibus, 
+          esse scilicet et non esse.-->
+        </p>
+        <p xml:id="aQaa4a-d1e3aa-d1e152">
+          M. Pruébalo, por lo tanto.
+          <!--M. Proba ergo.-->
+        </p>
+        <p xml:id="aQaa4a-d1e3aa-d1e158">
+          D. Por lo tanto, no te apresures a contradecir cualquier cosa que diga, 
+          sino permite que mi discurso alcance su fin; luego o aprueba o corrige.
+          <!--D. Ne ergo festines contradicere quidquid dixero, sed patere me
+          orationem meam ad suum finem perducere, deinde aut approba aut corrige. -->
+        </p>
+        <p xml:id="aQaa4a-d1e3aa-d1e165">
+          M. Como quieras.
+          <!--M. Ut vis.-->
+        </p>
+        <p xml:id="aQaa4a-d1e3aa-d1e170">
+          D. Ciertamente, para que se pruebe que el gramático es una substancia, 
+          basta que todo gramático sea hombre y que todo hombre sea substancia. 
+          Pues cualquier cosa que tiene el gramático para que de él se siga 
+          la substancia, no la tiene sino por eso porque es hombre. 
+          Por lo cual, concedido esto, que es hombre, cualquier cosa 
+          que se siga del hombre se sigue del gramático. 
+          Pero que gramático es cualidad es abiertamente reconocido 
+          por los filósofos que trataron sobre este asunto. Es desvergüenza 
+          desconocer la autoridad de ellos en estos asuntos. 
+          Además, puesto que es necesario que el gramático sea o una substancia 
+          o una cualidad, de tal manera que cualquiera de estos que sea 
+          no es el otro y cualquiera que no sea es necesario que sea el otro, 
+          cualquier cosa que es capaz de apoyar una parte refuta la otra 
+          y cualquier cosa que debilita una, corrobora la otra. Por lo tanto, 
+          puesto que uno de estos es verdadero, el otro es falso; 
+          entonces te pido que, revelando la falsedad, descubras para mí la verdad.
+          <!--D. Ut quidem grammaticus probetur esse substantia, sufficit quia 
+          is omnis grammaticus homo, et omnis homo substantia. Quidquid enim habet 
+          grammaticus ut sequatur eum substantia, non habet nisi ex eo quia homo 
+          est. Quare hoc concesso ut homo sit: qusecumque sequuntur hominem, 
+          sequuntur grammaticum. Quod vero grammaticus sit qualitas, aperte
+          fatentur philosophi qui de hac re tractaverunt. Quorum auctoritatem de his 
+          rebus est impudentia improbare. Item quoniam necesse est ut grammaticus r 
+          sit aut substantia aut qualitas, ut quodlibet horum sit alterum non sit, et 
+          quodlibet non sit alterum necesse sit esse: quidquid valet ad astruendam 
+          unam partem, destruit alteram, et quidquid unam debilitat, alteram roborat, s 
+          Cum ergo alterum horum verum sit, alterum falsum: rogo ut falsitatem 
+          detegens aperias mihi veritatem. -->
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

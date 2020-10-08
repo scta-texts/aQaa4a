@@ -1,169 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Caput 4</title>
-            <author ref="#Anselm">Anselm</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-            <respStmt>
-               <name ref="#nivaca">Nicolas Vaughan</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Caput 4</title>
-               <date when="2020-10-01">October 01, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-10-01" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#Sm" n="148"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="aQaa4a-d1e289"><!-- aQaa4a-c4 -->
-            <head xml:id="aQaa4a-d1e289-Hd1e118">Caput 4</head>
-            <p xml:id="aQaa4a-d1e289-d1e121">
-               <lb ed="#Sm" n="11"/>[IV.] 
-      <lb ed="#Sm" n="12"/>M. In tuis syllogismis hoc faciam; meos si vis per te discutito. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e289-d1e128">
-               <lb ed="#Sm" n="13"/>D. Fiat tuo iudicio. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e289-d1e133">
-               <lb ed="#Sm" n="14"/>M. Repete et contexe syllogismos quos fecisti. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e289-d1e138">
-               <lb ed="#Sm" n="15"/>D. Omnis homo potest intelligi sine grammatica. 
-    </p>
-            <p xml:id="aQaa4a-d1e289-d1e144">
-               <lb ed="#Sm" n="16"/>M, Quid dicis hominem posse intelligi sine grammatica? 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e289-d1e149">
-               <lb ed="#Sm" n="17"/>D. Hominem. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e289-d1e154">
-               <lb ed="#Sm" n="18"/>M. Dic ergo in ipsa propositione quod intelligis. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e289-d1e159">
-               <lb ed="#Sm" n="19"/>D. Omnis homo potest intelligi homo sine grammatica. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e289-d1e164">
-               <lb ed="#Sm" n="20"/>M. Concedo; assume. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e289-d1e169">
-               <lb ed="#Sm" n="21"/>D. Nullus grammaticus potest intelligi sine grammatica. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e289-d1e175">
-               <lb ed="#Sm" n="22"/>M. Quid non potest grammaticus intelligi sine grammatica? 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e289-d1e180">
-               <lb ed="#Sm" n="23"/>D. Grammaticus. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e289-d1e185">
-               <lb ed="#Sm" n="24"/>M. Profer ergo quod intelligis. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e289-d1e190">
-               <lb ed="#Sm" n="25"/>D. Nullus grammaticus potest intelligi grammaticus sine grammatica. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e289-d1e195">
-               <lb ed="#Sm" n="26"/>M. Iunge has duas propositiones ita integras, sicut eas modo protulisti. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e289-d1e200">
-               <lb ed="#Sm" n="27"/>D. Omnis homo potest intelligi homo sine grammatica. Nullus
-      gram<lb ed="#Sm" n="28" break="no"/>maticus potest intelligi grammaticus sine grammatica. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e289-d1e208">
-               <lb ed="#Sm" n="29"/>M. Vide ergo utrum habeant communem terminum, sine quo nihil 
-      <lb ed="#Sm" n="30"/>efficiunt. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e289-d1e215">
-               <lb ed="#Sm" n="31"/>D. Video eas non habere communem terminum, et idcirco nihil ex 
-      <lb ed="#Sm" n="32"/>eis consequi. 
-      
-      
-    </p>
-            <p xml:id="aQaa4a-d1e289-d1e222">
-      <!--175.xml-->
-               <pb ed="#Sm" n="149"/>
-               <lb ed="#Sm" n="1"/>M. Contexe alterum syllogismum. 
-    </p>
-            <p xml:id="aQaa4a-d1e289-d1e231">
-               <lb ed="#Sm" n="2"/>D. Non iam opus est ut pro eius ostensione labores. Nam adverto 
-      <lb ed="#Sm" n="3"/>eius fallaciam. Sic enim eius propositiones intelligebam, ac si diceretur: 
-      <lb ed="#Sm" n="4"/>quia nullus homo est magis et minus homo, et omnis grammaticus est 
-      <lb ed="#Sm" n="5"/>magis vel minus grammaticus. Et quoniam hae duae propositiones nullum 
-      <lb ed="#Sm" n="6"/>habent communem terminum, nihil conficiunt. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e289-d1e244">
-               <lb ed="#Sm" n="7"/>M. Itane tibi videtur his tuis conexionibus nihil concludi posse? 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e289-d1e249">
-               <lb ed="#Sm" n="8"/>D. Ita utique putabam, sed haec tua interrogatio facit me suspectum, 
-      <lb ed="#Sm" n="9"/>ne forte in illis aliqua lateat efficacia. Sed quomodo efficiunt sine
-      com<lb ed="#Sm" n="10" break="no"/>muni termino? 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e289-d1e259">
-               <lb ed="#Sm" n="11"/>M. Communis terminus syllogismi non tam in prolatione quam in
-      sen<lb ed="#Sm" n="12" break="no"/>tentia est habendus. Sicut enim nihil efficitur, si communis est in voce et 
-      <lb ed="#Sm" n="13"/>non in sensu: ita nihil obest, si est in intellectu et non in prolatione. 
-      <lb ed="#Sm" n="14"/>Sententia quippe ligat syllogismum, non verba. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#nivaca">Nicolas Vaughan</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2020-10-01">October 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Sm" n="148"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1e289"><!-- aQaa4a-c4 -->
+        <head xml:id="aQaa4a-d1e289-Hd1e118">Caput 4</head>
+        <p xml:id="aQaa4a-d1e289-d1e121">
+          <lb ed="#Sm" n="11"/>[IV.] 
+          <lb ed="#Sm" n="12"/>M. In tuis syllogismis hoc faciam; meos si vis per te discutito. 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e128">
+          <lb ed="#Sm" n="13"/>D. Fiat tuo iudicio. 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e133">
+          <lb ed="#Sm" n="14"/>M. Repete et contexe syllogismos quos fecisti. 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e138">
+          <lb ed="#Sm" n="15"/>D. Omnis homo potest intelligi sine grammatica.
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e144">
+          <lb ed="#Sm" n="16"/>M. Quid dicis hominem posse intelligi sine grammatica? 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e149">
+          <lb ed="#Sm" n="17"/>D. Hominem. 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e154">
+          <lb ed="#Sm" n="18"/>M. Dic ergo in ipsa propositione quod intelligis. 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e159">
+          <lb ed="#Sm" n="19"/>D. Omnis homo potest intelligi homo sine grammatica. 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e164">
+          <lb ed="#Sm" n="20"/>M. Concedo; assume. 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e169">
+          <lb ed="#Sm" n="21"/>D. Nullus grammaticus potest intelligi sine grammatica. 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e175">
+          <lb ed="#Sm" n="22"/>M. Quid non potest grammaticus intelligi sine grammatica? 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e180">
+          <lb ed="#Sm" n="23"/>D. Grammaticus. 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e185">
+          <lb ed="#Sm" n="24"/>M. Profer ergo quod intelligis. 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e190">
+          <lb ed="#Sm" n="25"/>D. Nullus grammaticus potest intelligi grammaticus sine grammatica. 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e195">
+          <lb ed="#Sm" n="26"/>M. Iunge has duas propositiones ita integras, sicut eas modo protulisti. 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e200">
+          <lb ed="#Sm" n="27"/>D. Omnis homo potest intelligi homo sine grammatica. Nullus
+          gram<lb ed="#Sm" n="28" break="no"/>maticus potest intelligi grammaticus sine grammatica. 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e208">
+          <lb ed="#Sm" n="29"/>M. Vide ergo utrum habeant communem terminum, sine quo nihil 
+          <lb ed="#Sm" n="30"/>efficiunt. 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e215">
+          <lb ed="#Sm" n="31"/>D. Video eas non habere communem terminum, et idcirco nihil ex 
+          <lb ed="#Sm" n="32"/>eis consequi. 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e222">
+          <!--175.xml-->
+          <pb ed="#Sm" n="149"/>
+          <lb ed="#Sm" n="1"/>M. Contexe alterum syllogismum.
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e231">
+          <lb ed="#Sm" n="2"/>D. Non iam opus est ut pro eius ostensione labores. Nam adverto 
+          <lb ed="#Sm" n="3"/>eius fallaciam. Sic enim eius propositiones intelligebam, ac si diceretur: 
+          <lb ed="#Sm" n="4"/>quia nullus homo est magis et minus homo, et omnis grammaticus est 
+          <lb ed="#Sm" n="5"/>magis vel minus grammaticus. Et quoniam hae duae propositiones nullum 
+          <lb ed="#Sm" n="6"/>habent communem terminum, nihil conficiunt. 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e244">
+          <lb ed="#Sm" n="7"/>M. Itane tibi videtur his tuis conexionibus nihil concludi posse? 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e249">
+          <lb ed="#Sm" n="8"/>D. Ita utique putabam, sed haec tua interrogatio facit me suspectum, 
+          <lb ed="#Sm" n="9"/>ne forte in illis aliqua lateat efficacia. Sed quomodo efficiunt sine
+          com<lb ed="#Sm" n="10" break="no"/>muni termino? 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e259">
+          <lb ed="#Sm" n="11"/>M. Communis terminus syllogismi non tam in prolatione quam in
+          sen<lb ed="#Sm" n="12" break="no"/>tentia est habendus. Sicut enim nihil efficitur, si communis est in voce et 
+          <lb ed="#Sm" n="13"/>non in sensu: ita nihil obest, si est in intellectu et non in prolatione. 
+          <lb ed="#Sm" n="14"/>Sententia quippe ligat syllogismum, non verba. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

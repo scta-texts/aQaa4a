@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capítulo 9</title>
+        <author ref="#Anselm">Anselmo de Canterbury</author>
+        <respStmt>
+          <name ref="#nivaca">Nicolás Vaughan</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#anlozan">Andrea Lozano-Vásquez</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Felipe Castañeda</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Grupo de Traducción de Latín de Medieval de la Universidad de los Andes</name>
+          <resp>Translator</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capítulo 9</title>
+          <date when="2020-10-07">October 07, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1e889"><!-- aQaa4a-c9 -->
+        <head xml:id="aQaa4a-d1e889-Hd1e118">Capítulo 9</head>
+        <p xml:id="aQaa4a-d1e889-d1e121">
+          [IX.]
+          Por cierto, si se probara, lo que pienso que puede hacerse fácilmente, 
+          que el ser del gramático no es el ser del hombre 
+          así como el ser de lo blanco no es el ser del hombre 
+          ---pues el hombre puede ser sin lo blanco y lo blanco sin el hombre---, 
+          entonces verdaderamente se seguiría que algún gramático puede ser no hombre. 
+          <!--M. Verum si probaretur, quod ut puto facile fieri potest, quia esse
+            grammatici ita non est esse hominis, sicut esse albi non est esse hominis
+            -\-\-potest enim homo esse sine albo et album sine homine-\-\-: tunc vere
+            consequeretur aliquem grammaticum posse esse non hominem.-->
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e134">
+          D. Por lo tanto, ¿por qué nos tomamos el trabajo si esto puede probarse? 
+          Pruébalo y que se termine esta cuestión.
+          <!--D. Quid ergo laboramus, si hoc probari potest? Proba, et finiatur
+            haec quaestio.-->
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e141">
+          M. No me debes exigir esto aquí. Pues, no discutimos en esta cuestión 
+          si puede ser, sino si hay algún gramático no hombre, 
+          lo que ves que no puede mostrarse. 
+          <!--M. Non hoc a me debes hic exigere. Non enim in hac quaestione
+            ventilamus utrum possit esse, sed utram sit aliquis grammaticus non homo,
+            quod vides monstrari non posse.-->
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e150">
+          D. Aún no lo veo, porque todavía tengo qué decir en contra.
+          <!--D. Nondum video, quia adhuc habeo dicere contra.-->
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e156">
+          M. Di.
+          <!--M. Dic.-->
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e160">
+          D. <name ref="#Aristotle">Aristóteles</name> muestra que el gramático 
+          está entre lo que está en el sujeto. Y ningún hombre está en el sujeto. 
+          Por lo cual, ningún gramático es hombre.
+          <!--D. <name ref="#Aristotle">Aristoteles</name> ostendit grammaticum eorum esse quae sunt in subjecto. Et nullus homo est in subiecto. Quare nullus grammaticus homo.-->
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e169">
+          M. <name ref="#Aristotle">Aristóteles</name> no quiso 
+          que se siguiera esto de sus afirmaciones. 
+          Pues el mismo <name ref="#Aristotle">Aristóteles</name> 
+          dice <mentioned>gramático</mentioned> tanto de cierto hombre 
+          como del hombre y del animal.
+          <!--M. Noluit <name ref="#Aristotle">Aristoteles</name> hoc consequi ex suis dictis. Nam idem <name ref="#Aristotle">Aristoteles</name> dicit et quendam hominem, et hominem et animal grammaticum.-->
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e178">
+          D. Por lo tanto, ¿cómo se refuta este silogismo?
+          <!-- D. Quomodo ergo dissolvitur iste syllogismus?-->
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e183">
+          M. Respóndeme: cuando me hablas acerca del gramático, 
+          ¿de qué entenderé que hablas: o de este nombre 
+          o de las cosas que significa?
+          <!--M. Responde mihi: cum loqueris mihi de grammatico, unde intelligam
+            te loqui: de hoc nomine, an de rebus quas significat?-->
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e190">
+          D. De las cosas.
+          <!--D. De rebus.-->
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e195">
+          M. Por lo tanto, ¿qué cosas significa? 
+          <!--M. Quas ergo res significat?-->
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e201">
+          D. El hombre y la gramática.
+          <!--D. Hominem et grammaticam.-->
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e206">
+          M. Por lo tanto, al oír este nombre, 
+          entenderé el hombre o la gramática y hablando del gramático, 
+          hablaré del hombre o de la gramática
+          <!--M. Audito ergo hoc nomine, intelligam hominem aut grammaticam;
+            et loquens de grammatico, loquar de homine aut de grammatica.-->
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e213">
+          D. Así es preciso.
+          <!--D. Ita oportet.-->
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e218">
+          M. Por lo tanto, dime: ¿el hombre es substancia o está en un sujeto?
+          <!--M. Dic ergo: homo est substantia, an in subiecto?-->
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e223">
+          D. No está en un sujeto sino que es substancia.
+          <!--D. Non est in subiecto, sed est substantia.-->
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e228">
+          M. ¿Es la gramática cualidad y está en un sujeto?
+          <!--M. Grammatica est qualitas, et in subiecto?-->
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e234">
+          D. Es ambas.
+          <!--D. Utrumque est.-->
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e239">
+          M. Por lo tanto, ¡qué tiene de admirable que alguien diga 
+          que el gramático es substancia y no está en un sujeto, 
+          con respecto al hombre, y que el gramático es cualidad 
+          y está en un sujeto, con respecto a la gramática!
+          <!--M. Quid ergo mirum si quis dicit quia grammaticus est substantia et
+            non est in subiecto secundum hominem; et grammaticus est qualitas et
+            in subiecto secundum grammaticam?-->
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

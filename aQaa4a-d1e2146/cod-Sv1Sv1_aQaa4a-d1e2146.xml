@@ -1,114 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Caput 20</title>
-            <author ref="#Anselm">Anselm</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-            <respStmt>
-               <name ref="#nivaca">Nicolas Vaughan</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Caput 20</title>
-               <date when="2020-10-01">October 01, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-10-01" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#Sm" n="165"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="aQaa4a-d1e2146"><!-- aQaa4a-c20 -->
-            <head xml:id="aQaa4a-d1e2146-Hd1e118">Caput 20</head>
-            <p xml:id="aQaa4a-d1e2146-d1e121">
-               <lb ed="#Sm" n="25"/>[XX.] 
-      <lb ed="#Sm" n="26"/>D. Planius mihi vellem explicari quomodo non fiat unum aliquid ex 
-      <lb ed="#Sm" n="27"/>iis quae significat albus. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e2146-d1e130">
-               <lb ed="#Sm" n="28"/>M. Si aliquid constat ex eis, aut est substantia aut aliquid aliorum 
-      <lb ed="#Sm" n="29"/>praedicamentorum. 
-    </p>
-            <p xml:id="aQaa4a-d1e2146-d1e137">
-               <lb ed="#Sm" n="30"/>D. Aliud esse non potest. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e2146-d1e142">
-               <lb ed="#Sm" n="31"/>M. Sed nihil horum fit ex habere et albedine. 
-      <!--192.xml-->
-      <pb ed="#Sm" n="166"/>
-      
-            </p>
-            <p xml:id="aQaa4a-d1e2146-d1e152">
-               <lb ed="#Sm" n="1"/>D. Non possum contradicere. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e2146-d1e157">
-               <lb ed="#Sm" n="2"/>M. Item: Unum non fit ex pluribus nisi aut compositione partium quae 
-      <lb ed="#Sm" n="3"/>sunt eiusdem praedicamenti, ut animal constat corpore et anima; aut con- 3 
-      <lb ed="#Sm" n="4"/>venientia generis et differentiae unius vel plurium, ut corpus et homo; aut 
-      <lb ed="#Sm" n="5"/>specie et proprietatum collectione, ut Plato. Illa vero quae albus significat, 
-      <lb ed="#Sm" n="6"/>non sunt unius praedicamenti, nec est alterum alteri genus aut differentia 6 
-      <lb ed="#Sm" n="7"/>aut species aut collectio proprietatum, nec sunt differentiae unius generis, 
-      <lb ed="#Sm" n="8"/>sed sunt accidentia eiusdem subiecti, quod tamen sublectum albus non 
-      <lb ed="#Sm" n="9"/>significat, quia omnino nihil significat aliud quam habere et qualitatem. » 
-      <lb ed="#Sm" n="10"/>Quare non fit unum ex iis quae albus significat. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e2146-d1e179">
-               <lb ed="#Sm" n="11"/>D. Quamquam ratio mihi asserere videatur quae disseris, vellem tamen 
-      <lb ed="#Sm" n="12"/>audire quid responderes, si quis ad hoc quod dicis quia nihil omnino 12 
-      <lb ed="#Sm" n="13"/>significat albus aliud quam habere et qualitatem, sic obiceret: Albus cum 
-      <lb ed="#Sm" n="14"/>sit idem quod habens albedinem, non significat determinate hoc vel illud 
-      <lb ed="#Sm" n="15"/>habens, velut corpus, sed indeterminate aliquid habens albedinem. Albus 
-      <lb ed="#Sm" n="16"/>enim aut est qui habet albedinem, aut qui non habet. Sed qui non habet 
-      <lb ed="#Sm" n="17"/>albedinem, non est albus. Albus igitur est qui habet albedinem. Quare 
-      <lb ed="#Sm" n="18"/>quoniam omnis qui albedinem habet non nisi aliquid est, necesse est ut 's 
-      <lb ed="#Sm" n="19"/>albus sit aliquid quod habet albedinem, aut aliquid habens albedinem. 
-      <lb ed="#Sm" n="20"/>Denique albus aut aliquid significat habens albedinem aut nihil. Sed nihil 
-      <lb ed="#Sm" n="21"/>non potest intelligi habens albedinem. Necesse est ergo ut albus significet 2: 
-      <lb ed="#Sm" n="22"/>aliquid habens albedinem. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 20</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#nivaca">Nicolas Vaughan</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 20</title>
+          <date when="2020-10-01">October 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Sm" n="165"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1e2146"><!-- aQaa4a-c20 -->
+        <head xml:id="aQaa4a-d1e2146-Hd1e118">Caput 20</head>
+        <p xml:id="aQaa4a-d1e2146-d1e121">
+          <lb ed="#Sm" n="25"/>[XX.]
+          <lb ed="#Sm" n="26"/>D. Planius mihi vellem explicari quomodo non fiat unum aliquid ex
+          <lb ed="#Sm" n="27"/>iis quae significat albus.
+        </p>
+        <p xml:id="aQaa4a-d1e2146-d1e130">
+          <lb ed="#Sm" n="28"/>M. Si aliquid constat ex eis, aut est substantia aut aliquid aliorum
+          <lb ed="#Sm" n="29"/>praedicamentorum.
+        </p>
+        <p xml:id="aQaa4a-d1e2146-d1e137">
+          <lb ed="#Sm" n="30"/>D. Aliud esse non potest.
+        </p>
+        <p xml:id="aQaa4a-d1e2146-d1e142">
+          <lb ed="#Sm" n="31"/>M. Sed nihil horum fit ex habere et albedine.
+          <!--192.xml-->
+          <pb ed="#Sm" n="166"/>
+        </p>
+        <p xml:id="aQaa4a-d1e2146-d1e152">
+          <lb ed="#Sm" n="1"/>D. Non possum contradicere.
+        </p>
+        <p xml:id="aQaa4a-d1e2146-d1e157">
+          <lb ed="#Sm" n="2"/>M. Item: Unum non fit ex pluribus nisi aut compositione partium quae
+          <lb ed="#Sm" n="3"/>sunt eiusdem praedicamenti, ut animal constat corpore et anima; aut 
+          con<lb ed="#Sm" n="4" break="no"/>venientia generis et differentiae unius vel plurium, ut corpus et homo; aut
+          <lb ed="#Sm" n="5"/>specie et proprietatum collectione, ut <name ref="#Plato">Plato</name>. Illa vero quae albus significat,
+          <lb ed="#Sm" n="6"/>non sunt unius praedicamenti, nec est alterum alteri genus aut differentia
+          <lb ed="#Sm" n="7"/>aut species aut collectio proprietatum, nec sunt differentiae unius generis,
+          <lb ed="#Sm" n="8"/>sed sunt accidentia eiusdem subiecti, quod tamen sublectum albus non
+          <lb ed="#Sm" n="9"/>significat, quia omnino nihil significat aliud quam habere et qualitatem.
+          <lb ed="#Sm" n="10"/>Quare non fit unum ex iis quae albus significat.
+        </p>
+        <p xml:id="aQaa4a-d1e2146-d1e179">
+          <lb ed="#Sm" n="11"/>D. Quamquam ratio mihi asserere videatur quae disseris, vellem tamen
+          <lb ed="#Sm" n="12"/>audire quid responderes, si quis ad hoc quod dicis quia nihil omnino
+          <lb ed="#Sm" n="13"/>significat albus aliud quam habere et qualitatem, sic obiceret: Albus cum
+          <lb ed="#Sm" n="14"/>sit idem quod habens albedinem, non significat determinate hoc vel illud
+          <lb ed="#Sm" n="15"/>habens, velut corpus, sed indeterminate aliquid habens albedinem. Albus
+          <lb ed="#Sm" n="16"/>enim aut est qui habet albedinem, aut qui non habet. Sed qui non habet
+          <lb ed="#Sm" n="17"/>albedinem, non est albus. Albus igitur est qui habet albedinem. Quare
+          <lb ed="#Sm" n="18"/>quoniam omnis qui albedinem habet non nisi aliquid est, necesse est ut
+          <lb ed="#Sm" n="19"/>albus sit aliquid quod habet albedinem, aut aliquid habens albedinem.
+          <lb ed="#Sm" n="20"/>Denique albus aut aliquid significat habens albedinem aut nihil. Sed nihil
+          <lb ed="#Sm" n="21"/>non potest intelligi habens albedinem. Necesse est ergo ut albus significet
+          <lb ed="#Sm" n="22"/>aliquid habens albedinem.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

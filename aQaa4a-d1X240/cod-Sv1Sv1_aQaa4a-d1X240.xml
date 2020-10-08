@@ -1,252 +1,222 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Caput 13</title>
-            <author ref="#Anselm">Anselm</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-            <respStmt>
-               <name ref="#nivaca">Nicolas Vaughan</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Caput 13</title>
-               <date when="2020-10-01">October 01, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-10-01" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#Sm" n="157"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="aQaa4a-d1X240"><!-- aQaa4a-c13 -->
-            <head xml:id="aQaa4a-d1X240-Hd1e118">Caput 13</head>
-            <p xml:id="aQaa4a-d1X240-d1e121">
-               <lb ed="#Sm" n="9"/>[XIII.] 
-      <lb ed="#Sm" n="10"/>D. Non video quid dicas quia grammaticus significat grammaticam 
-      <lb ed="#Sm" n="11"/>per se, et hominem per aliud, et quomodo grammaticae tantum sit
-      signi<lb ed="#Sm" n="12" break="no"/>ficavum. Sicut enim homo constat ex animali et rationalitate et mortalitate, 
-      <lb ed="#Sm" n="13"/>et idcirco homo significat haec tria: ita grammaticus constat ex homine et 
-      <lb ed="#Sm" n="14"/>grammatica, et ideo nomen hoc significat utrumque. Numquam enim dicitur 
-      <lb ed="#Sm" n="15"/>is grammaticus aut homo sine grammatica, aut grammatica sine homine. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e139">
-               <lb ed="#Sm" n="16"/>M. Si ergo ita est ut tu dicis, definitio et esse grammatici est: homo 
-      <lb ed="#Sm" n="17"/>sciens grammaticam,
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e146">
-               <lb ed="#Sm" n="18"/>D. Non potest aliud esse. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e151">
-               <lb ed="#Sm" n="19"/>M. Ergo cum grammatica dividit hominem grammaticum a non-gram- 
-      <lb ed="#Sm" n="20"/>matico, conducit grammaticum ad esse, et est pars eius quod est esse 
-      <lb ed="#Sm" n="21"/>2i rei, nec potest adesse et abesse a grammatico praeter subiecti
-      corrup<lb ed="#Sm" n="22" break="no"/>tionem. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e163">
-               <lb ed="#Sm" n="23"/>D. Quid inde? 
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e168">
-               <lb ed="#Sm" n="24"/>M. Non est igitur grammatica accidens sed substantialis differentia, 
-      <lb ed="#Sm" n="25"/>et est homo genus, et grammaticus species. Nec dissimilis est ratio de 
-      <lb ed="#Sm" n="26"/>albedine et similibus accidentibus. Quod falsum esse totius artis tractatus 
-      <lb ed="#Sm" n="27"/>ostendit. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e179">
-               <lb ed="#Sm" n="28"/>D. Quamquam non possim negare quod dicis, nondum tamen mihi 
-      <lb ed="#Sm" n="29"/>persuasum est quod grammaticus non significet hominem. 
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e186">
-               <lb ed="#Sm" n="30"/>M. Ponamus quod sit aliquod animal rationale — non tamen homo —, 
-      <lb ed="#Sm" n="31"/>quod ita sciat grammaticam sicut homo. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e193">
-               <lb ed="#Sm" n="32"/>D. Facile est hoc fingere. 
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e198">
-               <lb ed="#Sm" n="33"/>M. Est igitur aliquis non-homo sciens grammaticam.
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e204">
-      <!--184.xml-->
-               <pb ed="#Sm" n="158"/>
-               <lb ed="#Sm" n="1"/>D. Ita sequitur. 
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e213">
-               <lb ed="#Sm" n="2"/>M. At omne sciens grammaticam est grammaticum. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e218">
-               <lb ed="#Sm" n="3"/>D. Concedo. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e223">
-               <lb ed="#Sm" n="4"/>M. Est igitur quidam non-homo grammaticus. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e228">
-               <lb ed="#Sm" n="5"/>D. Consequitur. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e233">
-               <lb ed="#Sm" n="6"/>M. Sed tu dicis in grammatico intelligi hominem. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e239">
-               <lb ed="#Sm" n="7"/>D. Dico. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e244">
-               <lb ed="#Sm" n="8"/>M. Quidam igitur non-homo est homo, quod falsum est. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e249">
-               <lb ed="#Sm" n="9"/>D. Ad hoc ratio deducitur. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e254">
-               <lb ed="#Sm" n="10"/>M. Nonne ergo vides quia grammaticus non ob aliud magis videtur 
-      <lb ed="#Sm" n="11"/>significare hominem quam albus, nisi quia grammatica soli homini accidit, 
-      <lb ed="#Sm" n="12"/>albedo vero non soli homini? 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e263">
-               <lb ed="#Sm" n="13"/>D. Sic sequitur ex eo quod finximus. Sed sine figmento volo ut hoc 
-      <lb ed="#Sm" n="14"/>efficias. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e270">
-               <lb ed="#Sm" n="15"/>M. Si homo est in grammatico, non praedicatur cum eo simul de
-      ali<lb ed="#Sm" n="16" break="no"/>quo, sicut animal non praedicatur cum homine, quia inest in homine. Non 
-      <lb ed="#Sm" n="17"/>enim apte dicitur quia Socrates est homo animal. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e280">
-               <lb ed="#Sm" n="18"/>D. Non potest contradici. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e285">
-               <lb ed="#Sm" n="19"/>M. Sed convenienter dicitur quia Socrates est homo grammaticus. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e290">
-               <lb ed="#Sm" n="20"/>D. Convenienter. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e295">
-               <lb ed="#Sm" n="21"/>M. Non est igitur homo in grammatico. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e300">
-               <lb ed="#Sm" n="22"/>D. Sic consequi video. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e305">
-               <lb ed="#Sm" n="23"/>M. Item si grammaticus est homo sciens grammaticam: ubicumque 
-      <lb ed="#Sm" n="24"/>ponitur grammaticus, apte ponitur: homo sciens grammaticam. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e313">
-               <lb ed="#Sm" n="25"/>D. Ita est. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e318">
-               <lb ed="#Sm" n="26"/>M. Si igitur apte dicitur: Socrates est homo grammaticus, apte
-      quo<lb ed="#Sm" n="27" break="no"/>que dicitur: Socrates est homo homo sciens grammaticam. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e325">
-               <lb ed="#Sm" n="28"/>D. Consequitur. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e330">
-               <lb ed="#Sm" n="29"/>M. Omnis autem homo sciens grammaticam est homo grammaticus. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e335">
-               <lb ed="#Sm" n="30"/>D. Ita est. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e340">
-               <lb ed="#Sm" n="31"/>M. Socrates igitur qui est homo homo sciens grammaticam, est homo 
-      <lb ed="#Sm" n="32"/>homo grammaticus. Et quoniam grammaticus est homo sciens
-      gramma<lb ed="#Sm" n="33" break="no"/>ticam, consequitur ut Socrates sit homo homo homo sciens grammaticam, 
-      <lb ed="#Sm" n="34"/>et sic in infinitum.
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e352">
-      <!--185.xml-->
-               <pb ed="#Sm" n="159"/>
-               <lb ed="#Sm" n="1"/>D. Non possum apertae consequentiae resistere. 
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e361">
-               <lb ed="#Sm" n="2"/>M. Item si in grammatico homo intelligendus est cum grammatica, 
-      <lb ed="#Sm" n="3"/>s intelligendum est similiter in omnibus similibus denominativis id quod 
-      <lb ed="#Sm" n="4"/>denominatur cum eo a quo denominatur. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e370">
-               <lb ed="#Sm" n="5"/>D. Hoc sentiebam. 
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e375">
-               <lb ed="#Sm" n="6"/>M. Ergo .hodiernum' significat id quod vocatur hodiernum et hodie. 
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e380">
-               <lb ed="#Sm" n="7"/>D. Quid postea? 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e385">
-               <lb ed="#Sm" n="8"/>M. .Hodiernum' igitur significat aliquid cum tempore. 
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e391">
-               <lb ed="#Sm" n="9"/>D. Ita esse necesse est. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1X240-d1e396">
-               <lb ed="#Sm" n="10"/>M. Igitur .hodiernum' non est nomen sed verbum, quia est vox
-      con<lb ed="#Sm" n="11" break="no"/>significans tempus, nec est oratio. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 13</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#nivaca">Nicolas Vaughan</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 13</title>
+          <date when="2020-10-01">October 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Sm" n="157"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1X240"><!-- aQaa4a-c13 -->
+        <head xml:id="aQaa4a-d1X240-Hd1e118">Caput 13</head>
+        <p xml:id="aQaa4a-d1X240-d1e121">
+          <lb ed="#Sm" n="9"/>[XIII.]
+          <lb ed="#Sm" n="10"/>D. Non video quid dicas quia grammaticus significat grammaticam
+          <lb ed="#Sm" n="11"/>per se, et hominem per aliud, et quomodo grammaticae tantum sit
+          signi<lb ed="#Sm" n="12" break="no"/>ficavum. Sicut enim homo constat ex animali et rationalitate et mortalitate,
+          <lb ed="#Sm" n="13"/>et idcirco homo significat haec tria: ita grammaticus constat ex homine et
+          <lb ed="#Sm" n="14"/>grammatica, et ideo nomen hoc significat utrumque. Numquam enim dicitur
+          <lb ed="#Sm" n="15"/>is grammaticus aut homo sine grammatica, aut grammatica sine homine.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e139">
+          <lb ed="#Sm" n="16"/>M. Si ergo ita est ut tu dicis, definitio et esse grammatici est: homo
+          <lb ed="#Sm" n="17"/>sciens grammaticam.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e146">
+          <lb ed="#Sm" n="18"/>D. Non potest aliud esse.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e151">
+          <lb ed="#Sm" n="19"/>M. Ergo cum grammatica dividit hominem grammaticum a 
+          non-gram<lb ed="#Sm" n="20" break="no"/>matico, conducit grammaticum ad esse, et est pars eius quod est esse
+          <lb ed="#Sm" n="21"/>rei, nec potest adesse et abesse a grammatico praeter subiecti
+          corrup<lb ed="#Sm" n="22" break="no"/>tionem.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e163">
+          <lb ed="#Sm" n="23"/>D. Quid inde?
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e168">
+          <lb ed="#Sm" n="24"/>M. Non est igitur grammatica accidens sed substantialis differentia,
+          <lb ed="#Sm" n="25"/>et est homo genus, et grammaticus species. Nec dissimilis est ratio de
+          <lb ed="#Sm" n="26"/>albedine et similibus accidentibus. Quod falsum esse totius artis tractatus
+          <lb ed="#Sm" n="27"/>ostendit.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e179">
+          <lb ed="#Sm" n="28"/>D. Quamquam non possim negare quod dicis, nondum tamen mihi
+          <lb ed="#Sm" n="29"/>persuasum est quod grammaticus non significet hominem.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e186">
+          <lb ed="#Sm" n="30"/>M. Ponamus quod sit aliquod animal rationale ---non tamen homo---,
+          <lb ed="#Sm" n="31"/>quod ita sciat grammaticam sicut homo.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e193">
+          <lb ed="#Sm" n="32"/>D. Facile est hoc fingere.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e198">
+          <lb ed="#Sm" n="33"/>M. Est igitur aliquis non-homo sciens grammaticam.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e204">
+          <!--184.xml-->
+          <pb ed="#Sm" n="158"/>
+          <lb ed="#Sm" n="1"/>D. Ita sequitur.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e213">
+          <lb ed="#Sm" n="2"/>M. At omne sciens grammaticam est grammaticum.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e218">
+          <lb ed="#Sm" n="3"/>D. Concedo.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e223">
+          <lb ed="#Sm" n="4"/>M. Est igitur quidam non-homo grammaticus.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e228">
+          <lb ed="#Sm" n="5"/>D. Consequitur.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e233">
+          <lb ed="#Sm" n="6"/>M. Sed tu dicis in grammatico intelligi hominem.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e239">
+          <lb ed="#Sm" n="7"/>D. Dico.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e244">
+          <lb ed="#Sm" n="8"/>M. Quidam igitur non-homo est homo, quod falsum est.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e249">
+          <lb ed="#Sm" n="9"/>D. Ad hoc ratio deducitur.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e254">
+          <lb ed="#Sm" n="10"/>M. Nonne ergo vides quia grammaticus non ob aliud magis videtur
+          <lb ed="#Sm" n="11"/>significare hominem quam albus, nisi quia grammatica soli homini accidit,
+          <lb ed="#Sm" n="12"/>albedo vero non soli homini?
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e263">
+          <lb ed="#Sm" n="13"/>D. Sic sequitur ex eo quod finximus. Sed sine figmento volo ut hoc
+          <lb ed="#Sm" n="14"/>efficias.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e270">
+          <lb ed="#Sm" n="15"/>M. Si homo est in grammatico, non praedicatur cum eo simul de
+          ali<lb ed="#Sm" n="16" break="no"/>quo, sicut animal non praedicatur cum homine, quia inest in homine. Non
+          <lb ed="#Sm" n="17"/>enim apte dicitur quia <name ref="#Socrates">Socrates</name> est homo animal.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e280">
+          <lb ed="#Sm" n="18"/>D. Non potest contradici.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e285">
+          <lb ed="#Sm" n="19"/>M. Sed convenienter dicitur quia <name ref="#Socrates">Socrates</name> est homo grammaticus.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e290">
+          <lb ed="#Sm" n="20"/>D. Convenienter.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e295">
+          <lb ed="#Sm" n="21"/>M. Non est igitur homo in grammatico.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e300">
+          <lb ed="#Sm" n="22"/>D. Sic consequi video.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e305">
+          <lb ed="#Sm" n="23"/>M. Item si grammaticus est homo sciens grammaticam: ubicumque
+          <lb ed="#Sm" n="24"/>ponitur grammaticus, apte ponitur: homo sciens grammaticam.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e313">
+          <lb ed="#Sm" n="25"/>D. Ita est.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e318">
+          <lb ed="#Sm" n="26"/>M. Si igitur apte dicitur: <name ref="#Socrates">Socrates</name> est homo grammaticus, apte
+          quo<lb ed="#Sm" n="27" break="no"/>que dicitur: <name ref="#Socrates">Socrates</name> est homo homo sciens grammaticam.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e325">
+          <lb ed="#Sm" n="28"/>D. Consequitur.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e330">
+          <lb ed="#Sm" n="29"/>M. Omnis autem homo sciens grammaticam est homo grammaticus.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e335">
+          <lb ed="#Sm" n="30"/>D. Ita est.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e340">
+          <lb ed="#Sm" n="31"/>M. <name ref="#Socrates">Socrates</name> igitur qui est homo homo sciens grammaticam, est homo
+          <lb ed="#Sm" n="32"/>homo grammaticus. Et quoniam grammaticus est homo sciens
+          gramma<lb ed="#Sm" n="33" break="no"/>ticam, consequitur ut <name ref="#Socrates">Socrates</name> sit homo homo homo sciens grammaticam,
+          <lb ed="#Sm" n="34"/>et sic in infinitum.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e352">
+          <!--185.xml-->
+          <pb ed="#Sm" n="159"/>
+          <lb ed="#Sm" n="1"/>D. Non possum apertae consequentiae resistere.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e361">
+          <lb ed="#Sm" n="2"/>M. Item si in grammatico homo intelligendus est cum grammatica,
+          <lb ed="#Sm" n="3"/>intelligendum est similiter in omnibus similibus denominativis id quod
+          <lb ed="#Sm" n="4"/>denominatur cum eo a quo denominatur.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e370">
+          <lb ed="#Sm" n="5"/>D. Hoc sentiebam.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e375">
+          <lb ed="#Sm" n="6"/>M. Ergo <mentioned>hodiernum</mentioned> significat id quod vocatur hodiernum et hodie.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e380">
+          <lb ed="#Sm" n="7"/>D. Quid postea?
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e385">
+          <lb ed="#Sm" n="8"/>M. <mentioned>Hodiernum</mentioned> igitur significat aliquid cum tempore.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e391">
+          <lb ed="#Sm" n="9"/>D. Ita esse necesse est.
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e396">
+          <lb ed="#Sm" n="10"/>M. Igitur <mentioned>hodiernum</mentioned> non est nomen sed verbum, quia est vox
+          con<lb ed="#Sm" n="11" break="no"/>significans tempus, nec est oratio.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

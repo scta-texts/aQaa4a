@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capítulo 14</title>
+        <author ref="#Anselm">Anselmo de Canterbury</author>
+        <respStmt>
+          <name ref="#nivaca">Nicolás Vaughan</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#anlozan">Andrea Lozano-Vásquez</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Felipe Castañeda</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Grupo de Traducción de Latín de Medieval de la Universidad de los Andes</name>
+          <resp>Translator</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capítulo 14</title>
+          <date when="2020-10-07">October 07, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1X528"><!-- aQaa4a-c14 -->
+        <head xml:id="aQaa4a-d1X528-Hd1e118">Capítulo 14</head>
+        <p xml:id="aQaa4a-d1X528-d1e121">
+          [XIV.]
+          D. Me has probado suficientemente que <mentioned>gramático</mentioned> 
+          no significa el hombre.
+          <!--D. Satis mihi probasti grammaticum non significare hominem.-->
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e128">
+          M. Por lo tanto, ¿ves por qué había dicho que 
+          <mentioned>gramático</mentioned> no es significativo del hombre?
+          <!--M. Vides igitur quid dixerim quia grammaticus non est hominis
+            significativum?-->
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e135">
+          D. Lo veo y espero que muestres que <mentioned>gramático</mentioned>
+          es significativo de la gramática.
+          <!--D. Video, et exspecto ut grammaticum ostendas esse significativum
+            grammaticae.-->
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e142">
+          M. ¿No decías hace poco que <mentioned>gramático</mentioned> 
+          significa <mentioned>hombre que sabe gramática</mentioned>?
+          <!--M. Nonne paulo ante dicebas grammaticum significare 
+            <mentioned>hominem
+            scientem grammaticam</mentioned>?-->
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e150">
+          D. También lo creía.
+          <!--D. Et credebam.-->
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e155">
+          M. Pero ya fue suficientemente probado que no significa el hombre.
+          <!--M. Sed iam satis probatum est quia non significat hominem.-->
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e160">
+          D. Suficientemente.
+          <!--D. Satis.-->
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e165">
+          M. Por lo tanto, ¿qué resta?
+          <!--M. Quid ergo restat?-->
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e170">
+          D. Que no signifique algo distinto de 
+          <mentioned>que sabe gramática</mentioned>.
+          <!--D. Ut non significet aliud quam .scientem grammaticam'.-->
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e175">
+          M. Por lo tanto, es significativo de la gramática.
+          <!--M. Est igitur significativum grammaticae.-->
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e181">
+          D. Fue suficientemente probado que <mentioned>gramático</mentioned> 
+          no es apelativo de la gramática sino del hombre y que no es significativo 
+          del hombre sino de la gramática. 
+          Pero puesto que dijiste que <mentioned>gramático</mentioned> 
+          significa la gramática de por sí y el hombre por otro, 
+          te pido que distingas claramente para mí estas dos significaciones, 
+          para que entienda de qué modo <mentioned>gramático</mentioned> 
+          no es significativo de eso que de algún modo significa, 
+          o de qué modo es apelativo de eso de lo cual no es significativo.
+          <!--D. Sufficienter probatum est grammaticum non esse appellativum
+            grammaticae sed hominis, nec esse significativum hominis sed grammaticae.
+            Sed quoniam dixisti grammaticum significare grammaticam per se et
+            hominem per aliud: peto ut aperte mihi duas has significationes distinguas,
+            ut intelligam quomodo grammaticus non sit significativum eius quod aliquo
+            modo significat, aut quomodo sit appellativum eius cuius significativum
+            non est.-->
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e203">
+          M. Si hay un caballo blanco encerrado en algún establo, 
+          ignorándolo tú, y alguien te dice: 
+          <mentioned>En este establo está lo blanco o el blanco</mentioned>, 
+          ¿sabes por esto que ahí hay un caballo?
+          <!--M. Si est in domo aliqua albus equus te nesciente inclusus, et aliquis
+            tibi dicit: in hac domo est album sive albus: an scis per hoc ibi esse
+            equum?-->
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e212">
+          D. No. Pues que llame <mentioned>lo blanco</mentioned> 
+          bien sea a la blancura, bien sea aquello en lo que está la blancura, 
+          no concibo en mi mente la esencia de ninguna cosa determinada 
+          sino la de este color.
+          <!--D. Non. Sive enim dicat album albedinem, sive in quo est albedo:
+            nullius certae rei mente concipio essentiam nisi huius coloris.-->
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e219">
+          M. Aunque entiendas algo distinto que este color, sin embargo, 
+          aquello es determinado, porque por medio de este nombre no entiendes 
+          la esencia de eso en lo que está el color mismo.
+          <!--M. Etiamsi aliquid aliud intelligis quam colorem istum: illud tamen
+            certum est, quia eius in quo est ipse color essentiam per hoc nomen non
+            intelligis.-->
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e228">
+          D. Es cierto. Pues aunque <supplied><mentioned>blanco</mentioned></supplied> 
+          le presente al espíritu un cuerpo o una superficie, 
+          lo que no por otra cosa sucede sino porque 
+          he experimentado que en estas cosas suele estar la blancura, 
+          sin embargo el nombre mismo <mentioned>blanco</mentioned> 
+          ninguna de estas cosas significa, 
+          así como fue probado sobre <mentioned>gramático</mentioned>.  
+          Pero aún espero que me muestres qué significa.
+          <!--D. Certum. Nam etsi occurrat animo corpus aut superficies, quod non
+            ob aliud fit nisi quia expertus sum in his solere esse albedinem: ipsum
+            tamen nomen <mentioned>albi</mentioned> nihil horam significat, 
+            sicut probatum est de
+            grammatico. Sed adhuc expecto ut ostendas quia significat.-->
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e239">
+          M. ¿Qué pasa si ves un caballo blanco y un buey negro parados 
+          el uno junto al otro, y alguien te dice sobre el caballo: 
+          <mentioned>Golpéalo</mentioned>, 
+          no indicando con signo alguno de qué habla, 
+          sabes que habla del caballo?
+          <!--M. Quid si vides stantes iuxta se invicem album equum et nigrum
+            bovem, et dicit tibi aliquis de equo: percute illum, non monstrans aliquo
+            signo de quo dicat: an scis quod de equo dicat?-->
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e249">
+          D. No.
+          <!--D. Non.-->
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e254">
+          M. Pero si a ti, que lo ignoras y le preguntas 
+          <mentioned>¿A cuál?</mentioned>, te responde: 
+          <mentioned>Al blanco</mentioned>, ¿entiendes de cuál habla?
+          <!--M. Si vero nescienti tibi et interroganti: quem? respondet: album:
+            intelligis de quo dicit?-->
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e261">
+          D. Entiendo el caballo por el nombre <mentioned>blanco</mentioned>.
+          <!--D. Equum intelligo per nomen albi.-->
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e266">
+          M. Por lo tanto, el nombre <mentioned>blanco</mentioned> 
+          significa para ti el caballo.
+          <!--M. Nomen igitur albi significat tibi equum.-->
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e271">
+          D. Ciertamente lo significa.
+          <!--D. Significat utique.-->
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e276">
+          M. ¿No ves que <supplied>significa</supplied> de otro modo 
+          que el nombre <mentioned>caballo</mentioned>?
+          <!--M. Nonne vides quia alio modo quam nomen equi?-->
+        </p>
+        <p xml:id="aQaa4a-d1X528-d1e282">
+          D. Lo veo. Ciertamente también el nombre <mentioned>caballo</mentioned>, 
+          antes de que yo sepa que el caballo mismo es blanco, 
+          significa por sí para mí la substancia del caballo y no por otro.
+          Pero el nombre <mentioned>blanco</mentioned> significa 
+          la substancia del caballo no por sí sino por otro, esto es, 
+          por esto por lo que sé que el caballo es blanco. 
+          Pues, puesto que este nombre ---esto es, <mentioned>blanco</mentioned>--- 
+          no significa nada distinto que esta oración 
+          ---esto es, <mentioned>que tiene la blancura</mentioned>---, 
+          entonces así como esta oración establece de por sí para mí 
+          el entendimiento de la blancura y no de esa cosa que tiene la blancura, 
+          así también el nombre. Pero puesto que sé que la blancura está en el caballo, 
+          y esto por medio de algo distinto 
+          que por el nombre <mentioned>blanco</mentioned>, 
+          por ejemplo por medio de la visión, entonces habiendo entendido 
+          la blancura por medio de este nombre, 
+          entiendo el caballo por el hecho de que sé que la blancura 
+          está en el caballo, esto es, por medio de algo distinto que 
+          por el nombre <mentioned>blanco</mentioned>, 
+          por el que sin embargo el caballo es apelado.
+          <!--D. Video. Nempe nomen equi etiam priusquam sciam ipsum equum
+            album esse, significat mihi equi substantiam per se, et non per aliud.
+            Nomen vero albi equi substantiam significat non per se, sed per aliud,
+            id est per hoc quia scio equum esse album. Cum enim nihil aliud
+            significet hoc nomen, quod est ,albus', quam haec oratio, 
+            quae est <mentioned>habens
+            albedinem</mentioned>: sicut haec oratio per se constituit 
+            mihi intellectum albedinis,
+            et non eius rei quae habet albedinem; ita et nomen. Sed quoniam scio
+            albedinem esse in equo, et hoc per aliud quam per nomen albi, velut
+            per visum: intellecta albedine per hoc nomen, intelligo equum per hoc
+            quod albedinem scio esse in equo, id est per aliud quam per nomen
+            albi, quo tamen equus appellatur.-->
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

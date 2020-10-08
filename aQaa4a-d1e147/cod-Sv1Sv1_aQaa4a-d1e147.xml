@@ -1,148 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Caput 3</title>
-            <author ref="#Anselm">Anselm</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-            <respStmt>
-               <name ref="#nivaca">Nicolas Vaughan</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Caput 3</title>
-               <date when="2020-10-01">October 01, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-10-01" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#Sm" n="146"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="aQaa4a-d1e147"><!-- aQaa4a-c3 -->
-            <head xml:id="aQaa4a-d1e147-Hd1e118">Caput 3</head>
-            <p xml:id="aQaa4a-d1e147-d1e121">
-               <lb ed="#Sm" n="27"/>[III.]
-      <lb ed="#Sm" n="28"/>M. Non consequitur. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e147-d1e128">
-               <lb ed="#Sm" n="29"/>D. Quare? 
-    </p>
-            <p xml:id="aQaa4a-d1e147-d1e133">
-      <!--173.xml-->
-               <pb ed="#Sm" n="147"/>
-               <lb ed="#Sm" n="1"/>M. An tibi videtur .animalis* nomen aliquid aliud significare quam 
-      <lb ed="#Sm" n="2"/>.substantiam animatam sensibilem*? 
-    </p>
-            <p xml:id="aQaa4a-d1e147-d1e144">
-               <lb ed="#Sm" n="3"/>D. Prorsus nihil aliud est animal quam .substantia animata sensibilis*, 
-      <lb ed="#Sm" n="4"/>nec .substantia animata sensibilis* aliud est quam animal. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e147-d1e152">
-               <lb ed="#Sm" n="5"/>M. Ita est. Sed dic quoque, utrum omne quod non est aliud quam 
-      <lb ed="#Sm" n="6"/>substantia animata sensibilis, possit intelligi praeter rationalitatem, nec sit 
-      <lb ed="#Sm" n="7"/>rationale ex necessitate. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e147-d1e161">
-               <lb ed="#Sm" n="8"/>D. Negare non possum. 
-    </p>
-            <p xml:id="aQaa4a-d1e147-d1e166">
-               <lb ed="#Sm" n="9"/>M. Omne igitur animal potest intelligi praeter rationalitatem, et nullum 
-      <lb ed="#Sm" n="10"/>animal est ex necessitate rationale. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e147-d1e173">
-               <lb ed="#Sm" n="11"/>D. Nequeo dicere quin ex concessis consequatur, quamquam valde 
-      <lb ed="#Sm" n="12"/>metuam quod te suspicor intendere. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e147-d1e180">
-               <lb ed="#Sm" n="13"/>M. At nullus homo potest intelligi praeter rationalitatem, et omnem 
-      <lb ed="#Sm" n="14"/>hominem necesse est rationalem esse. 
-      
-      <lb ed="#Sm" n="15"/>is D. Angusti® mihi sunt utrimque. Nam si concedo, concludis nullum 
-      <lb ed="#Sm" n="16"/>hominem esse animal; si renuo, dices me non tantum posse intelligi sed 
-      <lb ed="#Sm" n="17"/>vere esse sine rationalitate, 
-      <lb ed="#Sm" n="18"/>is M. Ne timeas. Non enim sequitur quod putas. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e147-d1e196">
-               <lb ed="#Sm" n="19"/>D. Si sic est ut promittis, spontaneus concedo quidquid proposuisti; 
-      <lb ed="#Sm" n="20"/>sin autem, invitus. 
-      
-      <lb ed="#Sm" n="21"/>2i M. Contexe ergo tu ipse quattuor ultimas propositiones quas feci in 
-      <lb ed="#Sm" n="22"/>duos syllogismos. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e147-d1e208">
-               <lb ed="#Sm" n="23"/>D. Hoc utique ordine digeri possunt: Omne animal potest intelligi 
-      <lb ed="#Sm" n="24"/>praeter rationalitatem. Nullus vero homo potest intelligi praeter
-      rationali<lb ed="#Sm" n="25" break="no"/>tatem. Item: Nullum animal rationale est ex necessitate. Omnis autem 
-      <lb ed="#Sm" n="26"/>homo rationalis est ex necessitate. Ex utroque hoc ordine binarum
-      pro<lb ed="#Sm" n="27" break="no"/>positionum videtur nasci: Nullus igitur homo animal est, quo nihil falsius, 
-      <lb ed="#Sm" n="28"/>licet praecedentes propositiones in nullo titubare videam. Duae namque 
-      <lb ed="#Sm" n="29"/>quae subiectum terminum habent hominem, sic sunt per se notae, ut im- 
-      <!--174.xml-->
-      <pb ed="#Sm" n="148"/>
-      
-               <lb ed="#Sm" n="1"/>prudentia sit eas probare; duae vero quae subiciunt animal, sic videntur 
-      <lb ed="#Sm" n="2"/>probatae, ut impudentia sit eas negare. Sed video horum duorum
-      syllogis<lb ed="#Sm" n="3" break="no"/>morum conexionem per omnia similem illis duobus quos paulo ante 
-      <lb ed="#Sm" n="4"/>protuli. Quapropter ad nihil aliud suspicor te hos attulisse, nisi ut cum 
-      <lb ed="#Sm" n="5"/>horum conclusionem aperte falsam cernerem, idem de similibus quos ego 
-      <lb ed="#Sm" n="6"/>feceram decernerem. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e147-d1e243">
-               <lb ed="#Sm" n="7"/>M. Sic est. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e147-d1e248">
-               <lb ed="#Sm" n="8"/>D. Ostende ergo in quo et hic et ibi tanta sit deceptio, ut cum et 
-      <lb ed="#Sm" n="9"/>verae propositiones et secundum naturam syllogismorum conexae
-      videan<lb ed="#Sm" n="10" break="no"/>tur, nulla tamen eorum conclusiones veritas tueatur. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#nivaca">Nicolas Vaughan</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2020-10-01">October 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Sm" n="146"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1e147"><!-- aQaa4a-c3 -->
+        <head xml:id="aQaa4a-d1e147-Hd1e118">Caput 3</head>
+        <p xml:id="aQaa4a-d1e147-d1e121">
+          <lb ed="#Sm" n="27"/>[III.]
+          <lb ed="#Sm" n="28"/>M. Non consequitur. 
+          
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e128">
+          <lb ed="#Sm" n="29"/>D. Quare? 
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e133">
+          <!--173.xml-->
+          <pb ed="#Sm" n="147"/>
+          <lb ed="#Sm" n="1"/>M. An tibi videtur "animalis" nomen aliquid aliud significare quam 
+          <lb ed="#Sm" n="2"/><mentioned>substantiam animatam sensibilem</mentioned>? 
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e144">
+          <lb ed="#Sm" n="3"/>D. Prorsus nihil aliud est animal quam <mentioned>substantia animata sensibilis</mentioned>, 
+          <lb ed="#Sm" n="4"/>nec <mentioned>substantia animata sensibilis</mentioned> aliud est quam animal. 
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e152">
+          <lb ed="#Sm" n="5"/>M. Ita est. Sed dic quoque, utrum omne quod non est aliud quam 
+          <lb ed="#Sm" n="6"/>substantia animata sensibilis, possit intelligi praeter rationalitatem, nec sit 
+          <lb ed="#Sm" n="7"/>rationale ex necessitate. 
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e161">
+          <lb ed="#Sm" n="8"/>D. Negare non possum. 
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e166">
+          <lb ed="#Sm" n="9"/>M. Omne igitur animal potest intelligi praeter rationalitatem, et nullum 
+          <lb ed="#Sm" n="10"/>animal est ex necessitate rationale. 
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e173">
+          <lb ed="#Sm" n="11"/>D. Nequeo dicere quin ex concessis consequatur, quamquam valde 
+          <lb ed="#Sm" n="12"/>metuam quod te suspicor intendere. 
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e180">
+          <lb ed="#Sm" n="13"/>M. At nullus homo potest intelligi praeter rationalitatem, et omnem 
+          <lb ed="#Sm" n="14"/>hominem necesse est rationalem esse. 
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e185">
+          <lb ed="#Sm" n="15"/>D. Angustia mihi sunt utrimque. Nam si concedo, concludis nullum 
+          <lb ed="#Sm" n="16"/>hominem esse animal; si renuo, dices me non tantum posse intelligi sed 
+          <lb ed="#Sm" n="17"/>vere esse sine rationalitate,
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e190">
+          <lb ed="#Sm" n="18"/>M. Ne timeas. Non enim sequitur quod putas. 
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e196">
+          <lb ed="#Sm" n="19"/>D. Si sic est ut promittis, spontaneus concedo quidquid proposuisti; 
+          <lb ed="#Sm" n="20"/>sin autem, invitus. 
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e200">
+          <lb ed="#Sm" n="21"/>M. Contexe ergo tu ipse quattuor ultimas propositiones quas feci in 
+          <lb ed="#Sm" n="22"/>duos syllogismos. 
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e208">
+          <lb ed="#Sm" n="23"/>D. Hoc utique ordine digeri possunt: <mentioned>Omne animal potest intelligi 
+            <lb ed="#Sm" n="24"/>praeter rationalitatem</mentioned>. <mentioned>Nullus vero homo potest intelligi praeter
+              rationali<lb ed="#Sm" n="25" break="no"/>tatem</mentioned>. Item: <mentioned>Nullum animal rationale est ex necessitate.</mentioned> <mentioned>Omnis autem 
+                <lb ed="#Sm" n="26"/>homo rationalis est ex necessitate</mentioned>. Ex utroque hoc ordine binarum
+          pro<lb ed="#Sm" n="27" break="no"/>positionum videtur nasci: <mentioned>Nullus igitur homo animal est</mentioned>, quo nihil falsius, 
+          <lb ed="#Sm" n="28"/>licet praecedentes propositiones in nullo titubare videam. Duae namque 
+          <lb ed="#Sm" n="29"/>quae subiectum terminum habent <mentioned>hominem</mentioned>, sic sunt per se notae, ut  
+          <!--174.xml-->
+          <pb ed="#Sm" n="148"/>
+          im<lb ed="#Sm" n="1" break="no"/>prudentia sit eas probare; duae vero quae subiciunt <mentioned>animal</mentioned>, sic videntur 
+          <lb ed="#Sm" n="2"/>probatae, ut impudentia sit eas negare. Sed video horum duorum
+          syllogis<lb ed="#Sm" n="3" break="no"/>morum conexionem per omnia similem illis duobus quos paulo ante 
+          <lb ed="#Sm" n="4"/>protuli. Quapropter ad nihil aliud suspicor te hos attulisse, nisi ut cum 
+          <lb ed="#Sm" n="5"/>horum conclusionem aperte falsam cernerem, idem de similibus quos ego 
+          <lb ed="#Sm" n="6"/>feceram decernerem. 
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e243">
+          <lb ed="#Sm" n="7"/>M. Sic est.
+        </p>
+        <p xml:id="aQaa4a-d1e147-d1e248">
+          <lb ed="#Sm" n="8"/>D. Ostende ergo in quo et hic et ibi tanta sit deceptio, ut cum et 
+          <lb ed="#Sm" n="9"/>verae propositiones et secundum naturam syllogismorum conexae
+          videan<lb ed="#Sm" n="10" break="no"/>tur, nulla tamen eorum conclusiones veritas tueatur. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

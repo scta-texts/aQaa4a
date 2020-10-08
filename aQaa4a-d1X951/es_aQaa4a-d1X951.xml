@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capítulo 18</title>
+        <author ref="#Anselm">Anselmo de Canterbury</author>
+        <respStmt>
+          <name ref="#nivaca">Nicolás Vaughan</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#anlozan">Andrea Lozano-Vásquez</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Felipe Castañeda</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Grupo de Traducción de Latín de Medieval de la Universidad de los Andes</name>
+          <resp>Translator</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capítulo 18</title>
+          <date when="2020-10-07">October 07, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1X951"><!-- aQaa4a-c18 -->
+        <head xml:id="aQaa4a-d1X951-Hd1e118">Capítulo 18</head>
+        <p xml:id="aQaa4a-d1X951-d1e121">
+          [XVIII.]
+          M. Por lo tanto, habiendo propuesto la división previamente dicha, 
+          si te pregunto qué es el gramático según esta división 
+          y según los que la siguen al escribir sobre dialéctica, 
+          entonces ¿qué pregunto o qué me responderás?
+          <!--M. Si ergo proposita divisione praefata quaero a te, quid sit
+          grammaticus secundum hanc divisionem et secundum eos qui illam scribendo de
+          dialectica sequuntur: quid quaero, aut quid mihi respondebis?-->
+        </p>
+        <p xml:id="aQaa4a-d1X951-d1e132">
+          D. Sin duda aquí no puede preguntarse sino o bien sobre la expresión, 
+          o bien sobre la cosa significada. 
+          Por lo cual, puesto que consta que el gramático no significa, 
+          según esta división, el hombre sino la gramática, 
+          responderé sin vacilación, si preguntas sobre la expresión, 
+          que es una expresión que significa una cualidad;
+          pero si preguntas sobre la cosa, que es una cualidad.
+          <!--D. Procul dubio non hic potest quaeri nisi aut de voce aut de re
+          quam significat. Quare quia constat grammaticum non significare secundum
+          hanc divisionem hominem sed grammaticam, incunctanter respondebo: si
+          quaeris de voce: quia est vox significans qualitatem; si vero quaeris de
+          re: quia est qualitas.-->
+        </p>
+        <p xml:id="aQaa4a-d1X951-d1e145">
+          M. ¿Ignoras que el mismo <name ref="#Aristotle">Aristóteles</name> 
+          en el mismo libro se refiere a las expresiones 
+          mediante el nombre de las cosas de las que aquellas son significativas 
+          y no solamente de las que son apelativas?, 
+          como cuando dice 
+          <mentioned>toda substancia parece significar un algo</mentioned>, 
+          esto es, toda expresión que significa una substancia; 
+          así como nombra o más bien muestra las cosas 
+          ---lo cual tú recordaste poco antes--- 
+          con las solas expresiones significativas de estas 
+          y pocas veces con las apelativas.
+          <!--M. An ignoras quia idem <name ref="#Aristotle">Aristoteles</name> 
+            appellat voces nomine rerum
+          quarum sunt significativae, et non quarum tantum sunt appellativae, in
+          eodem libro; ut cum dicit quia ,omnis substantia videtur significare hoc
+          aliquid', id est omnis vox significans substantiam; sicut nominat vel potius
+          ostendit res -\-\-quod tu paulo ante meministi-\-\- solis vocibus earum
+          significativis et saepe non appellativis?-->
+        </p>
+        <p xml:id="aQaa4a-d1X951-d1e165">
+          D. No puedo ignorar esto. 
+          Por lo cual, o se pregunta sobre la expresión o sobre la cosa; 
+          entonces, cuando se pregunta qué es el gramático, 
+          según el tratado de <name ref="#Aristotle">Aristóteles</name> 
+          y según sus seguidores, se responde correctamente: 
+          una cualidad; y sin embargo, según la apelación, 
+          verdaderamente es una substancia.
+          <!--D. Non hoc ignorare possum. Quare sive quaeratur de voce sive de
+          re: cum quaeritur quid sit grammaticus secundum tractatum 
+          <name ref="#Aristotle">Aristotelis</name>
+          et secundum sequaces eius, recte respondetur: qualitas; et tamen
+          secundum appellationem vere est substantia.-->
+        </p>
+        <p xml:id="aQaa4a-d1X951-d1e177">
+          M. Así es. Pues no nos debe afectar 
+          que por una parte los dialécticos escriban sobre las expresiones 
+          en cuanto son significativas 
+          y por otra parte las usen al hablar en cuanto son apelativas, 
+          si incluso los gramáticos dicen una cosa 
+          según la forma de las expresiones y otra según la naturaleza de las cosas.
+          Ciertamente dicen que <mentioned>guijarro</mentioned> 
+          <supplied><foreign xml:lang="la">lapis</foreign></supplied> 
+          es de género masculino, <mentioned>piedra</mentioned> 
+          <supplied><foreign xml:lang="la">petra</foreign></supplied> de femenino, 
+          pero <mentioned>sirviente</mentioned> 
+          <supplied><foreign xml:lang="la">mancipium</foreign></supplied>
+          neutro y 
+          <mentioned>temer</mentioned> 
+          <supplied><foreign xml:lang="la">timere</foreign></supplied> activo, 
+          pero <mentioned>ser temido</mentioned>
+          <supplied><foreign xml:lang="la">timeri</foreign></supplied> pasivo; 
+          aunque nadie dice que el guijarro es macho o la piedra, 
+          hembra o el sirviente, ni macho ni hembra o que temer es hacer, 
+          pero ser temido, padecer.
+          <!--M. Ita est. Non enim movere nos debet quod dialectici aliter scribunt
+          de vocibus secundum quod sunt significativae, aliter eis utuntur loquendo
+          secundum quod sunt appellativae, si et grammatici aliud dicunt secundum
+          formam vocum, aliud secundum rerum naturam. Dicunt quippe lapidem
+          esse masculini generis, petram feminini, mancipium autem neutri, et timere
+          activum, timeri vero passivum, cum nemo dicat esse lapidem masculum
+          aut petram feminam aut mancipium nec masculum nec feminam, aut timere
+          facere, timeri autem pati.-->
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

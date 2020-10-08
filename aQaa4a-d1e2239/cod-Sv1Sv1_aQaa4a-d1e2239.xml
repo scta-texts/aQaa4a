@@ -1,182 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Caput 21</title>
-            <author ref="#Anselm">Anselm</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-            <respStmt>
-               <name ref="#nivaca">Nicolas Vaughan</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Caput 21</title>
-               <date when="2020-10-01">October 01, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-10-01" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#Sm" n="166"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="aQaa4a-d1e2239"><!-- aQaa4a-c21 -->
-            <head xml:id="aQaa4a-d1e2239-Hd1e118">Caput 21</head>
-            <p xml:id="aQaa4a-d1e2239-d1e121">
-               <lb ed="#Sm" n="23"/>[XXI.] 
-      <lb ed="#Sm" n="24"/>M. Non agitur utrum omnis qui est albus sit aliquid aut sit qui habet, 21 
-      <lb ed="#Sm" n="25"/>sed utrum hoc nomen sua significatione contineat hoc quod dicitur
-      ali<lb ed="#Sm" n="26" break="no"/>quid aut qui habet — sicut homo continet animal —, ut quomodo homo 
-      <lb ed="#Sm" n="27"/>est .animal rationale mortale*, ita albus sit aliquid habens albedinem aut 27 
-      <lb ed="#Sm" n="28"/>qui habet albedinem. Multa namque necesse est rem quamlibet esse, quae 
-      <lb ed="#Sm" n="29"/>tamen rei eiusdem nomine non significantur. Nam omne animal necesse 
-      <lb ed="#Sm" n="30"/>est coloratum esse et rationale aut irrationale, nomen tamen animalis nihil 30 
-      <lb ed="#Sm" n="31"/>horum significat. Quare licet albus non sit nisi aliquid habens aut qui 
-      <lb ed="#Sm" n="32"/>habet albedinem, non tamen necesse est ut albus hoc significet. Ponamus 
-      <!--193.xml-->
-      <pb ed="#Sm" n="167"/>
-               <lb ed="#Sm" n="1"/>enim quod albus sive album significet aliquid habens albedinem. Sed
-      ali<lb ed="#Sm" n="2" break="no"/>quid habens albedinem non est aliud quam aliquid album. 
-    </p>
-            <p xml:id="aQaa4a-d1e2239-d1e154">
-               <lb ed="#Sm" n="3"/>D. Non potest aliud esse. 
-    </p>
-            <p xml:id="aQaa4a-d1e2239-d1e159">
-               <lb ed="#Sm" n="4"/>M. Albus igitur sive album semper significat aliquid album. 
-    </p>
-            <p xml:id="aQaa4a-d1e2239-d1e164">
-               <lb ed="#Sm" n="5"/>D. Ita sit. 
-    </p>
-            <p xml:id="aQaa4a-d1e2239-d1e170">
-               <lb ed="#Sm" n="6"/>M. Ubi ergo ponitur albus vel album, recte semper accipitur pro albo 
-      <lb ed="#Sm" n="7"/>aliquid album. 
-    </p>
-            <p xml:id="aQaa4a-d1e2239-d1e177">
-               <lb ed="#Sm" n="8"/>D. Consequitur. 
-    </p>
-            <p xml:id="aQaa4a-d1e2239-d1e182">
-               <lb ed="#Sm" n="9"/>M. Ergo ubi dicitur aliquid album, recte quoque dicitur bis: aliquid 
-      <lb ed="#Sm" n="10"/>aliquid album; et ubi bis, ibi et ter, et hoc infinite. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e2239-d1e189">
-               <lb ed="#Sm" n="11"/>D. Consequens et absurdum est hoc. 
-    </p>
-            <p xml:id="aQaa4a-d1e2239-d1e194">
-               <lb ed="#Sm" n="12"/>M. Sit quoque albus id ipsum quod est qui albedinem habet. Sed 
-      <lb ed="#Sm" n="13"/>,habet* non est aliud quam ,habens est*. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e2239-d1e201">
-               <lb ed="#Sm" n="14"/>D. Nec potest esse. 
-    </p>
-            <p xml:id="aQaa4a-d1e2239-d1e207">
-               <lb ed="#Sm" n="15"/>is M. Albus ergo non est aliud quam qui albedinem habens est. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e2239-d1e212">
-               <lb ed="#Sm" n="16"/>D. Non aliud. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e2239-d1e217">
-               <lb ed="#Sm" n="17"/>M. Cum autem dicitur .albedinem habens*, non aliud significat haec 
-      
-      <lb ed="#Sm" n="18"/>is oratio quam album. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e2239-d1e224">
-               <lb ed="#Sm" n="19"/>D. Ita est. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e2239-d1e229">
-               <lb ed="#Sm" n="20"/>M. Idem igitur est albus quod qui albus est. 
-    </p>
-            <p xml:id="aQaa4a-d1e2239-d1e234">
-               <lb ed="#Sm" n="21"/>D. Sic sequitur. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e2239-d1e240">
-               <lb ed="#Sm" n="22"/>M. Ubicumque itaque ponitur albus, recte pro eo accipitur: qui 
-      <lb ed="#Sm" n="23"/>albus est. 
-    </p>
-            <p xml:id="aQaa4a-d1e2239-d1e247">
-               <lb ed="#Sm" n="24"/>D. Non possum negare. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e2239-d1e252">
-               <lb ed="#Sm" n="25"/>M. Si ergo albus est qui albus est, est etiam qui qui albus est est. 
-      <lb ed="#Sm" n="26"/>Et si hoc est, est etiam qui qui qui albus est est est, et sic in infinitum. 
-    </p>
-            <p xml:id="aQaa4a-d1e2239-d1e259">
-               <lb ed="#Sm" n="27"/>D. Nec hoc minus consequens nec minus absurdum est, quam ut 
-      <lb ed="#Sm" n="28"/>saepe sit aliquid aliquid. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e2239-d1e266">
-               <lb ed="#Sm" n="29"/>M. Si quis autem dicit quia albus aut aliquid significat habens
-      albe<lb ed="#Sm" n="30" break="no"/>dinem aut nihil: si sic intelligitur, ac si diceretur: albus aut significat
-      ali<lb ed="#Sm" n="31" break="no"/>quid habens aut significat non aliquid habens, ut non-aliquid sit infinitum 
-      <lb ed="#Sm" n="32"/>nomen, non est integra nec vera divisio, et ideo nihil probat. Veluti si 
-      
-      <lb ed="#Sm" n="33"/>quis diceret: Caecus aut videt aliquid aut videt non aliquid. Si vero sic 
-      <lb ed="#Sm" n="34"/>intelligitur, quia aut significat aliquid habens aut non significat: integra 
-      <lb ed="#Sm" n="35"/>est divisio et vera, nec repugnat iis quae dicta sunt.
-    </p>
-            <p xml:id="aQaa4a-d1e2239-d1e284">
-      <!--194.xml-->
-               <pb ed="#Sm" n="168"/>
-               <lb ed="#Sm" n="1"/>D. Satis apparet, quia per album non significatur aliquid habens 
-      <lb ed="#Sm" n="2"/>albedinem nec qui albedinem habet, sed tantum albedinem habens, id est 
-      <lb ed="#Sm" n="3"/>qualitas et habere, ex quibus solis non conficitur unum aliquid, et ideo 
-      <lb ed="#Sm" n="4"/>albus est utrumque, quia pariter utrumque significat. Quam rationem in 
-      <lb ed="#Sm" n="5"/>omnibus quae sine complexione dicuntur et similiter significant quamlibet 
-      <lb ed="#Sm" n="6"/>plura ex quibus non fit unum, valere video; nec aliquid iis quae in hac 
-      <lb ed="#Sm" n="7"/>disputatione asseruisti, obici recte posse existimo. 
-    </p>
-            <p xml:id="aQaa4a-d1e2239-d1e307">
-               <lb ed="#Sm" n="8"/>M. Nec mihi nunc videtur. Tamen quoniam scis quantum nostris
-      tem<lb ed="#Sm" n="9" break="no"/>poribus dialectici certent de quaestione a te proposita, nolo te sic iis 
-      <lb ed="#Sm" n="10"/>quae diximus inhaerere, ut ea pertinaciter teneas, si quis validioribus
-      argu<lb ed="#Sm" n="11" break="no"/>mentis haec destruere et diversa valuerit astruere. Quod si contigerit: 
-      <lb ed="#Sm" n="12"/>saltem ad exercitationem disputandi nobis haec profecisse non negabis. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 21</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#nivaca">Nicolas Vaughan</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 21</title>
+          <date when="2020-10-01">October 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Sm" n="166"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1e2239"><!-- aQaa4a-c21 -->
+        <head xml:id="aQaa4a-d1e2239-Hd1e118">Caput 21</head>
+        <p xml:id="aQaa4a-d1e2239-d1e121">
+          <lb ed="#Sm" n="23"/>[XXI.]
+          <lb ed="#Sm" n="24"/>M. Non agitur utrum omnis qui est albus sit aliquid aut sit qui habet,
+          <lb ed="#Sm" n="25"/>sed utrum hoc nomen sua significatione contineat hoc quod dicitur
+          ali<lb ed="#Sm" n="26" break="no"/>quid aut qui habet ---sicut homo continet animal---, ut quomodo homo
+          <lb ed="#Sm" n="27"/>est .animal rationale mortale*, ita albus sit aliquid habens albedinem aut
+          <lb ed="#Sm" n="28"/>qui habet albedinem. Multa namque necesse est rem quamlibet esse, quae
+          <lb ed="#Sm" n="29"/>tamen rei eiusdem nomine non significantur. Nam omne animal necesse
+          <lb ed="#Sm" n="30"/>est coloratum esse et rationale aut irrationale, nomen tamen animalis nihil
+          <lb ed="#Sm" n="31"/>horum significat. Quare licet albus non sit nisi aliquid habens aut qui
+          <lb ed="#Sm" n="32"/>habet albedinem, non tamen necesse est ut albus hoc significet. Ponamus
+          <!--193.xml-->
+          <pb ed="#Sm" n="167"/>
+          <lb ed="#Sm" n="1"/>enim quod albus sive album significet aliquid habens albedinem. Sed
+          ali<lb ed="#Sm" n="2" break="no"/>quid habens albedinem non est aliud quam aliquid album.
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e154">
+          <lb ed="#Sm" n="3"/>D. Non potest aliud esse.
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e159">
+          <lb ed="#Sm" n="4"/>M. Albus igitur sive album semper significat aliquid album.
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e164">
+          <lb ed="#Sm" n="5"/>D. Ita sit.
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e170">
+          <lb ed="#Sm" n="6"/>M. Ubi ergo ponitur albus vel album, recte semper accipitur pro albo
+          <lb ed="#Sm" n="7"/>aliquid album.
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e177">
+          <lb ed="#Sm" n="8"/>D. Consequitur.
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e182">
+          <lb ed="#Sm" n="9"/>M. Ergo ubi dicitur aliquid album, recte quoque dicitur bis: aliquid
+          <lb ed="#Sm" n="10"/>aliquid album; et ubi bis, ibi et ter, et hoc infinite.
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e189">
+          <lb ed="#Sm" n="11"/>D. Consequens et absurdum est hoc.
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e194">
+          <lb ed="#Sm" n="12"/>M. Sit quoque albus id ipsum quod est qui albedinem habet. Sed
+          <lb ed="#Sm" n="13"/><mentioned>habet</mentioned> non est aliud quam <mentioned>habens est</mentioned>.
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e201">
+          <lb ed="#Sm" n="14"/>D. Nec potest esse.
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e207">
+          <lb ed="#Sm" n="15"/>M. Albus ergo non est aliud quam qui albedinem habens est.
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e212">
+          <lb ed="#Sm" n="16"/>D. Non aliud.
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e217">
+          <lb ed="#Sm" n="17"/>M. Cum autem dicitur <mentioned>albedinem habens</mentioned>, non aliud significat haec
+          
+          <lb ed="#Sm" n="18"/>is oratio quam album.
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e224">
+          <lb ed="#Sm" n="19"/>D. Ita est.
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e229">
+          <lb ed="#Sm" n="20"/>M. Idem igitur est albus quod qui albus est.
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e234">
+          <lb ed="#Sm" n="21"/>D. Sic sequitur.
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e240">
+          <lb ed="#Sm" n="22"/>M. Ubicumque itaque ponitur albus, recte pro eo accipitur: qui
+          <lb ed="#Sm" n="23"/>albus est.
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e247">
+          <lb ed="#Sm" n="24"/>D. Non possum negare.
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e252">
+          <lb ed="#Sm" n="25"/>M. Si ergo albus est qui albus est, est etiam qui qui albus est est.
+          <lb ed="#Sm" n="26"/>Et si hoc est, est etiam qui qui qui albus est est est, et sic in infinitum.
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e259">
+          <lb ed="#Sm" n="27"/>D. Nec hoc minus consequens nec minus absurdum est, quam ut
+          <lb ed="#Sm" n="28"/>saepe sit aliquid aliquid.
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e266">
+          <lb ed="#Sm" n="29"/>M. Si quis autem dicit quia albus aut aliquid significat habens
+          albe<lb ed="#Sm" n="30" break="no"/>dinem aut nihil: si sic intelligitur, ac si diceretur: albus aut significat
+          ali<lb ed="#Sm" n="31" break="no"/>quid habens aut significat non aliquid habens, ut non-aliquid sit infinitum
+          <lb ed="#Sm" n="32"/>nomen, non est integra nec vera divisio, et ideo nihil probat. Veluti si
+          
+          <lb ed="#Sm" n="33"/>quis diceret: Caecus aut videt aliquid aut videt non aliquid. Si vero sic
+          <lb ed="#Sm" n="34"/>intelligitur, quia aut significat aliquid habens aut non significat: integra
+          <lb ed="#Sm" n="35"/>est divisio et vera, nec repugnat iis quae dicta sunt.
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e284">
+          <!--194.xml-->
+          <pb ed="#Sm" n="168"/>
+          <lb ed="#Sm" n="1"/>D. Satis apparet, quia per album non significatur aliquid habens
+          <lb ed="#Sm" n="2"/>albedinem nec qui albedinem habet, sed tantum albedinem habens, id est
+          <lb ed="#Sm" n="3"/>qualitas et habere, ex quibus solis non conficitur unum aliquid, et ideo
+          <lb ed="#Sm" n="4"/>albus est utrumque, quia pariter utrumque significat. Quam rationem in
+          <lb ed="#Sm" n="5"/>omnibus quae sine complexione dicuntur et similiter significant quamlibet
+          <lb ed="#Sm" n="6"/>plura ex quibus non fit unum, valere video; nec aliquid iis quae in hac
+          <lb ed="#Sm" n="7"/>disputatione asseruisti, obici recte posse existimo.
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e307">
+          <lb ed="#Sm" n="8"/>M. Nec mihi nunc videtur. Tamen quoniam scis quantum nostris
+          tem<lb ed="#Sm" n="9" break="no"/>poribus dialectici certent de quaestione a te proposita, nolo te sic iis
+          <lb ed="#Sm" n="10"/>quae diximus inhaerere, ut ea pertinaciter teneas, si quis validioribus
+          argu<lb ed="#Sm" n="11" break="no"/>mentis haec destruere et diversa valuerit astruere. Quod si contigerit:
+          <lb ed="#Sm" n="12"/>saltem ad exercitationem disputandi nobis haec profecisse non negabis.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

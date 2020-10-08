@@ -1,93 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Caput 2</title>
-            <author ref="#Anselm">Anselm</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-            <respStmt>
-               <name ref="#nivaca">Nicolas Vaughan</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Caput 2</title>
-               <date when="2020-10-01">October 01, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-10-01" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#Sm" n="NaN"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="aQaa4a-d1e91a"><!-- aQaa4a-c2 -->
-            <head xml:id="aQaa4a-d1e91a-Hd1e118">Caput 2</head>
-            <p xml:id="aQaa4a-d1e91a-d1e121">
-               <lb ed="#Sm" n="9"/>[II.]
-      <lb ed="#Sm" n="10"/>M. Argumenta quae ex utraque parte posuisti necessaria sunt, nisi 
-      <lb ed="#Sm" n="11"/>quod dicis: si alterum est, alterum esse non posse. Quare non debes a 
-      <lb ed="#Sm" n="12"/>me exigere, ut alteram partem falsam ostendam — quod ab ullo fieri non n 
-      <lb ed="#Sm" n="13"/>potest —, sed quomodo sibi invicem non repugnent aperiam, si a me fieri 
-      <lb ed="#Sm" n="14"/>potest. Sed vellem ego prius a te ipso audire, quid his probationibus tuis 
-      <lb ed="#Sm" n="15"/>obici posse opineris. is 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e91a-d1e139">
-               <lb ed="#Sm" n="16"/>D. Hoc quod tu a me exigis, ego a te intentus exspectabam; sed 
-      <lb ed="#Sm" n="17"/>quoniam tu easdem probationes asseris irreprobabiles: meum est qui
-      du<lb ed="#Sm" n="18" break="no"/>bito aperire quid me sollicitet, tuum vero est utriusque partis firmitatem is 
-      <lb ed="#Sm" n="19"/>et convenientiam ostendere. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e91a-d1e150">
-               <lb ed="#Sm" n="20"/>M. Dic ergo tu quod sentis, et ego tentabo facere quod poscis. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e91a-d1e155">
-               <lb ed="#Sm" n="21"/>D. Illam quidem propositionem - quae dicit grammaticum esse hominem, 21 
-      <lb ed="#Sm" n="22"/>hoc modo repelli existimo: quia nullus grammaticus potest intelligi sine 
-      <lb ed="#Sm" n="23"/>grammatica, et omnis homo potest intelligi sine grammatica. Item: Omnis 
-      <lb ed="#Sm" n="24"/>grammaticus suscipit magis et minus, et nullus homo suscipit magis et 24 
-      <lb ed="#Sm" n="25"/>minus. Ex qua utraque contextione binarum propositionum conficitur una 
-      <lb ed="#Sm" n="26"/>conclusio, id est: nullus grammaticus homo.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#nivaca">Nicolas Vaughan</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2020-10-01">October 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Sm" n="NaN"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1e91a"><!-- aQaa4a-c2 -->
+        <head xml:id="aQaa4a-d1e91a-Hd1e118">Caput 2</head>
+        <p xml:id="aQaa4a-d1e91a-d1e121">
+          <lb ed="#Sm" n="9"/>[II.]
+          <lb ed="#Sm" n="10"/>M. Argumenta quae ex utraque parte posuisti necessaria sunt, nisi 
+          <lb ed="#Sm" n="11"/>quod dicis: si alterum est, alterum esse non posse. Quare non debes a 
+          <lb ed="#Sm" n="12"/>me exigere, ut alteram partem falsam ostendam ---quod ab ullo fieri non
+          <lb ed="#Sm" n="13"/>potest---, sed quomodo sibi invicem non repugnent aperiam, si a me fieri 
+          <lb ed="#Sm" n="14"/>potest. Sed vellem ego prius a te ipso audire, quid his probationibus tuis 
+          <lb ed="#Sm" n="15"/>obici posse opineris.
+        </p>
+        <p xml:id="aQaa4a-d1e91a-d1e139">
+          <lb ed="#Sm" n="16"/>D. Hoc quod tu a me exigis, ego a te intentus exspectabam; sed 
+          <lb ed="#Sm" n="17"/>quoniam tu easdem probationes asseris irreprobabiles: meum est qui
+          du<lb ed="#Sm" n="18" break="no"/>bito aperire quid me sollicitet, tuum vero est utriusque partis firmitatem
+          <lb ed="#Sm" n="19"/>et convenientiam ostendere. 
+        </p>
+        <p xml:id="aQaa4a-d1e91a-d1e150">
+          <lb ed="#Sm" n="20"/>M. Dic ergo tu quod sentis, et ego tentabo facere quod poscis. 
+        </p>
+        <p xml:id="aQaa4a-d1e91a-d1e155">
+          <lb ed="#Sm" n="21"/>D. Illam quidem propositionem quae dicit grammaticum esse hominem, 
+          <lb ed="#Sm" n="22"/>hoc modo repelli existimo: quia nullus grammaticus potest intelligi sine 
+          <lb ed="#Sm" n="23"/>grammatica, et omnis homo potest intelligi sine grammatica. Item: Omnis 
+          <lb ed="#Sm" n="24"/>grammaticus suscipit magis et minus, et nullus homo suscipit magis et
+          <lb ed="#Sm" n="25"/>minus. Ex qua utraque contextione binarum propositionum conficitur una 
+          <lb ed="#Sm" n="26"/>conclusio, id est: nullus grammaticus homo.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

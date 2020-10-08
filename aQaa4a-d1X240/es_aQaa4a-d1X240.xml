@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capítulo 13</title>
+        <author ref="#Anselm">Anselmo de Canterbury</author>
+        <respStmt>
+          <name ref="#nivaca">Nicolás Vaughan</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#anlozan">Andrea Lozano-Vásquez</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Felipe Castañeda</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Grupo de Traducción de Latín de Medieval de la Universidad de los Andes</name>
+          <resp>Translator</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capítulo 13</title>
+          <date when="2020-10-07">October 07, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1X240"><!-- aQaa4a-c13 -->
+        <head xml:id="aQaa4a-d1X240-Hd1e118">Capítulo 13</head>
+        <p xml:id="aQaa4a-d1X240-d1e121">
+          [XIII.]
+          D. No veo por qué dices que <mentioned>gramático</mentioned> 
+          significa la gramática de por sí y al hombre por otro, 
+          y de qué manera es significativo solamente de la gramática. 
+          Pues así como el hombre consta tanto del animal, como la racionalidad 
+          y la mortalidad, y por esto <mentioned>hombre</mentioned> significa 
+          estas tres cosas, así el gramático consta del hombre y la gramática, 
+          y por eso este nombre significa ambos. 
+          Pues el gramático nunca se dice que es ni hombre sin gramática, 
+          ni gramática sin hombre.
+          <!--D. Non video quid dicas quia grammaticus significat grammaticam
+            per se, et hominem per aliud, et quomodo grammaticae tantum sit
+            significavum. Sicut enim homo constat ex animali et rationalitate et mortalitate,
+            et idcirco homo significat haec tria: ita grammaticus constat ex homine et
+            grammatica, et ideo nomen hoc significat utrumque. Numquam enim dicitur
+            is grammaticus aut homo sine grammatica, aut grammatica sine homine.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e139">
+          M. Por lo tanto, si es así como tú dices, la definición 
+          y el ser del gramático es <mentioned>hombre que sabe gramática</mentioned>.
+          <!--M. Si ergo ita est ut tu dicis, definitio et esse grammatici est: homo
+            sciens grammaticam-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e146">
+          D. No puede ser otra cosa.
+          <!--D. Non potest aliud esse.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e151">
+          M. Por lo tanto, cuando la gramática divide al hombre gramático 
+          del no gramático, lleva al gramático al ser y es parte 
+          de eso que es el ser de la cosa, y no puede estar presente 
+          y ausente del gramático, salvo por la corrupción del sujeto.
+          <!--M. Ergo cum grammatica dividit hominem grammaticum a 
+            non-grammatico, conducit grammaticum ad esse, et est pars eius quod est esse
+            rei, nec potest adesse et abesse a grammatico praeter subiecti
+            corruptionem.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e163">
+          D. ¿Y de ahí qué?
+          <!--D. Quid inde?-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e168">
+          M. Por lo tanto, la gramática no es accidente sino diferencia substancial, 
+          y el hombre es género y el gramático especie. 
+          Y no es distinto el razonamiento sobre la blancura 
+          y sobre accidentes semejantes. 
+          El tratado de todo el arte muestra que esto es falso.
+          <!--M. Non est igitur grammatica accidens sed substantialis differentia,
+            et est homo genus, et grammaticus species. Nec dissimilis est ratio de
+            albedine et similibus accidentibus. Quod falsum esse totius artis tractatus
+            ostendit.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e179">
+          D. Aunque no pueda negar lo que dices, sin embargo, 
+          aún no me ha persuadido que <mentioned>gramático</mentioned> 
+          no signifique al hombre.
+          <!--D. Quamquam non possim negare quod dicis, nondum tamen mihi
+            persuasum est quod grammaticus non significet hominem.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e186">
+          M. Supongamos que haya algún animal racional, aparte del hombre, 
+          que sepa gramática así como el hombre.
+          <!--M. Ponamus quod sit aliquod animal rationale -\-\-non tamen homo-\-\-,
+            quod ita sciat grammaticam sicut homo.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e193">
+          D. Es fácil imaginar esto.
+          <!--D. Facile est hoc fingere.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e198">
+          M. Por lo tanto, hay algún no hombre que sabe gramática.
+          <!--M. Est igitur aliquis non-homo sciens grammaticam.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e204">
+          D. Así se sigue.
+          <!--D. Ita sequitur.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e213">
+          M. Pero todo el que sabe gramática es gramático.
+          <!--M. At omne sciens grammaticam est grammaticum.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e218">
+          D. Lo concedo.
+          <!--D. Concedo.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e223">
+          M. Por lo tanto, hay un cierto no-hombre gramático.
+          <!--M. Est igitur quidam non-homo grammaticus.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e228">
+          D. Se sigue.
+          <!--D. Consequitur.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e233">
+          M. Pero tú dices que en el gramático se entiende el hombre.
+          <!--M. Sed tu dicis in grammatico intelligi hominem.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e239">
+          D. Lo digo.
+          <!--D. Dico.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e244">
+          M. Por lo tanto, cierto no hombre es hombre, lo que es falso.
+          <!--M. Quidam igitur non-homo est homo, quod falsum est.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e249">
+          D. A esto es conducido el razonamiento.
+          <!--D. Ad hoc ratio deducitur.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e254">
+          M. Por lo tanto, ¿no ves que <mentioned>gramático</mentioned> 
+          más parece significar el hombre que lo blanco no por otra cosa 
+          sino porque la gramática es accidente únicamente del hombre, 
+          pero la blancura no únicamente del hombre?
+          <!--M. Nonne ergo vides quia grammaticus non ob aliud magis videtur
+            significare hominem quam albus, nisi quia grammatica soli homini accidit,
+            albedo vero non soli homini?-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e263">
+          D. Así se sigue de lo que imaginamos. 
+          Pero quiero que concluyas esto sin lo imaginado.
+          <!--D. Sic sequitur ex eo quod finximus. Sed sine figmento volo ut hoc
+            efficias.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e270">
+          M. Si el hombre está en el gramático, entonces <supplied>hombre</supplied> 
+          no se predica de algo junto con este <supplied>el gramático</supplied>, 
+          así como el animal no se predica <supplied>de algo</supplied> 
+          con el hombre porque es inherente en el hombre. 
+          Pues no se dice adecuadamente que Sócrates es hombre animal.
+          <!--M. Si homo est in grammatico, non praedicatur cum eo simul de
+            aliquo, sicut animal non praedicatur cum homine, quia inest in homine. Non
+            enim apte dicitur quia <name ref="#Socrates">Socrates</name> est homo animal.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e280">
+          D. No puede contradecirse.
+          <!--D. Non potest contradici.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e285">
+          M. Pero se dice convenientemente que <name ref="#Socrates">Sócrates</name> 
+          es hombre gramático.
+          <!--M. Sed convenienter dicitur quia <name ref="#Socrates">Socrates</name> est homo grammaticus.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e290">
+          D. Convenientemente.
+          <!--D. Convenienter.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e295">
+          M. Por lo tanto, el hombre no está en el gramático.
+          <!-- M. Non est igitur homo in grammatico.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e300">
+          D. Así veo que se sigue.
+          <!--D. Sic consequi video.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e305">
+          M. Además, si el gramático es el hombre que sabe gramática, 
+          dondequiera que se ponga <mentioned>gramático</mentioned> 
+          se pone adecuadamente <mentioned>hombre que sabe gramática</mentioned>.
+          <!--M. Item si grammaticus est homo sciens grammaticam: ubicumque
+            ponitur grammaticus, apte ponitur: homo sciens grammaticam.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e313">
+          D. Así es.
+          <!--D. Ita est.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e318">
+          M. Por lo tanto, si adecuadamente se dice 
+          <mentioned>
+            <name ref="#Socrates">Sócrates</name> es un hombre gramático
+          </mentioned>, 
+          adecuadamente se dice también 
+          <mentioned>
+            <name ref="#Socrates">Sócrates</name> es un hombre hombre 
+            que sabe gramática
+          </mentioned>.
+          <!--M. Si igitur apte dicitur: <name ref="#Socrates">Socrates</name> 
+            est homo grammaticus, apte quoque dicitur: 
+            <name ref="#Socrates">Socrates</name> est homo homo 
+            sciens grammaticam.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e325">
+          D. Se sigue.
+          <!--D. Consequitur.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e330">
+          M. Sin embargo, todo hombre que sabe gramática es un hombre gramático.
+          <!--M. Omnis autem homo sciens grammaticam est homo grammaticus.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e335">
+          D. Así es.
+          <!-- D. Ita est.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e340">
+          M. Por lo tanto, <name ref="#Socrates">Sócrates</name>, 
+          que es un hombre hombre que sabe gramática, 
+          es un hombre hombre gramático.  
+          Y puesto que el gramático es un hombre que sabe gramática, 
+          se sigue que <name ref="#Socrates">Sócrates</name> 
+          es un hombre hombre hombre que sabe gramática, 
+          y así al infinito.
+          <!--M. <name ref="#Socrates">Socrates</name> igitur qui est homo homo 
+            sciens grammaticam, est homo homo grammaticus. Et quoniam grammaticus 
+            est homo sciens grammaticam, consequitur ut <name ref="#Socrates">Socrates</name> sit homo homo homo sciens grammaticam, 
+            et sic in infinitum.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e352">
+          D. No puedo resistirme a esta evidente consecuencia.
+          <!--D. Non possum apertae consequentiae resistere.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e361">
+          M. Además, si en el gramático el hombre se ha de entender 
+          junto con la gramática, se ha de entender similarmente 
+          en todos los denominativos similares lo que se denomina 
+          junto con esto por lo que es denominado.
+          <!--M. Item si in grammatico homo intelligendus est cum grammatica,
+            s intelligendum est similiter in omnibus similibus denominativis id quod
+            denominatur cum eo a quo denominatur.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e370">
+          D. Esto pensaba.
+          <!--D. Hoc sentiebam.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e375">
+          M. Por lo tanto, <mentioned>de hoy</mentioned> 
+          significa lo que se llama <mentioned>de hoy</mentioned> 
+          y <mentioned>hoy</mentioned>. 
+          <!-- M. Ergo <mentioned>hodiernum</mentioned> significat 
+            id quod vocatur hodiernum et hodie.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e380">
+          D. Y ¿después qué?
+          <!--D. Quid postea?-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e385">
+          M. Por lo tanto, <mentioned>de hoy</mentioned> significa algo 
+          junto con el tiempo.
+          <!--M. <mentioned>Hodiernum</mentioned> igitur significat aliquid cum tempore.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e391">
+          D. Es necesario que así sea.
+          <!--D. Ita esse necesse est.-->
+        </p>
+        <p xml:id="aQaa4a-d1X240-d1e396">
+          M. Por lo tanto, <mentioned>de hoy</mentioned> no es un nombre 
+          sino un verbo porque es una voz que cosignifica 
+          el tiempo y no es una oración.
+          <!--M. Igitur <mentioned>hodiernum</mentioned> non est nomen 
+            sed verbum, quia est vox
+            consignificans tempus, nec est oratio.-->
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

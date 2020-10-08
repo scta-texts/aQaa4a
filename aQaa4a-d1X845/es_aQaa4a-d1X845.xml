@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capítulo 17</title>
+        <author ref="#Anselm">Anselmo de Canterbury</author>
+        <respStmt>
+          <name ref="#nivaca">Nicolás Vaughan</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#anlozan">Andrea Lozano-Vásquez</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Felipe Castañeda</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Grupo de Traducción de Latín de Medieval de la Universidad de los Andes</name>
+          <resp>Translator</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capítulo 17</title>
+          <date when="2020-10-07">October 07, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1X845"><!-- aQaa4a-c17 -->
+        <head xml:id="aQaa4a-d1X845-Hd1e118">Capítulo 17</head>
+        <p xml:id="aQaa4a-d1X845-d1e121">
+          [XVII.]
+          D. ¿Contiene aquel tratado algo diferente a esto: 
+          todo lo que es es o bien substancia o bien cantidad o bien cualidad, etc.?  
+          Por lo tanto, si solamente el hombre es gramático, 
+          solamente la substancia es gramático. 
+          Por lo tanto, ¿cómo según aquel tratado el gramático 
+          es más cualidad que substancia?
+          <!--D. An aliud habet ille tractatus quam: omne quod est, aut est
+          substantia aut quantitas aut qualitas et cetera? Si igitur solus homo est
+          grammaticus, sola substantia est grammaticus. Quomodo ergo secundum
+          illum tractatum magis est grammaticus qualitas quam substantia?-->
+        </p>
+        <p xml:id="aQaa4a-d1X845-d1e134">
+          M. Aunque esto que tú dices, que todo lo que es es alguna de estas cosas, 
+          se entienda ahí, no fue sin embargo la intención principal de 
+          <name ref="#Aristotle">Aristóteles</name> mostrar esto en aquel libro, 
+          sino que todo nombre o todo verbo significa alguna de estas cosas. 
+          Pues no intentaba mostrar qué son las cosas singulares, 
+          ni de qué cosas son apelativas las expresiones singulares, 
+          sino de qué son significativas. 
+          Pero puesto que las expresiones no significan sino cosas, 
+          entonces al decir qué es lo que significan las expresiones, 
+          fue necesario decir qué son las cosas. 
+          Pues para no hablar de otras cosas, esto que digo 
+          lo muestra suficientemente la división que hace al comienzo del tratado 
+          <title>De las categorías</title>. 
+          Pues no dice 
+          <mentioned>
+            de las cosas que son, cada una es o bien substancia o bien cantidad
+          </mentioned>, etc., 
+          ni dice 
+          <mentioned>
+            de las cosas que se dicen sin ninguna unión, 
+            cada una o bien es apelada substancia o bien cantidad
+          </mentioned>, 
+          sino que dice 
+          <mentioned>
+            de las cosas que se dicen sin ninguna unión, 
+            cada una o bien significa la substancia o bien la cantidad
+          </mentioned>.
+          <!--M. Etsi hoc ibi intelligatur quod tu dicis, quia omne quod est
+          aliquid horum est: non tamen fuit principalis intentio 
+          <name ref="#Aristotle">Aristotelis</name> hoc in
+          illo libro ostendere, sed quoniam omne nomen vel verbum aliquid horum
+          significat. Non enim intendebat ostendere quid sint singulae res, nec
+          quarum rerum sint appellativae singulae voces: sed quarum significativae
+          sint. Sed quoniam voces non significant nisi res: dicendo quid sit quod
+          voces significant, necesse fuit dicere quid sint res. Nam ut alia taceam,
+          sufficienter hoc quod dico divisio quam facit in principio tractatus
+          <title>Categoriarum</title> ostendit. Non enim ait: eorum quae sunt, 
+          singulum est aut
+          substantia aut quantitas et cetera; nec ait: eorum quae secundum nullam
+          complexionem dicuntur, singulum aut substantia appellatur aut quantitas;
+          sed ait: <mentioned>eorum quae secundum nullam complexionem dicuntur, singulum
+            aut substantiam significat aut quantitatem</mentioned>.-->
+        </p>
+        <p xml:id="aQaa4a-d1X845-d1e169">
+          D. Tu razonamiento me persuade sobre lo que dices.
+          <!--D. Persuadet ratio quod dicis.-->
+        </p>
+        <p xml:id="aQaa4a-d1X845-d1e174">
+          M. Por lo tanto, puesto que <name ref="#Aristotle">Aristóteles</name> 
+          dice así: 
+          <mentioned>
+            De las cosas que se dicen sin ninguna unión, 
+            cada una o bien significa substancia o bien cantidad, etc.
+          </mentioned>, 
+          ¿de cuál significación te parece que habla, 
+          de aquella por la cual las expresiones mismas significan de por sí 
+          y que les es substancial, 
+          o de aquella que es por otro y que les es accidental?
+          <!--M. Cum ergo <name ref="#Aristotle">Aristoteles</name> 
+            ita dicat: <mentioned>eorum quae secundum nullam
+            complexionem dicuntur, singulum aut substantiam significat 
+            aut quantitatem</mentioned>
+            et cetera: de qua significatione videtur tibi dicere, de illa qua per se
+            significant ipsae voces et quae illis est substantialis, an de altera quae per
+            aliud est et accidentalis?-->
+        </p>
+        <p xml:id="aQaa4a-d1X845-d1e188">
+          D. No sino de aquella por la cual significan de por sí y que él mismo, 
+          cuando definió el nombre y el verbo, determinó que es inherente 
+          a las mismas expresiones.
+          <!--D. Non nisi de illa quam idem ipse eisdem vocibus inesse definiendo
+          nomen et verbum assignavit, qua per se significant.-->
+        </p>
+        <p xml:id="aQaa4a-d1X845-d1e195">
+          M. ¿Consideras que él prosiguió en el tratado de manera diferente 
+          a la que propuso en la división o que alguno de esos que siguiéndolo 
+          escribieron sobre dialéctica quiso opinar de manera diferente 
+          a como él mismo opinó sobre este asunto?
+          <!--M. An putas illum aliter prosecutum in tractatu, quam proposuit in
+          divisione, aut aliquem eorum qui eum sequentes de dialectica scripserunt,
+          aliter sentire voluisse de hac re, quam ipse sensit?-->
+        </p>
+        <p xml:id="aQaa4a-d1X845-d1e204">
+          D. De ningún modo los escritos de estos permiten que alguien opine esto, 
+          porque nunca se encuentra que alguno de ellos haya puesto 
+          alguna expresión para mostrar algo que signifique por otro, 
+          sino siempre para esto que significa de por sí. 
+          Pues nadie al querer mostrar la substancia pone <mentioned>blanco</mentioned> 
+          o <mentioned>gramático</mentioned>, 
+          sino al enseñar sobre la cualidad profiere <mentioned>blanco</mentioned> 
+          o <mentioned>gramático</mentioned> y similares.
+          <!--D. Nullo modo eorum scripta hoc aliquem opinari permittunt, quia
+          nusquam invenitur aliquis eorum posuisse aliquam vocem ad ostendendum
+          aliquid quod significet per aliud, sed semper ad hoc quod per se signi
+          ficat. Nullus enim volens monstrare substantiam ponit album aut
+          grammaticum, sed de qualitate docens album et grammaticum profert et similia.-->
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

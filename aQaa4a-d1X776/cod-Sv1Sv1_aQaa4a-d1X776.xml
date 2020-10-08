@@ -1,95 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Caput 16</title>
-            <author ref="#Anselm">Anselm</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-            <respStmt>
-               <name ref="#nivaca">Nicolas Vaughan</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Caput 16</title>
-               <date when="2020-10-01">October 01, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-10-01" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#Sm" n="161"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="aQaa4a-d1X776"><!-- aQaa4a-c16 -->
-            <head xml:id="aQaa4a-d1X776-Hd1e118">Caput 16</head>
-            <p xml:id="aQaa4a-d1X776-d1e121">
-               <lb ed="#Sm" n="22"/>[XVI.] 
-    </p>
-            <p xml:id="aQaa4a-d1X776-d1e126">
-               <lb ed="#Sm" n="23"/>D. Patet quod dicis. Sed non sine scrupulo accipit animus
-      gramma<lb ed="#Sm" n="24" break="no"/>ticum esse qualitatem, quamvis significet grammaticam, aut hominem 
-      <lb ed="#Sm" n="25"/>solum, id est sine grammatica, esse grammaticum, licet probatum sit 
-      <lb ed="#Sm" n="26"/>hominem simul et grammaticam non esse grammaticum; unde consequitur 
-      <lb ed="#Sm" n="27"/>solum hominem esse grammaticum, quoniam non potest esse grammaticus 
-      <lb ed="#Sm" n="28"/>nisi aut solus aut cum grammatica. Quamvis namque grammatici nomen 
-      <lb ed="#Sm" n="29"/>significativum sit grammaticae: non tamen convenienter respondetur
-      quse<lb ed="#Sm" n="30" break="no"/>renti quid grammaticus sit: grammatica, aut qualitas. Et si nullus est 
-      <!--188.xml-->
-      <pb ed="#Sm" n="162"/>
-               <lb ed="#Sm" n="1"/>grammaticus nisi participando grammaticam, consequitur ut homo non sit 
-      <lb ed="#Sm" n="2"/>grammaticus nisi cum grammatica. 
-    </p>
-            <p xml:id="aQaa4a-d1X776-d1e155">
-               <lb ed="#Sm" n="3"/>M. Quod quidem dicitur quia homo solus, id est sine grammatica, 
-      <lb ed="#Sm" n="4"/>est grammaticus, quantum ad tuam quaestionem solvendam sufficit,
-      duo<lb ed="#Sm" n="5" break="no"/>bus modis intelligi potest, uno vero, altero falso. Homo quippe solus sine 
-      <lb ed="#Sm" n="6"/>grammatica est grammaticus, quia solus est habens grammaticam.
-      Gram<lb ed="#Sm" n="7" break="no"/>matica namque nec sola nec cum homine habet grammaticam. Sed homo 
-      <lb ed="#Sm" n="8"/>solus, id est absque grammatica, non est grammaticus, quia absente 
-      <lb ed="#Sm" n="9"/>grammatica nullus esse grammaticus potest. Sicut qui praecedendo ducit 
-      <lb ed="#Sm" n="10"/>alium, et solus est praevius, quia qui sequitur non est praevius, nec
-      sepa<lb ed="#Sm" n="11" break="no"/>ra tim nec sic ut ex illis duobus unus fiat praevius; et solus non est
-      prae<lb ed="#Sm" n="12" break="no"/>vius, quia nisi sit qui sequatur, praevius esse non potest. Cum vero 
-      <lb ed="#Sm" n="13"/>dicitur quia grammaticus est qualitas: non recte nisi secundum tractatum 
-      <lb ed="#Sm" n="14"/>ARISTOTELIS De categoriis dicitur. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 16</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#nivaca">Nicolas Vaughan</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 16</title>
+          <date when="2020-10-01">October 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Sm" n="161"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1X776"><!-- aQaa4a-c16 -->
+        <head xml:id="aQaa4a-d1X776-Hd1e118">Caput 16</head>
+        <p xml:id="aQaa4a-d1X776-d1e121">
+          <lb ed="#Sm" n="22"/>[XVI.]
+          <lb ed="#Sm" n="23"/>D. Patet quod dicis. Sed non sine scrupulo accipit animus
+          gramma<lb ed="#Sm" n="24" break="no"/>ticum esse qualitatem, quamvis significet grammaticam, aut hominem
+          <lb ed="#Sm" n="25"/>solum, id est sine grammatica, esse grammaticum, licet probatum sit
+          <lb ed="#Sm" n="26"/>hominem simul et grammaticam non esse grammaticum; unde consequitur
+          <lb ed="#Sm" n="27"/>solum hominem esse grammaticum, quoniam non potest esse grammaticus
+          <lb ed="#Sm" n="28"/>nisi aut solus aut cum grammatica. Quamvis namque grammatici nomen
+          <lb ed="#Sm" n="29"/>significativum sit grammaticae: non tamen convenienter respondetur
+          quae<lb ed="#Sm" n="30" break="no"/>renti quid grammaticus sit: grammatica, aut qualitas. Et si nullus est
+          <!--188.xml-->
+          <pb ed="#Sm" n="162"/>
+          <lb ed="#Sm" n="1"/>grammaticus nisi participando grammaticam, consequitur ut homo non sit
+          <lb ed="#Sm" n="2"/>grammaticus nisi cum grammatica.
+        </p>
+        <p xml:id="aQaa4a-d1X776-d1e155">
+          <lb ed="#Sm" n="3"/>M. Quod quidem dicitur quia homo solus, id est sine grammatica,
+          <lb ed="#Sm" n="4"/>est grammaticus, quantum ad tuam quaestionem solvendam sufficit,
+          duo<lb ed="#Sm" n="5" break="no"/>bus modis intelligi potest, uno vero, altero falso. Homo quippe solus sine
+          <lb ed="#Sm" n="6"/>grammatica est grammaticus, quia solus est habens grammaticam.
+          Gram<lb ed="#Sm" n="7" break="no"/>matica namque nec sola nec cum homine habet grammaticam. Sed homo
+          <lb ed="#Sm" n="8"/>solus, id est absque grammatica, non est grammaticus, quia absente
+          <lb ed="#Sm" n="9"/>grammatica nullus esse grammaticus potest. Sicut qui praecedendo ducit
+          <lb ed="#Sm" n="10"/>alium, et solus est praevius, quia qui sequitur non est praevius, nec
+          sepa<lb ed="#Sm" n="11" break="no"/>ratim nec sic ut ex illis duobus unus fiat praevius; et solus non est
+          prae<lb ed="#Sm" n="12" break="no"/>vius, quia nisi sit qui sequatur, praevius esse non potest. Cum vero
+          <lb ed="#Sm" n="13"/>dicitur quia grammaticus est qualitas: non recte nisi secundum tractatum
+          <lb ed="#Sm" n="14"/><name ref="#Aristotle">Aristotelis</name> <title>De categoriis</title> dicitur.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

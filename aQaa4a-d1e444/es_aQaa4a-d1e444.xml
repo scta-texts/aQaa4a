@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capítulo 5</title>
+        <author ref="#Anselm">Anselmo de Canterbury</author>
+        <respStmt>
+          <name ref="#nivaca">Nicolás Vaughan</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#anlozan">Andrea Lozano-Vásquez</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Felipe Castañeda</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Grupo de Traducción de Latín de Medieval de la Universidad de los Andes</name>
+          <resp>Translator</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capítulo 5</title>
+          <date when="2020-10-07">October 07, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Sm" n="NaN"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1e444"><!-- aQaa4a-c5 -->
+        <head xml:id="aQaa4a-d1e444-Hd1e118">Capítulo 5</head>
+        <p xml:id="aQaa4a-d1e444-d1e121">
+          [V]
+          D. Espero que le devuelvas la capacidad de concluir a mis proposiciones.
+          <!--D. Exspecto ut reddas effectum propositionibus meis.-->
+        </p>
+        <p xml:id="aQaa4a-d1e444-d1e128">
+          M. En verdad concluyen algo, pero no lo que esperas.
+          <!--M. Efficiunt vere aliquid, sed non quod exspectas,-->
+        </p>
+        <p xml:id="aQaa4a-d1e444-d1e130">
+          D. Cualquier cosa que eso sea, no lo recibo sin agrado.
+          <!--D. Quidquid illud sit, non ingratus accipio.--> 
+        </p>
+        <p xml:id="aQaa4a-d1e444-d1e135">
+          M. Quien dice: 
+          <mentioned>
+            Todo hombre puede entenderse hombre sin la gramática
+          </mentioned> y 
+          <mentioned>
+            Ningún gramático puede entenderse gramático sin gramática
+          </mentioned>, 
+          ¿no significa esto que el ser del hombre no requiere de la gramática 
+          y que el ser del gramático requiere de la gramática?
+          <!--M. Qui dicit: omnis homo potest intelligi homo sine grammatica, et
+          nullus grammaticus potest intelligi grammaticus sine grammatica: nonne
+          si hoc significat quia esse hominis non indiget grammatica, et esse
+          grammatici indiget grammatica?-->
+        </p>
+        <p xml:id="aQaa4a-d1e444-d1e146">
+          D. Nada es más verdadero.
+          <!--D. Nihil verius.-->
+        </p>
+        <p xml:id="aQaa4a-d1e444-d1e152">
+          M. ¿Acaso tienen un término común estas dos proposiciones, 
+          de las que hace poco dije que son significadas en aquellas otras dos?
+          <!--M. An habent communem terminum hee duae propositiones, quas modo
+          dixi significari in illis aliis duabus?-->
+        </p>
+        <p xml:id="aQaa4a-d1e444-d1e159">
+          D. Lo tienen.
+          <!--D. Habent.-->
+        </p>
+        <p xml:id="aQaa4a-d1e444-d1e164">
+          M. Por lo tanto, se concluye que el ser del gramático 
+          no es el ser del hombre, esto es, que no hay una misma definición de ambos.
+          <!--M. Conficitur ergo quia esse grammatici non est esse hominis, id est
+          non esse eandem definitionem utriusque.-->
+        </p>
+        <p xml:id="aQaa4a-d1e444-d1e171">
+          D. Sin duda, así veo que se sigue y es.
+          <!--D. Procul dubio sic video consequi et esse.-->
+        </p>
+        <p xml:id="aQaa4a-d1e444-d1e176">
+          M. Sin embargo, no por esto se sigue que el gramático no es hombre, 
+          así como tú entendías. Pero si lo entendieras así: 
+          <mentioned>El gramático no es hombre</mentioned>, y si se dijera: 
+          <mentioned>El gramático no es lo mismo que el hombre</mentioned>, 
+          esto es, que no tienen la misma definición, la conclusión sería verdadera.
+          <!--M. Non tamen ideo consequitur grammaticum non esse hominem,
+          sicut tu inteiligebas. Sed si ita intelligas: grammaticus non est homo, ac
+          si dicatur: grammaticus non est idem quod homo, id est non habent
+          eandem definitionem: vera est conclusio.-->
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
