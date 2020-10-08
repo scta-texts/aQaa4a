@@ -79,9 +79,11 @@
         </p>
         <p xml:id="aQaa4a-d1e889-d1e156">
           <lb ed="#Sm" n="33"/>M. Dic.
+        </p>
+        <p xml:id="aQaa4a-d1e889-d1e160">
           <!--180.xml-->
           <pb ed="#Sm" n="154"/>
-          <lb ed="#Sm" n="1"/>D. ARISTOTELES ostendit grammaticum eorum esse quae sunt in
+          <lb ed="#Sm" n="1"/>D. <name ref="#Aristotle">Aristoteles</name> ostendit grammaticum eorum esse quae sunt in
           sub<lb ed="#Sm" n="2" break="no"/>jecto. Et nullus homo est in subiecto. Quare nullus grammaticus homo.
         </p>
         <p xml:id="aQaa4a-d1e889-d1e169">
