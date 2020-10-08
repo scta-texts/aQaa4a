@@ -1,109 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Caput 1</title>
-            <author ref="#Anselm">Anselm</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-            <respStmt>
-               <name ref="#nivaca">Nicolas Vaughan</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Caput 1</title>
-               <date when="2020-10-01">October 01, 2020</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2020-10-01" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#Sm" n="145"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="aQaa4a-d1e3aa"><!-- aQaa4a-c1 -->
-            <head xml:id="aQaa4a-d1e3aa-Hd1e118">Caput 1</head>
-            <p xml:id="aQaa4a-d1e3aa-d1e121"><!--171.xml-->
-               <pb ed="#Sm" n="145"/>
-               <lb ed="#Sm" n="1"/>Quomodo grammaticus sit substantia 
-      <lb ed="#Sm" n="2"/>et qualitas. 
-      <lb ed="#Sm" n="3"/>[1]
-      <lb ed="#Sm" n="4"/>DISCIPULUS. De ,grammatico' peto ut me certum facias utrum sit 
-      <lb ed="#Sm" n="5"/>substantia an qualitas, ut hoc cognito, quid de aliis quse similiter
-      denomina<lb ed="#Sm" n="6" break="no"/>tive dicuntur sentire debeam, agnoscam. 
-    </p>
-            <p xml:id="aQaa4a-d1e3aa-d1e140">
-               <lb ed="#Sm" n="7"/>MAGISTER. Dic primum cur dubites. 
-    </p>
-            <p xml:id="aQaa4a-d1e3aa-d1e145">
-               <lb ed="#Sm" n="8"/>D. Ideo quia videtur utrumque posse probari necessariis rationibus, 
-      <lb ed="#Sm" n="9"/>esse scilicet et non esse. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e3aa-d1e152">
-               <lb ed="#Sm" n="10"/>M. Proba ergo. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e3aa-d1e158">
-               <lb ed="#Sm" n="11"/>D. Ne ergo festines contradicere quidquid dixero, sed patere me
-      ora<lb ed="#Sm" n="12" break="no"/>tionem meam ad suum finem perducere, deinde aut approba aut corrige. 
-    </p>
-            <p xml:id="aQaa4a-d1e3aa-d1e165">
-               <lb ed="#Sm" n="13"/>M. Ut vis. 
-      
-    </p>
-            <p xml:id="aQaa4a-d1e3aa-d1e170">
-               <lb ed="#Sm" n="14"/>D. Ut quidem grammaticus probetur esse substantia, sufficit quia 
-      <lb ed="#Sm" n="15"/>is omnis grammaticus homo, et omnis homo substantia. Quidquid enim habet 
-      <lb ed="#Sm" n="16"/>grammaticus ut sequatur eum substantia, non habet nisi ex eo quia homo 
-      <lb ed="#Sm" n="17"/>est. Quare hoc concesso ut homo sit: qusecumque sequuntur hominem, 
-      <!--172.xml-->
-      <pb ed="#Sm" n="146"/>
-               <lb ed="#Sm" n="1"/>sequuntur grammaticum. Quod vero grammaticus sit qualitas, aperte
-      fa<lb ed="#Sm" n="2" break="no"/>tentur philosophi qui de hac re tractaverunt. Quorum auctoritatem de his 
-      <lb ed="#Sm" n="3"/>rebus est impudentia improbare. Item quoniam necesse est ut grammaticus r 
-      <lb ed="#Sm" n="4"/>sit aut substantia aut qualitas, ut quodlibet horum sit alterum non sit, et 
-      <lb ed="#Sm" n="5"/>quodlibet non sit alterum necesse sit esse: quidquid valet ad astruendam 
-      <lb ed="#Sm" n="6"/>unam partem, destruit alteram, et quidquid unam debilitat, alteram roborat, s 
-      <lb ed="#Sm" n="7"/>Cum ergo alterum horum verum sit, alterum falsum: rogo ut falsitatem 
-      <lb ed="#Sm" n="8"/>detegens aperias mihi veritatem. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#Anselm">Anselm</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#nivaca">Nicolas Vaughan</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2020-10-01">October 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Sm" n="145"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1e3aa"><!-- aQaa4a-c1 -->
+        <head xml:id="aQaa4a-d1e3aa-Hd1e118">Caput 1</head>
+        <p xml:id="aQaa4a-d1e3aa-d1e121"><!--171.xml-->
+          <pb ed="#Sm" n="145"/>
+          <lb ed="#Sm" n="1"/>Quomodo grammaticus sit substantia 
+          <lb ed="#Sm" n="2"/>et qualitas. 
+          <lb ed="#Sm" n="3"/>[1]
+        </p>
+        <p xml:id="aQaa4a-d1e3aa-d1e125">
+          <lb ed="#Sm" n="4"/>DISCIPULUS. De ,grammatico' peto ut me certum facias utrum sit 
+          <lb ed="#Sm" n="5"/>substantia an qualitas, ut hoc cognito, quid de aliis quse similiter
+          denomina<lb ed="#Sm" n="6" break="no"/>tive dicuntur sentire debeam, agnoscam. 
+        </p>
+        <p xml:id="aQaa4a-d1e3aa-d1e140">
+          <lb ed="#Sm" n="7"/>MAGISTER. Dic primum cur dubites. 
+        </p>
+        <p xml:id="aQaa4a-d1e3aa-d1e145">
+          <lb ed="#Sm" n="8"/>D. Ideo quia videtur utrumque posse probari necessariis rationibus, 
+          <lb ed="#Sm" n="9"/>esse scilicet et non esse. 
+          
+        </p>
+        <p xml:id="aQaa4a-d1e3aa-d1e152">
+          <lb ed="#Sm" n="10"/>M. Proba ergo. 
+          
+        </p>
+        <p xml:id="aQaa4a-d1e3aa-d1e158">
+          <lb ed="#Sm" n="11"/>D. Ne ergo festines contradicere quidquid dixero, sed patere me
+          ora<lb ed="#Sm" n="12" break="no"/>tionem meam ad suum finem perducere, deinde aut approba aut corrige. 
+        </p>
+        <p xml:id="aQaa4a-d1e3aa-d1e165">
+          <lb ed="#Sm" n="13"/>M. Ut vis. 
+          
+        </p>
+        <p xml:id="aQaa4a-d1e3aa-d1e170">
+          <lb ed="#Sm" n="14"/>D. Ut quidem grammaticus probetur esse substantia, sufficit quia 
+          <lb ed="#Sm" n="15"/>is omnis grammaticus homo, et omnis homo substantia. Quidquid enim habet 
+          <lb ed="#Sm" n="16"/>grammaticus ut sequatur eum substantia, non habet nisi ex eo quia homo 
+          <lb ed="#Sm" n="17"/>est. Quare hoc concesso ut homo sit: qusecumque sequuntur hominem, 
+          <!--172.xml-->
+          <pb ed="#Sm" n="146"/>
+          <lb ed="#Sm" n="1"/>sequuntur grammaticum. Quod vero grammaticus sit qualitas, aperte
+          fa<lb ed="#Sm" n="2" break="no"/>tentur philosophi qui de hac re tractaverunt. Quorum auctoritatem de his 
+          <lb ed="#Sm" n="3"/>rebus est impudentia improbare. Item quoniam necesse est ut grammaticus r 
+          <lb ed="#Sm" n="4"/>sit aut substantia aut qualitas, ut quodlibet horum sit alterum non sit, et 
+          <lb ed="#Sm" n="5"/>quodlibet non sit alterum necesse sit esse: quidquid valet ad astruendam 
+          <lb ed="#Sm" n="6"/>unam partem, destruit alteram, et quidquid unam debilitat, alteram roborat, s 
+          <lb ed="#Sm" n="7"/>Cum ergo alterum horum verum sit, alterum falsum: rogo ut falsitatem 
+          <lb ed="#Sm" n="8"/>detegens aperias mihi veritatem. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
