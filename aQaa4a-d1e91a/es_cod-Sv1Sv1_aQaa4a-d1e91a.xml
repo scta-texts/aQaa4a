@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capítulo 2</title>
+        <author ref="#Anselm">Anselmo de Canterbury</author>
+        <respStmt>
+          <name ref="#nivaca">Nicolás Vaughan</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#anlozan">Andrea Lozano-Vásquez</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Felipe Castañeda</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Grupo de Traducción de Latín de Medieval de la Universidad de los Andes</name>
+          <resp>Translator</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capítulo 1</title>
+          <date when="2020-10-07">October 07, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Sm" n="NaN"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1e91a"><!-- aQaa4a-c2 -->
+        <head xml:id="aQaa4a-d1e91a-Hd1e118">Capítulo 2</head>
+        <p xml:id="aQaa4a-d1e91a-d1e121">
+          [II.]
+          Los argumentos que planteaste de ambas partes son necesarios, 
+          excepto lo que dices: que si uno es, el otro no puede ser. 
+          Por lo cual, no debes exigirme que muestre que una parte es falsa 
+          ---lo que no puede hacerse de ninguna manera---, sino que aclare 
+          cómo no son incompatibles entre sí, si me es posible hacerlo. 
+          Pero yo quisiera primero escuchar de ti mismo qué piensas que puede 
+          objetarse a estas pruebas tuyas.
+          <!--M. Argumenta quae ex utraque parte posuisti necessaria sunt, nisi 
+          quod dicis: si alterum est, alterum esse non posse. Quare non debes a 
+          me exigere, ut alteram partem falsam ostendam — quod ab ullo fieri non n 
+          potest —, sed quomodo sibi invicem non repugnent aperiam, si a me fieri 
+          potest. Sed vellem ego prius a te ipso audire, quid his probationibus tuis 
+          obici posse opineris.-->
+        </p>
+        <p xml:id="aQaa4a-d1e91a-d1e139">
+          D. Esto que exiges de mí yo lo esperaba impacientemente de ti. 
+          Pero puesto que tú afirmas que esas pruebas son irreprochables, 
+          es a mí a quien, por estar dudoso, me corresponde aclarar 
+          lo que se me solicita; pero a ti te corresponde mostrar la firmeza 
+          y consistencia de ambas partes.
+          <!--D. Hoc quod tu a me exigis, ego a te intentus exspectabam; sed 
+          quoniam tu easdem probationes asseris irreprobabiles: meum est qui
+          dubito aperire quid me sollicitet, tuum vero est utriusque partis firmitatem is 
+          et convenientiam ostendere-->. 
+          
+        </p>
+        <p xml:id="aQaa4a-d1e91a-d1e150">
+          M. Por lo tanto, di lo que piensas y yo intentaré hacer lo que pides.
+          <!--M. Dic ergo tu quod sentis, et ego tentabo facere quod poscis.--> 
+        </p>
+        <p xml:id="aQaa4a-d1e91a-d1e155">
+          D. Ciertamente, considero que aquella proposición que dice que 
+          el gramático es hombre se objeta de este modo: porque ningún gramático 
+          puede ser entendido sin la gramática y todo hombre puede ser entendido 
+          sin la gramática. Además, todo gramático es susceptible de serlo 
+          en mayor o menor grado y ningún hombre es susceptible de serlo 
+          en mayor o menor grado. De una y otra unión de parejas de proposiciones 
+          se produce una única conclusión, esto es: ningún gramático es hombre.
+          <!--D. Illam quidem propositionem - quae dicit grammaticum esse hominem, 21 
+          hoc modo repelli existimo: quia nullus grammaticus potest intelligi sine 
+          grammatica, et omnis homo potest intelligi sine grammatica. Item: Omnis 
+          grammaticus suscipit magis et minus, et nullus homo suscipit magis et 24 
+          minus. Ex qua utraque contextione binarum propositionum conficitur una 
+          conclusio, id est: nullus grammaticus homo.-->
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
