@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capítulo 4</title>
+        <author ref="#Anselm">Anselmo de Canterbury</author>
+        <respStmt>
+          <name ref="#nivaca">Nicolás Vaughan</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#anlozan">Andrea Lozano-Vásquez</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Felipe Castañeda</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Grupo de Traducción de Latín de Medieval de la Universidad de los Andes</name>
+          <resp>Translator</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capítulo 4</title>
+          <date when="2020-10-07">October 07, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Sm" n="148"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1e289"><!-- aQaa4a-c4 -->
+        <head xml:id="aQaa4a-d1e289-Hd1e118">Capítulo 4</head>
+        <p xml:id="aQaa4a-d1e289-d1e121">
+          [IV.] 
+          M. Haré esto en tus silogismos; si quieres, destruye por ti mismo 
+          los míos después.
+          <!--M. In tuis syllogismis hoc faciam; meos si vis per te discutito.--> 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e128">
+          D. Hágase según tu juicio.
+          <!--D. Fiat tuo iudicio.--> 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e133">
+          M. Repite y une los silogismos que formaste.
+          <!--M. Repete et contexe syllogismos quos fecisti.--> 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e138">
+          D. Todo hombre puede entenderse sin la gramática.
+          <!--D. Omnis homo potest intelligi sine grammatica.-->
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e144">
+          M. ¿Qué dices que puede entenderse hombre sin la gramática?
+          <!--M. Quid dicis hominem posse intelligi sine grammatica?--> 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e149">
+          D. El hombre.
+          <!--D. Hominem.--> 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e154">
+          M. Di, por lo tanto, lo que entiendes en la proposición misma.
+          <!--M. Dic ergo in ipsa propositione quod intelligis.--> 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e159">
+          D. Todo hombre puede entenderse hombre sin la gramática.
+          <!--D. Omnis homo potest intelligi homo sine grammatica.--> 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e164">
+          M. Lo concedo; suponlo.
+          <!--M. Concedo; assume.--> 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e169">
+          D. Ningún gramático puede entenderse sin la gramática. 
+          <!--D. Nullus grammaticus potest intelligi sine grammatica.--> 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e175">
+          M. ¿Qué no puede entenderse gramático sin la gramática?
+          <!--M. Quid non potest grammaticus intelligi sine grammatica?--> 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e180">
+          D. El gramático.
+          <!--D. Grammaticus.--> 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e185">
+          M. Expresa, por lo tanto, lo que entiendes.
+          <!--M. Profer ergo quod intelligis.--> 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e190">
+          D. Ningún gramático puede entenderse gramático sin la gramática.
+          <!--D. Nullus grammaticus potest intelligi grammaticus sine grammatica.--> 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e195">
+          M. Junta estas dos proposiciones completas así como las acabas de expresar.
+          <!--M. Iunge has duas propositiones ita integras, sicut eas modo protulisti.--> 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e200">
+          D. Todo hombre puede entenderse hombre sin la gramática.
+          Ningún gramático puede entenderse gramático sin la gramática. 
+          <!--D. Omnis homo potest intelligi homo sine grammatica. Nullus
+          grammaticus potest intelligi grammaticus sine grammatica.--> 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e208">
+          M. Por lo tanto, ve si tienen un término común sin el que nada concluyen.
+          <!--M. Vide ergo utrum habeant communem terminum, sine quo nihil 
+          efficiunt.--> 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e215">
+          D. Veo que no tienen un término común y por esto nada se sigue de ellas.
+          <!--D. Video eas non habere communem terminum, et idcirco nihil ex 
+          eis consequi.--> 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e222">
+          M. Une el otro silogismo.
+          <!--M. Contexe alterum syllogismum.-->
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e231">
+          D. Ya no es conveniente que te esfuerces en su presentación, 
+          pues advierto su falacia. Pues así entendía sus proposiciones, 
+          como si dijera que ningún hombre es hombre en mayor y menor grado, 
+          y que todo gramático es hombre en mayor o menor grado. 
+          Y puesto que estas dos proposiciones no tienen ningún término común, 
+          no comprueban nada. 
+          <!--D. Non iam opus est ut pro eius ostensione labores. Nam adverto 
+            eius fallaciam. Sic enim eius propositiones intelligebam, ac si diceretur: 
+          quia nullus homo est magis et minus homo, et omnis grammaticus est 
+          magis vel minus grammaticus. Et quoniam hae duae propositiones nullum 
+          habent communem terminum, nihil conficiunt. -->
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e244">
+          M. ¿No te parece que de estas conjunciones tuyas nada puede concluirse?
+          <!--M. Itane tibi videtur his tuis conexionibus nihil concludi posse?--> 
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e249">
+          D. Ciertamente, así lo pensaba; pero esta pregunta tuya me hace 
+          sospechar que quizá en ellas se oculta alguna eficacia. 
+          ¿Pero cómo concluyen sin un término común?
+          <!--D. Ita utique putabam, sed haec tua interrogatio facit me suspectum, 
+          ne forte in illis aliqua lateat efficacia. Sed quomodo efficiunt sine
+          communi termino? -->
+        </p>
+        <p xml:id="aQaa4a-d1e289-d1e259">
+          M. El término común de un silogismo no ha de estar en la proferencia 
+          sino en el pensamiento. Pues así como nada se concluye si el <supplied>término</supplied> común está en la voz y no en el sentido, 
+          asimismo no importa si está en el entendimiento y no en la proferencia. 
+          Ciertamente, el pensamiento enlaza el silogismo, no las palabras.
+          <!--M. Communis terminus syllogismi non tam in prolatione quam in
+          sententia est habendus. Sicut enim nihil efficitur, si communis est in voce et 
+          non in sensu: ita nihil obest, si est in intellectu et non in prolatione. 
+          Sententia quippe ligat syllogismum, non verba.--> 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

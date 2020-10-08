@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capítulo 21</title>
+        <author ref="#Anselm">Anselmo de Canterbury</author>
+        <respStmt>
+          <name ref="#nivaca">Nicolás Vaughan</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#anlozan">Andrea Lozano-Vásquez</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Felipe Castañeda</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Grupo de Traducción de Latín de Medieval de la Universidad de los Andes</name>
+          <resp>Translator</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capítulo 21</title>
+          <date when="2020-10-07">October 07, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1e2239"><!-- aQaa4a-c21 -->
+        <head xml:id="aQaa4a-d1e2239-Hd1e118">Capítulo 21</head>
+        <p xml:id="aQaa4a-d1e2239-d1e121">
+          [XXI.]
+          M. No se trata de si todo lo que es blanco es algo o si es lo que lo tiene, 
+          sino de si este nombre contiene en su significación 
+          esto que se dice algo o si es lo que lo tiene 
+          ---así como el hombre contiene el animal--- 
+          por ejemplo de la manera como hombre es 
+          <mentioned>animal racional mortal</mentioned>, 
+          así blanco sería algo teniente de la blancura o lo que tiene la blancura. 
+          Puesto que es necesario que muchas cosas sean una cosa particular, 
+          las cuales no obstante no son significadas por el nombre de la misma cosa. 
+          Pues es necesario que todo animal tenga color 
+          y que sea racional o sea irracional; 
+          no obstante, el nombre de animal no significa nada de estas cosas. 
+          Por lo cual, aunque blanco no sea sino algo teniente de la blancura 
+          o lo que la tiene, 
+          sin embargo no es necesario que blanco signifique esto. 
+          Pues, supongamos que blanco o lo blanco signifiquen 
+          algo teniente de la blancura. Pero algo teniente de la blancura 
+          no es otra cosa que algo blanco.
+          <!--M. Non agitur utrum omnis qui est albus sit aliquid aut sit qui habet,
+          sed utrum hoc nomen sua significatione contineat hoc quod dicitur
+          aliquid aut qui habet -\-\-sicut homo continet animal-\-\-, ut quomodo homo
+          est .animal rationale mortale*, ita albus sit aliquid habens albedinem aut
+          qui habet albedinem. Multa namque necesse est rem quamlibet esse, quae
+          tamen rei eiusdem nomine non significantur. Nam omne animal necesse
+          est coloratum esse et rationale aut irrationale, nomen tamen animalis nihil
+          horum significat. Quare licet albus non sit nisi aliquid habens aut qui
+          habet albedinem, non tamen necesse est ut albus hoc significet. Ponamus
+          enim quod albus sive album significet aliquid habens albedinem. Sed
+          aliquid habens albedinem non est aliud quam aliquid album.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e154">
+          D. No puede ser otra cosa.
+          <!--D. Non potest aliud esse.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e159">
+          M. Por lo tanto, <mentioned>blanco</mentioned> 
+          o <mentioned>lo blanco</mentioned> siempre significan algo blanco.
+          <!--M. Albus igitur sive album semper significat aliquid album.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e164">
+          D. Que así sea.
+          <!--D. Ita sit.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e170">
+          M. Por lo tanto, donde se ponen <mentioned>blanco</mentioned> 
+          o <mentioned>lo blanco</mentioned>, 
+          siempre se toma rectamente por <mentioned>blanco</mentioned> algo blanco.
+          <!--M. Ubi ergo ponitur albus vel album, recte semper accipitur pro albo
+          aliquid album.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e177">
+          D. Se sigue.
+          <!--D. Consequitur.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e182">
+          M. Por lo tanto, donde se dice <mentioned>algo blanco</mentioned>, 
+          también se dice  rectamente dos veces: 
+          <mentioned>algo algo blanco</mentioned>; 
+          y donde dos veces, ahí también tres y esto al infinito. 
+          <!--M. Ergo ubi dicitur aliquid album, recte quoque dicitur bis: aliquid
+          aliquid album; et ubi bis, ibi et ter, et hoc infinite.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e189">
+          D. Se sigue y es absurdo.
+          <!--D. Consequens et absurdum est hoc.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e194">
+          M. Asimismo, sea blanco eso mismo que es lo que tiene la blancura. 
+          Pero <mentioned>tiene</mentioned> no es otra cosa que 
+          <mentioned>es teniente</mentioned>.
+          <!--M. Sit quoque albus id ipsum quod est qui albedinem habet. Sed
+          <mentioned>habet</mentioned> non est aliud 
+          quam <mentioned>habens est</mentioned>.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e201">
+          D. Ni puede serlo.
+         <!-- D. Nec potest esse.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e207">
+          M. Por lo tanto, blanco no es otra cosa 
+          que lo que es teniente de la blancura.
+          <!--M. Albus ergo non est aliud quam qui albedinem habens est.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e212">
+          D. No otra cosa.
+          <!--D. Non aliud.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e217">
+          M. Sin embargo, cuando se dice <mentioned>teniente de la blancura</mentioned>, 
+          esta oración no significa otra cosa que lo blanco.
+          <!--M. Cum autem dicitur <mentioned>albedinem habens</mentioned>, non aliud significat haec is oratio quam album.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e224">
+          D. Así es.
+          <!--D. Ita est.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e229">
+          M. Por lo tanto, lo mismo es blanco que lo que es blanco.
+         <!-- M. Idem igitur est albus quod qui albus est.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e234">
+          D. Así se sigue.
+          <!--D. Sic sequitur.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e240">
+          M. Y así, dondequiera que se pone <mentioned>blanco</mentioned>, 
+          rectamente se toma por esto: <mentioned>lo que es blanco</mentioned>.
+          <!--M. Ubicumque itaque ponitur albus, recte pro eo accipitur: qui
+          albus est.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e247">
+          D. No puedo negarlo.
+          <!--D. Non possum negare.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e252">
+          M. Por lo tanto, si blanco es lo que es blanco, 
+          también es lo que es lo que es blanco. 
+          Y si es esto, también es lo que es lo que es lo que es blanco, 
+          y así al infinito
+          <!--M. Si ergo albus est qui albus est, est etiam qui qui albus est est.
+          Et si hoc est, est etiam qui qui qui albus est est est, et sic in infinitum.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e259">
+          D. Y esto no es ni menos consecuente ni menos absurdo que, 
+          como por ejemplo, repetidamente sea algo algo. 
+          <!--D. Nec hoc minus consequens nec minus absurdum est, quam ut
+          saepe sit aliquid aliquid.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e266">
+          M. Sin embargo, si alguien dice que blanco 
+          o algo significa teniente de la blancura o nada, 
+          si así se entiende y si así se dijera, 
+          entonces el blanco o significa algo teniente de la blancura 
+          o significa no algo teniente; y como <mentioned>no algo</mentioned> 
+          es un nombre infinito, no es una división íntegra ni verdadera,
+          y por eso nada prueba. Así como si alguien dijera: 
+          <mentioned>El ciego o ve algo o ve no algo</mentioned>.
+          Pero si se entiende así, o que significa algo teniente 
+          o que no lo significa, la división es íntegra y verdadera, 
+          y no se opone a las cosas que se dijeron.
+          <!--M. Si quis autem dicit quia albus aut aliquid significat habens
+          albedinem aut nihil: si sic intelligitur, ac si diceretur: albus aut significat
+          aliquid habens aut significat non aliquid habens, ut non-aliquid sit infinitum
+          nomen, non est integra nec vera divisio, et ideo nihil probat. Veluti si
+          quis diceret: Caecus aut videt aliquid aut videt non aliquid. Si vero sic
+          intelligitur, quia aut significat aliquid habens aut non significat: integra
+          est divisio et vera, nec repugnat iis quae dicta sunt.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e284">
+          D. Parece suficiente que por blanco no se signifique 
+          algo teniente de la blancura ni lo que tiene la blancura, 
+          sino tan solo teniente de la blancura, esto es, cualidad y tener, 
+          a partir de los cuales solos no se produce algo único, 
+          y por eso blanco es uno y otro, porque a la par significa uno y otro.
+          Veo que esta razón vale en todas las <supplied>voces</supplied>
+          que se dicen sin unión y similarmente significan 
+          cualquier cantidad de cosas a partir de las cuales no se da una unidad. 
+          Y no considero que algo pueda rectamente objetarse 
+          a eso que aseveraste en esta disputación.
+          <!--D. Satis apparet, quia per album non significatur aliquid habens
+          albedinem nec qui albedinem habet, sed tantum albedinem habens, id est
+          qualitas et habere, ex quibus solis non conficitur unum aliquid, et ideo
+          albus est utrumque, quia pariter utrumque significat. Quam rationem in
+          omnibus quae sine complexione dicuntur et similiter significant quamlibet
+          plura ex quibus non fit unum, valere video; nec aliquid iis quae in hac
+          disputatione asseruisti, obici recte posse existimo.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2239-d1e307">
+          M. Ni me parece ahora. Sin embargo, puesto que sabes 
+          cuánto disputan los dialécticos de nuestros tiempos 
+          sobre la cuestión propuesta por ti, 
+          no quiero que te adhieras tanto a estas cosas 
+          que dijimos que las mantengas obstinadamente 
+          si alguien con argumentos más válidos 
+          fuera capaz de destruir estas y construir otras.
+          Lo que si sucediera, no negarás por lo menos 
+          que estas cosas nos fueron de provecho para el ejercicio de disputar.
+          <!--M. Nec mihi nunc videtur. Tamen quoniam scis quantum nostris
+          temporibus dialectici certent de quaestione a te proposita, nolo te sic iis
+          quae diximus inhaerere, ut ea pertinaciter teneas, si quis validioribus
+          argumentis haec destruere et diversa valuerit astruere. Quod si contigerit:
+          saltem ad exercitationem disputandi nobis haec profecisse non negabis.-->
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

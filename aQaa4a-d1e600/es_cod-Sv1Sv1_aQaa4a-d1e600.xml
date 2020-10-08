@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capítulo 7</title>
+        <author ref="#Anselm">Anselmo de Canterbury</author>
+        <respStmt>
+          <name ref="#nivaca">Nicolás Vaughan</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#anlozan">Andrea Lozano-Vásquez</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Felipe Castañeda</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Grupo de Traducción de Latín de Medieval de la Universidad de los Andes</name>
+          <resp>Translator</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capítulo 7</title>
+          <date when="2020-10-07">October 07, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1e600"><!-- aQaa4a-c7 -->
+        <head xml:id="aQaa4a-d1e600-Hd1e118">Capítulo 7</head>
+        <p xml:id="aQaa4a-d1e600-d1e121">
+          [VII.]
+          M. Entendiste bien qué dije, pero quizás no consideraste bien lo que dije.
+          <!--M. Bene intellexisti quid dixi, sed forte non bene considerasti quod dixi.-->
+        </p>
+        <p xml:id="aQaa4a-d1e600-d1e128">
+          D. ¿Cómo entendí bien pero no consideré bien?
+          <!--D. Quomodo bene intellexi, et non bene consideravi?-->
+        </p>
+        <p xml:id="aQaa4a-d1e600-d1e133">
+          M. Dime: si alguien propusiera de esta manera: 
+          <mentioned>
+            Ningún hombre puede ser entendido sin la racionalidad;
+            pero toda piedra puede ser entendido sin la racionalidad
+          </mentioned>,
+          ¿qué se seguiría?
+          <!--M. Dic mihi: Si quis sic proponeret: nullus homo potest intelligi sine
+          rationalitate, omnis autem lapis potest intelligi sine rationalitate: quid
+          consequeretur?-->
+        </p>
+        <p xml:id="aQaa4a-d1e600-d1e146">
+          ¿Qué sino: 
+          <mentioned>Por lo tanto, ninguna piedra es un hombre</mentioned>?
+          <!--D. Quid nisi: nullus igitur lapis homo?-->
+        </p>
+        <p xml:id="aQaa4a-d1e600-d1e152">
+          M. ¿Cómo entiendes esto? ¿O que de ningún modo una piedra 
+          es un hombre, o que una piedra no es lo mismo que un hombre?
+          <!--M. Quomodo hoc intelligis? An quia nullo modo lapis est homo, an
+          quia non est lapis idem quod homo?-->
+        </p>
+        <p xml:id="aQaa4a-d1e600-d1e159">
+          D. Que de ningún modo una piedra es un hombre.
+          <!--D. Quia nullo modo lapis est homo.-->
+        </p>
+        <p xml:id="aQaa4a-d1e600-d1e164">
+         M. Por lo tanto, dime: ¿en qué difiere este silogismo 
+         de aquel silogismo tuyo, en el que dices:
+          <mentioned>
+            El gramático no puede ser entendido sin la gramática;
+            pero el hombre puede;
+            y por eso el gramático no es hombre
+          </mentioned>?
+          <!-- M. Dic ergo: quid differt iste syllogismus ab illo tuo syllogismo, in
+          quo dicis grammaticum non posse intelligi sine grammatica, hominem vero
+          posse, et ideo grammaticum hominem non esse?-->
+        </p>
+        <p xml:id="aQaa4a-d1e600-d1e173">
+          Ciertamente, en cuanto a la fuerza de la argumentación, 
+          en nada veo que este difiera de aquel. Pues así como ahí 
+          ha de entenderse que el gramático no puede ser entendido gramático 
+          sin la gramática, y que el hombre puede ser entendido hombre 
+          sin la gramática, así también aquí ha de entenderse que 
+          el hombre no puede ser entendido hombre sin la racionalidad 
+          y que la piedra puede ser entendida piedra sin la racionalidad; 
+          y por eso, puesto que la conclusión de este silogismo es válida 
+          (porque de ningún modo una piedra es un hombre), me parece 
+          que la conclusión de mi silogismo, que es totalmente similar a este, 
+          ha quedado aplastada por tus hábiles exposiciones. 
+          De donde ya entiendo qué dijiste que entendí bien 
+          pero no consideré bien . Pues bien entendí qué significabas 
+          al hablarme, pero eso mismo que significabas no lo consideré bien, 
+          porque ignoré de qué modo eso me engañaba.
+          <!--D. Quantum quidem ad vim argumentationis, nihil video hunc ab illo
+          differre. Sicut enim ibi intelligendum est quia grammaticus non potest
+          intelligi grammaticus sine grammatica, et homo potest intelligi homo sine
+          grammatica: ita hic est intelligendum quia homo non potest intelligi homo
+          is sine rationalitate, et lapis potest intelligi lapis sine rationalitate; 
+          et idcirco
+          cum huius syllogismi sit rata conclusio, quia nullo modo lapis est homo:
+          videris mihi syllogismi mei, qui omnino similis est isti, conclusionem
+          callidis tuis expositionibus obruisse. Unde iam intelligo quid dixeris quia bene
+          intellexi, sed non bene consideravi. Bene enim intellexi quid loquendo mihi
+          significares, sed idipsum quod significabas non bene consideravi, quia
+          quomodo me deciperet ignoravi.-->
+        </p>
+        <p xml:id="aQaa4a-d1e600-d1e199">
+          M. Por el contrario, en esto no consideraste bien porque ignoraste de qué modo eso no te engañaba.
+          <!--M. Immo in hoc non bene considerasti, quia quomodo te non
+          deciperet ignorasti.-->
+        </p>
+        <p xml:id="aQaa4a-d1e600-d1e206">
+          D. ¿De qué modo?
+          <!--D. Quomodo?-->
+        </p>
+        <p xml:id="aQaa4a-d1e600-d1e212">
+          M. Ciertamente si este silogismo que propuse antes fuera expuesto 
+          así como expuse el tuyo, como si se dijera:
+          <mentioned>
+            Ningún hombre puede ser entendido hombre sin racionalidad;
+            pero toda piedra puede ser entendida piedra sin racionalidad
+          </mentioned>,
+          entonces no tendría otra fuerza de concluir que la que dije 
+          que el tuyo tiene. Pero puesto que este puede entenderse 
+          de algún otro modo del que aquel tuyo no puede, 
+          entonces tiene esta conclusión, de manera que de ningún modo 
+          una piedra puede ser hombre. Pues cuando digo que 
+          ningún hombre es capaz de entenderse sin racionalidad, 
+          y que toda piedra es capaz de entenderse sin racionalidad, 
+          así puede, o mejor, debe, entenderse como si se dijera: 
+          <mentioned>
+            Ningún hombre puede en modo alguno entenderse sin racionalidad; 
+            pero toda piedra en cualquier modo puede entenderse sin racionalidad
+          </mentioned>. 
+          De donde se concluye:
+          <mentioned>
+            Por lo tanto, ninguna piedra en modo alguno es hombre.
+          </mentioned> 
+          Pero en tus proposiciones la verdad no admite en absoluto 
+          una interpretación similar. Puesto que no puede decirse 
+          que ningún gramático es capaz de entenderse en modo alguno 
+          sin la gramática, o que todo hombre es capaz de entenderse 
+          en cualquier modo sin la gramática. Pues no solo 
+          todo el que es gramático puede entenderse hombre sin gramática, 
+          sino que también ningún hombre puede entenderse gramático sin gramática. 
+          Por lo cual, <supplied>esas proposiciones</supplied> 
+          no pueden concluir que un gramático de ninguna manera es hombre.
+          <!--M. Quippe si iste syllogismus quem modo proposui sic exponatur
+          quemadmodum exposui tuum, ut dicatur: nullus homo potest intelligi homo
+          sine rationalitate, omnis autem lapis potest intelligi lapis sine rationalitate:
+          non habebit aliam vim concludendi, quam dixi tuum habere. Sed quoniam
+          iste quodam alio modo- potest intelligi quo ille tuus non potest: habet
+          hanc conclusionem, ut nullo modo lapis homo esse possit. Cum enim dico
+          quia nullus homo intelligi valet sine rationalitate, et omnis lapis valet
+          intelligi sine rationalitate: sic potest immo debet accipi ac si dicatur: Nullus
+          homo potest aliquo modo intelligi sine rationalitate. Omnis vero lapis
+          quolibet modo potest intelligi sine rationalitate. Unde conficitur: nullus
+          igitur lapis aliquo modo est homo. In tuis vero propositionibus veritas
+          nequaquam similem admittit subauditionem. Namque non potest dici quia
+          nullus grammaticus intelligi valet aliquo modo sine grammatica, aut omnis
+          homo valet quolibet modo intelligi sine grammatica. Nam et omnis qui
+          grammaticus est, potest intelligi homo sine grammatica, et nullus homo
+          potest intelligi grammaticus sine grammatica. Quapropter non possunt
+          conficere grammaticum nequaquam esse hominem.-->
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

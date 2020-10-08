@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capítulo 10</title>
+        <author ref="#Anselm">Anselmo de Canterbury</author>
+        <respStmt>
+          <name ref="#nivaca">Nicolás Vaughan</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#anlozan">Andrea Lozano-Vásquez</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Felipe Castañeda</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Grupo de Traducción de Latín de Medieval de la Universidad de los Andes</name>
+          <resp>Translator</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capítulo 10</title>
+          <date when="2020-10-07">October 07, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1X022"><!-- aQaa4a-c10 -->
+        <head xml:id="aQaa4a-d1X022-Hd1e118">Capítulo 10</head>
+        <p xml:id="aQaa4a-d1X022-d1e121">
+          [X.]
+          D. No puedo discrepar. Pero diré una cosa más de por qué el gramático 
+          no es substancia: porque toda substancia es primera o segunda, }
+          pero el gramático no es ni primera ni segunda.
+          <!--D. Diffiteri non possum. Sed unum adhuc dicam cur grammaticus non
+          sit substantia: quia omnis substantia est prima aut secunda, grammaticus
+          autem nec prima nec secunda.-->
+        </p>
+        <p xml:id="aQaa4a-d1X022-d1e132">
+          M. Recuerda las afirmaciones de <name ref="#Aristotle">Aristóteles</name> 
+          que poco antes dije, por las que dice que el gramático es substancia 
+          tanto primera como segunda, porque declara que gramático se dice 
+          tanto de cierto hombre, como del hombre y del animal.  
+          Sin embargo, ¿de dónde pruebas que el gramático no es primera 
+          ni segunda substancia?
+          <!--M. Memento dictorum <name ref="#Aristotle">Aristotelis</name> 
+            quae paulo ante dixi, quibus dicit
+          grammaticum et primam et secundam substantiam, quia et quendam hominem, 
+          et hominem et animal grammaticum dici testatur. Sed tamen unde
+          probas grammaticum non esse primam nec secundam substantiam?-->
+        </p>
+        <p xml:id="aQaa4a-d1X022-d1e148">
+          D. Porque está en el sujeto, que no es ninguna substancia; y se dice 
+          de muchas cosas, lo que no es de la primera; ni es género o especie, 
+          ni se dice <hi rend="italics">en eso que es algo</hi>, 
+          lo que es de la segunda.
+          <!--D. Quia est in subiecto, quod nulla substantia est; et dicitur de
+          pluribus, quod primae non est; nec est genus aut species nec dicitur in eo
+          quod quid, quod est secundae.-->
+        </p>
+        <p xml:id="aQaa4a-d1X022-d1e157">
+          M. Nada de esto ---si bien recordaste lo que ya dijimos--- 
+          le quita al gramático la substancia, porque en cuanto que es algo, 
+          el gramático no está en el sujeto; y es género y especie, 
+          y se dice <hi rend="italics">en eso que es algo</hi>, 
+          porque es tanto hombre, que es la especie, 
+          como animal, que es el género, y estos se dicen 
+          <hi rend="italics">en eso que es algo</hi>.  
+          Es además un individuo, así como el hombre y el animal, 
+          porque así como cierto hombre y cierto animal son individuos, 
+          así lo es cierto gramático. 
+          Pues <name ref="#Socrates">Sócrates</name> es tanto animal y hombre, 
+          como gramático.
+          <!--M. Nihil horum si bene meministi quae iam diximus, aufert
+          grammatico substantiam, quia secundum aliquid grammaticus non est in subiecto,
+          et est genus et species, et dicitur in eo quod quid; quia est et homo qui
+          species est, et animal quod est genus, et haec dicuntur in eo quod quid.
+          Est etiam individuus sicut homo et animal, quia quemadmodum quidam
+          homo et quoddam animal, ita quidam grammaticus est individuus. 
+          <name ref="#Socrates">Socrates</name>
+          enim et animal et homo est et grammaticus.-->
+        </p>
+        <p xml:id="aQaa4a-d1X022-d1e176">
+          D. No puedo negar lo que dices.
+          <!--D. Non possum negare quod dicis.-->
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

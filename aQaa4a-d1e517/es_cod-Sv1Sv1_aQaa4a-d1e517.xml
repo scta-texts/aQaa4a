@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capítulo 6</title>
+        <author ref="#Anselm">Anselmo de Canterbury</author>
+        <respStmt>
+          <name ref="#nivaca">Nicolás Vaughan</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#anlozan">Andrea Lozano-Vásquez</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Felipe Castañeda</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Grupo de Traducción de Latín de Medieval de la Universidad de los Andes</name>
+          <resp>Translator</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capítulo 6</title>
+          <date when="2020-10-07">October 07, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1e517"><!-- aQaa4a-c6 -->
+        <head xml:id="aQaa4a-d1e517-Hd1e118">Capítulo 6</head>
+        <p xml:id="aQaa4a-d1e517-d1e121">
+          <!--176.xml-->
+          [VI.]
+          D. Entiendo lo que dices.
+          <!--D. Intelligo quod dicis.-->
+        </p>
+        <p xml:id="aQaa4a-d1e517-d1e132">
+          M. Por lo tanto, si entiendes bien lo que dije, di de qué modo 
+          refutas este silogismo si alguien lo formara así: 
+          <mentioned>
+            Todo gramático se dice con respecto a lo que es tal. 
+            Ningún hombre se dice con respecto a lo que es tal. 
+            Por lo tanto, ningún hombre es gramático.
+          </mentioned>
+          <!--M. Si ergo bene intelligis quae dixi: dic quomodo tu dissolveres hunc
+            syllogismum, si quis ita contexeret: Omnis grammaticus dicitur in eo quod
+            quale. Nullus homo dicitur in eo quod quale. Nullus igitur homo
+            grammaticus.-->
+        </p>
+        <p xml:id="aQaa4a-d1e517-d1e143">
+          Me parece que esto es tal como si dijera: 
+          <mentioned>
+            Todo lo racional se dice con respecto a lo que es tal. 
+            Pero ningún hombre se dice con respecto a lo que es tal. 
+            Por lo tanto, ningún hombre es racional.
+          </mentioned> 
+          Sin embargo, ninguna prueba es capaz de concluir que esto es verdadero: 
+          que racional no se predique de ningún hombre. 
+          Similarmente, aquel silogismo que hace poco proferiste 
+          no necesariamente concluye que gramático no se predica de hombre. 
+          Pues esto significan sus proposiciones si las entendemos 
+          según la verdad, como si se dijera así: 
+          <mentioned>
+            Todo gramático se dice gramático con respecto a lo que es tal.
+          </mentioned>
+          <mentioned>
+            Ningún hombre se dice hombre con respecto a lo que es tal.
+          </mentioned> 
+          Sin embargo, de estas dos proposiciones de ningún modo se sigue: 
+          <mentioned>
+            Ningún gramático se predica de hombre
+          </mentioned>,
+          puesto que no es el mismo término el que se afirma del gramático 
+          y se niega del hombre. Pero habría en ellas un término común 
+          y arrojarían una conclusión necesaria, o bien si al permanecer 
+          la proposición así como fue afirmada, se haría verdadero 
+          lo supuesto así: 
+          <mentioned>
+            Ningún hombre se dice gramático con respecto a lo que es tal
+          </mentioned>; 
+          o bien si al permanecer lo supuesto, se afirmaría verdaderamente así: 
+          <mentioned>
+            Todo gramático se dice hombre con respecto a lo que es tal
+          </mentioned>. 
+          Pues a partir de una y otra unión surgiría que de ningún hombre 
+          se predicaría gramático. Pero si alguien quisiera entender esto 
+          que se dice: 
+          <mentioned>El hombre no es gramático</mentioned>, 
+          y si se dijera 
+          <mentioned>El hombre no es lo mismo que el gramático</mentioned>, 
+          como si yo dijera: 
+          <mentioned>
+            El brillo es resplandor o el brillo no es resplandor
+          </mentioned>, 
+          esto es, 
+          <mentioned>
+            El brillo es eso mismo o no es eso mismo que resplandor
+          </mentioned>, 
+          si alguien ---digo--- entendiera así eso que se dice: 
+          <mentioned>El hombre no es gramático</mentioned>, 
+          según este sentido, entonces se sigue de aquellas proposiciones, 
+          si se considera bien lo que quieren decir, 
+          que ningún hombre es gramático. 
+          Pues para probar esto, que la esencia del hombre 
+          no es la esencia del gramático, 
+          la significación de esas tiene un término común.
+          <!--D. Tale mihi hoc videtur esse, ac si diceretur: Omne rationale dicitur
+            in eo quod quale. At nullus homo dicitur in eo quod quale. Nullus igitur
+            homo rationalis. Hoc autem nulla probatio verum efficere valet, ut
+            rationale praedicetur de nullo homine. Similiter ille syllogismus quem modo
+            protulisti, non necessario concludit grammaticum non praedicari de homine.
+            Hoc enim significant eius propositiones, si secundum veritatem eas
+            intelligimus, tamquam si diceretur ita: Omnis grammaticus dicitur grammaticus
+            in eo quod quale. Nullus homo dicitur homo in eo quod quale. Ex his
+            autem duabus propositionibus nequaquam consequitur: nullus grammaticus
+            praedicatur de homine, quoniam non est idem terminus, qui affirmatur de
+            grammatico et negatur de homine. Esset vero in illis communis terminus
+            et necessariam conclusionem ingererent, si aut manente propositione sicut
+            posita est, sic vera fieret assumptio: nullus homo dicitur grammaticus in
+            eo quod quale; aut manente assumptione sic vere proponeretur: omnis
+            grammaticus dicitur homo in eo quod quale. Nam ex utraque hac
+            complexione nasceretur quia de nullo homine grammaticus praedicaretur. Si
+            quis vero id quod dicitur: homo non est grammaticus, ita velit intelligere,
+            ac si diceretur: homo non est idem quod grammaticus, ut si dicam:
+            fulgor est splendor, aut: fulgor non est splendor, id est fulgor est idipsum
+            aut non est idipsum quod splendor; si quis inquam sic intelligat hoc quod
+            dicitur: homo non est grammaticus: secundum hunc sensum consequitur
+            ex illis propositionibus, si earum vis bene consideretur, quia nullus homo
+            est grammaticus. Nam ad hoc probandum quia essentia hominis non est
+            essentia grammatici, habet earum significatio communem terminum.-->
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

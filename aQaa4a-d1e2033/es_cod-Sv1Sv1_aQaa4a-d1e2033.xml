@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capítulo 19</title>
+        <author ref="#Anselm">Anselmo de Canterbury</author>
+        <respStmt>
+          <name ref="#nivaca">Nicolás Vaughan</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name ref="#anlozan">Andrea Lozano-Vásquez</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Felipe Castañeda</name>
+          <resp>Translator</resp>
+        </respStmt>
+        <respStmt>
+          <name>Grupo de Traducción de Latín de Medieval de la Universidad de los Andes</name>
+          <resp>Translator</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capítulo 19</title>
+          <date when="2020-10-07">October 07, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Sm" n="cod-Sv1Sv1">Seckau 1938</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-10-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <front>
+      <div xml:id="starts-on">
+      </div>
+    </front>
+    <body>
+      <div xml:id="aQaa4a-d1e2033"><!-- aQaa4a-c19 -->
+        <head xml:id="aQaa4a-d1e2033-Hd1e118">Capítulo 19</head>
+        <p xml:id="aQaa4a-d1e2033-d1e121">
+          [XIX.]
+          D. Tu claro razonamiento en nada me permite dudar sobre lo que dijiste. 
+          Pero aún hay algo sobre esta cuestión que quisiera aprender. 
+          Pues si el gramático es cualidad porque significa una cualidad, 
+          no veo por qué armado no es substancia puesto que significa la substancia. 
+          Y si armado es tener por lo que significa tener, 
+          ignoro por qué gramático no es tener porque significa tener. 
+          Pues enteramente de la misma manera como se prueba 
+          que el gramático significa una cualidad porque significa 
+          el que tiene una cualidad, así también armado significa 
+          una substancia porque significa el que tiene una substancia, 
+          esto es, un arma. Y así como se prueba que 
+          armado significa tener porque significa el que tiene un arma, 
+          así también gramático significa tener 
+          porque significa el que tiene una disciplina.
+          <!--D. Aperta ratio nihil me in iis quae dixisti dubitare permittit. Sed
+            adhuc est de hac quaestione quod velim discere. Nam si grammaticus est
+            qualitas quia significat qualitatem: non video cur ,armatus' non sit
+            substantia cum significet substantiam. Et si armatus ideo est ,habere' quia
+            significat habere: ignoro cur grammaticus non sit habere quia significat
+            habere. Omnino enim quemadmodum grammaticus probatur significare
+            qualitatem, quia significat habentem qualitatem: ita armatus significat
+            substantiam, quia significat habentem substantiam, id est arma. Et sicut
+            armatus convincitur significare habere, quia significat habentem arma: sic
+            grammaticus significat habere, quia significat habentem disciplinam.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2033-d1e147">
+          M. Habiendo considerado esta razón, de ningún modo puedo negar 
+          o bien que armado es substancia o bien que gramático es tener.
+          <!--M. Nullatenus hac ratione considerata negare possum aut armatum
+            esse substantiam aut grammaticum habere.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2033-d1e154">
+          D. Por lo tanto, quisiera que me enseñes 
+          si una sola cosa puede ser de categorías diferentes.
+          <!--D. Vellem ergo a te doceri utrum unum aliquid possit esse
+            diversorum praedicamentorum.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2033-d1e161">
+          M. Ciertamente, no pienso que una y la misma cosa pueda ser puesta 
+          bajo categorías diferentes, aunque pueda dudarse en algunas, 
+          lo que pienso que requiere una discusión mayor y más profunda 
+          que esta breve conversación que hemos sostenido. 
+          Sin embargo, no veo qué impide que una sola expresión 
+          que significa muchas cosas, no como una unidad, 
+          algunas veces se ponga bajo muchas categorías, 
+          como cuando <mentioned>blanco</mentioned> se dice cualidad y tener. 
+          Pues de este modo blanco no significa cualidad y tener, como una unidad, 
+          del mismo modo que hombre significa, como una unidad, 
+          la substancia y las cualidades de las que consta el hombre. 
+          Pues la cosa de la que <mentioned>hombre</mentioned> 
+          es apelativo es una cierta unidad que consta de esas cosas que dije; 
+          pero la cosa de la que <mentioned>blanco</mentioned> es apelativo 
+          no es alguna unidad que consta de tener y cualidad, 
+          porque <mentioned>blanco</mentioned> no es apelativo de nada 
+          sino de la cosa que tiene blancura, 
+          la que de ninguna manera consta de tener y cualidad. 
+          Por lo cual si se dice <mentioned>el hombre es substancia 
+            y el hombre es cualidad</mentioned>, 
+          una y la misma cosa que es significada y apelada por este nombre 
+          se dice que es substancia y también que es cualidad, 
+          lo que parece inconsistente. 
+          Sin embargo, cuando decimos que blanco es cualidad 
+          y tener no decimos que lo que es apelado 
+          por este nombre es cualidad y tener, 
+          sino que estas dos son significadas por este nombre 
+          y no se sigue nada inconsistente.
+          <!--M. Rem quidem unam eandemque non puto sub diversis aptari posse
+          praedicamentis, licet in quibusdam dubitari possit; quod maiori et altiori
+          indigere disputatione existimo, quam hac nostra brevi sermocinatione
+          assumpsimus. Unam autem vocem plura significantem non ut unum, non
+          video quid prohibeat pluribus aliquando supponi praedicamentis, ut si
+          <mentioned>albus</mentioned> dicitur qualitas et habere. 
+          Albus enim non ita significat qualitatem
+          et habere ut unum, quemadmodum homo significat ut unum substantiam
+          et qualitates quibus constat homo. Res enim quae 
+          appellatur <mentioned>homo</mentioned>, est
+          unum quiddam constans ex iis quae dixi; res vero quae 
+          appellatur <mentioned>albus</mentioned>,
+          non est unum aliquid ex habere et qualitate constans, quia nihil appellatur
+          albus nisi res quae habet albedinem, quae nequaquam constat ex habere
+          et qualitate. Quare si dicitur: homo est substantia et homo est qualitas:
+          una eademque res quae significatur et appellatur hoc nomine, dicitur
+          substantia esse et qualitas, quod videtur inconveniens. Cum autem dicimus
+          quia albus est qualitas et habere, non dicimus quia quod appellatur hoc
+          is nomine est qualitas et habere, sed quia haec duo significantur hoc nomine,
+          et nihil inconveniens sequitur.-->
+        </p>
+        <p xml:id="aQaa4a-d1e2033-d1e206">
+          D. Sin embargo, ¿por qué no es el hombre substancia y cualidad 
+          según la división de <name ref="#Aristotle">Aristóteles</name>, 
+          porque significa ambas, del mismo modo que blanco es cualidad y tener, 
+          por causa de la significación de ambas?
+          <!--D. Cur autem non est homo secundum divisionem 
+            <name ref="#Aristotle">Aristotelis</name>
+          subis stantia et qualitas, quia utrumque significat, quemadmodum est albus
+          qualitas et habere propter utriusque significationem?-->
+        </p>
+        <p xml:id="aQaa4a-d1e2033-d1e215">
+          M. Considero que aquello que dije arriba puede satisfacer esta pregunta 
+          porque [hombre] es principalmente significativo de substancia 
+          y porque aquella unidad que significa es una substancia 
+          y no una cualidad sino lo cualificado; 
+          pero blanco no significa más principalmente cualidad o tener sino a la par, 
+          y no se hace una unidad, de la cual blanco sea significativo, 
+          a partir de ellas porque sea más esto o aquello.
+          <!--M. Aestimo huic interrogationi illud posse sufficere quod supra dixi,
+          quia principaliter est significativum substantiae, et quia unum illud quod
+          significat substantia est, et non qualitas sed quale; albus vero nihil
+          principalius sed pariter significat qualitatem et habere, nec fit unum ex his
+          quod magis sit hoc vel illud, cuius sit albus significativum.-->
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
